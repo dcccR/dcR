@@ -32,6 +32,22 @@ await page.goto(`${BASE}/#/vocab`, { waitUntil: "networkidle" });
 await page.waitForSelector("text=Slovíčka 單字");
 await shot("01-topics");
 
+// 底部分頁列：捲動時仍固定在視窗底緣，且不蓋住最後一列內容
+await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+await page.waitForTimeout(200);
+const nav = await page.locator("nav").boundingBox();
+const vh = page.viewportSize().height;
+assert(Math.abs(nav.y + nav.height - vh) < 1, "捲到底時分頁列仍應貼齊視窗底緣");
+assert(
+  (await page.evaluate(() => {
+    const navTop = document.querySelector("nav").getBoundingClientRect().top;
+    const last = document.querySelector("main").lastElementChild?.getBoundingClientRect();
+    return last ? last.bottom - navTop : 0;
+  })) <= 0,
+  "捲到底時內容不應被分頁列蓋住",
+);
+await page.evaluate(() => window.scrollTo(0, 0));
+
 await page.click("text=居住");
 await page.waitForSelector("text=居住 ・ 第 1 節");
 await shot("02-units");

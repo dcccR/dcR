@@ -9,29 +9,41 @@ const TABS = [
 
 export function AppShell() {
   return (
-    <div className="mx-auto flex min-h-full max-w-app flex-col">
-      <main className="flex-1 px-4 pb-28 pt-4">
+    <div className="mx-auto min-h-full max-w-app">
+      {/* 底部固定，內容要留出它的高度＋ iOS 安全區，捲動時不會被蓋住 */}
+      <main className="px-4 pt-4" style={{ paddingBottom: "calc(var(--tabbar-h) + env(safe-area-inset-bottom, 0px) + 1rem)" }}>
         <Outlet />
       </main>
-      <nav className="fixed inset-x-0 bottom-0 border-t border-[var(--rule)] bg-[var(--paper-2)]">
+
+      <nav
+        aria-label="主要分頁"
+        className="fixed inset-x-0 bottom-0 z-20 border-t border-[var(--rule)] bg-[var(--paper-2)]"
+        style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
+      >
         <ul className="mx-auto flex max-w-app">
           {TABS.map((t) => (
             <li key={t.to} className="flex-1">
               <NavLink
                 to={t.to}
                 className={({ isActive }) =>
-                  `hit flex flex-col items-center justify-center gap-0.5 py-2 ${
+                  `relative flex h-14 flex-col items-center justify-center gap-0.5 ${
                     isActive ? "text-[var(--ink)]" : "text-[var(--ink-soft)]"
                   }`
                 }
               >
                 {({ isActive }) => (
                   <>
-                    <span className="text-sm font-semibold">{t.zh}</span>
-                    <span className="tag-mono">{t.cz}</span>
+                    {/* 指示線畫在分頁頂緣，不佔行高，四個分頁高度才會一致 */}
                     <span
-                      className={`h-0.5 w-6 ${isActive ? "bg-[var(--ink)]" : "bg-transparent"}`}
+                      aria-hidden
+                      className={`absolute inset-x-0 top-0 h-0.5 ${
+                        isActive ? "bg-[var(--ink)]" : "bg-transparent"
+                      }`}
                     />
+                    <span className={`text-sm leading-none ${isActive ? "font-semibold" : ""}`}>
+                      {t.zh}
+                    </span>
+                    <span className="tag-mono leading-none">{t.cz}</span>
                   </>
                 )}
               </NavLink>

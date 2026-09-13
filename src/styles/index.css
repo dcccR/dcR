@@ -12,6 +12,8 @@
   --blue: #1f4e8c;
   --marker: #f2d14b;
   --green: #2c6e52;
+  /* 底部分頁列高度：main 的下留白與它同一個來源 */
+  --tabbar-h: 3.5rem;
   color-scheme: light;
 }
 
