@@ -1,0 +1,2941 @@
+[
+  {
+    "cz": "Ahoj!",
+    "alsoWritten": [
+      "Čau!"
+    ],
+    "zh": "嗨！／哈囉！",
+    "en": "Hi! / Hello!",
+    "pos": "phrase",
+    "note": "非正式 朋友之間用",
+    "examples": [],
+    "topics": [
+      "greet"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_ahoj",
+    "units": [
+      "u_greet_01"
+    ]
+  },
+  {
+    "cz": "Dobrý den!",
+    "zh": "您好！",
+    "en": "Good day!",
+    "pos": "phrase",
+    "note": "正式 白天通用",
+    "examples": [],
+    "topics": [
+      "greet"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_dobry_den",
+    "units": [
+      "u_greet_01"
+    ]
+  },
+  {
+    "cz": "Na shledanou!",
+    "zh": "再見！",
+    "en": "Goodbye!",
+    "pos": "phrase",
+    "note": "正式道別",
+    "examples": [],
+    "topics": [
+      "greet"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_na_shledanou",
+    "units": [
+      "u_greet_01"
+    ]
+  },
+  {
+    "cz": "Děkuju!",
+    "alsoWritten": [
+      "Děkuji!"
+    ],
+    "zh": "謝謝！",
+    "en": "Thank you!",
+    "pos": "phrase",
+    "note": "Děkuji 較正式",
+    "examples": [],
+    "topics": [
+      "greet"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_dekuju",
+    "units": [
+      "u_greet_01"
+    ]
+  },
+  {
+    "cz": "Prosím!",
+    "zh": "請／不客氣",
+    "en": "Please / You're welcome",
+    "pos": "phrase",
+    "examples": [],
+    "topics": [
+      "greet"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_prosim",
+    "units": [
+      "u_greet_01"
+    ]
+  },
+  {
+    "cz": "Promiňte!",
+    "zh": "不好意思！",
+    "en": "Excuse me!",
+    "pos": "phrase",
+    "note": "!",
+    "relations": [
+      {
+        "type": "contrast",
+        "ref": "Pardon"
+      }
+    ],
+    "examples": [],
+    "topics": [
+      "greet"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_prominte",
+    "units": [
+      "u_greet_01"
+    ]
+  },
+  {
+    "cz": "Jak se máš?",
+    "zh": "你好嗎？",
+    "en": "How are you?",
+    "pos": "phrase",
+    "note": "正式作",
+    "examples": [
+      {
+        "id": "w_jak_se_mas_ex1",
+        "cz": "Jak se máte?",
+        "zh": "",
+        "targetForm": "Jak se máš?",
+        "origin": "textbook",
+        "reviewed": true
+      }
+    ],
+    "topics": [
+      "greet"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_jak_se_mas",
+    "units": [
+      "u_greet_01"
+    ]
+  },
+  {
+    "cz": "vchod",
+    "zh": "入口",
+    "en": "entrance",
+    "pos": "noun",
+    "gender": "mi",
+    "declension": {
+      "sg": {
+        "nom": "vchod",
+        "gen": "vchodu",
+        "acc": "vchod",
+        "loc": "vchodu"
+      }
+    },
+    "note": "標示上作 VCHOD",
+    "confusables": [
+      "východ"
+    ],
+    "examples": [],
+    "topics": [
+      "signs"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_vchod",
+    "units": [
+      "u_signs_01"
+    ]
+  },
+  {
+    "cz": "východ",
+    "zh": "出口",
+    "en": "exit",
+    "pos": "noun",
+    "gender": "mi",
+    "declension": {
+      "sg": {
+        "nom": "východ",
+        "gen": "východu",
+        "acc": "východ",
+        "loc": "východě"
+      }
+    },
+    "note": "標示上作 VÝCHOD",
+    "confusables": [
+      "vchod"
+    ],
+    "examples": [],
+    "topics": [
+      "signs"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_vychod",
+    "units": [
+      "u_signs_01"
+    ]
+  },
+  {
+    "cz": "pokladna",
+    "zh": "收銀台／售票處",
+    "en": "cash desk",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "pokladna",
+        "gen": "pokladny",
+        "acc": "pokladnu",
+        "loc": "pokladně"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "signs"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_pokladna",
+    "units": [
+      "u_signs_01"
+    ]
+  },
+  {
+    "cz": "šatna",
+    "zh": "衣帽間",
+    "en": "cloakroom",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "šatna",
+        "gen": "šatny",
+        "acc": "šatnu",
+        "loc": "šatně"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "signs"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_satna",
+    "units": [
+      "u_signs_01"
+    ]
+  },
+  {
+    "cz": "OTEVŘENO",
+    "zh": "營業中／開",
+    "en": "open",
+    "pos": "adv",
+    "relations": [
+      {
+        "type": "antonym",
+        "ref": "w_zavreno",
+        "label": "ZAVŘENO"
+      }
+    ],
+    "examples": [],
+    "topics": [
+      "signs"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_otevreno",
+    "units": [
+      "u_signs_01"
+    ]
+  },
+  {
+    "cz": "ZAVŘENO",
+    "zh": "休息中／關",
+    "en": "closed",
+    "pos": "adv",
+    "relations": [
+      {
+        "type": "antonym",
+        "ref": "w_otevreno",
+        "label": "OTEVŘENO"
+      }
+    ],
+    "examples": [],
+    "topics": [
+      "signs"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_zavreno",
+    "units": [
+      "u_signs_01"
+    ]
+  },
+  {
+    "cz": "MIMO PROVOZ",
+    "zh": "暫停使用",
+    "en": "out of order",
+    "pos": "phrase",
+    "examples": [],
+    "topics": [
+      "signs"
+    ],
+    "sources": [
+      "L1p1"
+    ],
+    "id": "w_mimo_provoz",
+    "units": [
+      "u_signs_01"
+    ]
+  },
+  {
+    "cz": "student",
+    "czFem": "studentka",
+    "zh": "學生",
+    "en": "student",
+    "pos": "noun",
+    "gender": "m",
+    "declension": {
+      "sg": {
+        "nom": "student",
+        "gen": "studenta",
+        "acc": "studenta",
+        "loc": "studentovi"
+      }
+    },
+    "examples": [
+      {
+        "cz": "To je student.",
+        "zh": "這是個學生。",
+        "en": "This is a student.",
+        "targetForm": "student",
+        "case": 1,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_student_ex1"
+      },
+      {
+        "cz": "Znáte studenta?",
+        "zh": "您認識那個學生嗎？",
+        "en": "Do you know the student?",
+        "targetForm": "studenta",
+        "case": 4,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_student_ex2"
+      }
+    ],
+    "topics": [
+      "people"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_student",
+    "units": [
+      "u_people_01"
+    ]
+  },
+  {
+    "cz": "učitel",
+    "czFem": "učitelka",
+    "zh": "老師",
+    "en": "teacher",
+    "pos": "noun",
+    "gender": "m",
+    "declension": {
+      "sg": {
+        "nom": "učitel",
+        "gen": "učitele",
+        "acc": "učitele",
+        "loc": "učiteli"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "people"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_ucitel",
+    "units": [
+      "u_people_01"
+    ]
+  },
+  {
+    "cz": "kamarád",
+    "czFem": "kamarádka",
+    "zh": "朋友",
+    "en": "friend",
+    "pos": "noun",
+    "gender": "m",
+    "declension": {
+      "sg": {
+        "nom": "kamarád",
+        "gen": "kamaráda",
+        "acc": "kamaráda",
+        "loc": "kamarádovi"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "people"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_kamarad",
+    "units": [
+      "u_people_01"
+    ]
+  },
+  {
+    "cz": "Čech",
+    "czFem": "Češka",
+    "zh": "捷克人",
+    "en": "Czech person",
+    "pos": "noun",
+    "gender": "m",
+    "declension": {
+      "sg": {
+        "nom": "Čech",
+        "gen": "Čecha",
+        "acc": "Čecha",
+        "loc": "Čechovi"
+      }
+    },
+    "relations": [
+      {
+        "type": "family",
+        "ref": "w_cestina",
+        "label": "čeština"
+      },
+      {
+        "type": "family",
+        "ref": "český"
+      }
+    ],
+    "examples": [],
+    "topics": [
+      "people"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_cech",
+    "units": [
+      "u_people_01"
+    ]
+  },
+  {
+    "cz": "muž",
+    "zh": "男人／先生",
+    "en": "man",
+    "pos": "noun",
+    "gender": "m",
+    "declension": {
+      "sg": {
+        "nom": "muž",
+        "gen": "muže",
+        "acc": "muže",
+        "loc": "muži"
+      }
+    },
+    "relations": [
+      {
+        "type": "antonym",
+        "ref": "w_zena",
+        "label": "žena"
+      }
+    ],
+    "examples": [],
+    "topics": [
+      "people"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_muz",
+    "units": [
+      "u_people_01"
+    ]
+  },
+  {
+    "cz": "žena",
+    "zh": "女人／太太",
+    "en": "woman",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "žena",
+        "gen": "ženy",
+        "acc": "ženu",
+        "loc": "ženě"
+      }
+    },
+    "relations": [
+      {
+        "type": "antonym",
+        "ref": "w_muz",
+        "label": "muž"
+      }
+    ],
+    "examples": [
+      {
+        "cz": "To je mladá žena.",
+        "zh": "那是個年輕女子。",
+        "en": "That is a young woman.",
+        "targetForm": "žena",
+        "case": 1,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_zena_ex1"
+      },
+      {
+        "cz": "Vidím ženu.",
+        "zh": "我看見那位女士。",
+        "en": "I see the woman.",
+        "targetForm": "ženu",
+        "case": 4,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_zena_ex2"
+      },
+      {
+        "cz": "Mluvíme o ženě.",
+        "zh": "我們在談那位女士。",
+        "en": "We are talking about the woman.",
+        "targetForm": "ženě",
+        "case": 6,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_zena_ex3"
+      }
+    ],
+    "topics": [
+      "people"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_zena",
+    "units": [
+      "u_people_01"
+    ]
+  },
+  {
+    "cz": "kluk",
+    "zh": "男孩",
+    "en": "boy",
+    "pos": "noun",
+    "gender": "m",
+    "declension": {
+      "sg": {
+        "nom": "kluk",
+        "gen": "kluka",
+        "acc": "kluka",
+        "loc": "klukovi"
+      }
+    },
+    "relations": [
+      {
+        "type": "antonym",
+        "ref": "w_holka",
+        "label": "holka"
+      }
+    ],
+    "examples": [],
+    "topics": [
+      "people"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_kluk",
+    "units": [
+      "u_people_01"
+    ]
+  },
+  {
+    "cz": "holka",
+    "zh": "女孩",
+    "en": "girl",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "holka",
+        "gen": "holky",
+        "acc": "holku",
+        "loc": "holce"
+      }
+    },
+    "relations": [
+      {
+        "type": "antonym",
+        "ref": "w_kluk",
+        "label": "kluk"
+      }
+    ],
+    "examples": [],
+    "topics": [
+      "people"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_holka",
+    "units": [
+      "u_people_01"
+    ]
+  },
+  {
+    "cz": "čeština",
+    "zh": "捷克語",
+    "en": "Czech language",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "čeština",
+        "gen": "češtiny",
+        "acc": "češtinu",
+        "loc": "češtině"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "people"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_cestina",
+    "units": [
+      "u_people_01"
+    ]
+  },
+  {
+    "cz": "angličtina",
+    "zh": "捷克語",
+    "en": "Czech language",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "angličtina",
+        "gen": "angličtiny",
+        "acc": "angličtinu",
+        "loc": "angličtině"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "people"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_anglictina",
+    "units": [
+      "u_people_01"
+    ]
+  },
+  {
+    "cz": "němčina",
+    "zh": "捷克語",
+    "en": "Czech language",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "němčina",
+        "gen": "němčiny",
+        "acc": "němčinu",
+        "loc": "němčině"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "people"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_nemcina",
+    "units": [
+      "u_people_01"
+    ]
+  },
+  {
+    "cz": "španělština",
+    "zh": "捷克語",
+    "en": "Czech language",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "španělština",
+        "gen": "španělštiny",
+        "acc": "španělštinu",
+        "loc": "španělštině"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "people"
+    ],
+    "sources": [
+      "L1p2"
+    ],
+    "id": "w_spanelstina",
+    "units": [
+      "u_people_01"
+    ]
+  },
+  {
+    "cz": "město",
+    "zh": "城市",
+    "en": "city, town",
+    "pos": "noun",
+    "gender": "n",
+    "declension": {
+      "sg": {
+        "nom": "město",
+        "gen": "města",
+        "acc": "město",
+        "loc": "městě"
+      }
+    },
+    "examples": [
+      {
+        "cz": "To je velké město.",
+        "zh": "這是個大城市。",
+        "en": "This is a big city.",
+        "targetForm": "město",
+        "case": 1,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_mesto_ex1"
+      },
+      {
+        "cz": "Jdu do města.",
+        "zh": "我去市區。",
+        "en": "I am going to town.",
+        "targetForm": "města",
+        "case": 2,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_mesto_ex2"
+      },
+      {
+        "cz": "Vidím město.",
+        "zh": "我看見城市。",
+        "en": "I see the city.",
+        "targetForm": "město",
+        "case": 4,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_mesto_ex3"
+      },
+      {
+        "cz": "Bydlím ve městě.",
+        "zh": "我住在城裡。",
+        "en": "I live in the city.",
+        "targetForm": "městě",
+        "case": 6,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_mesto_ex4"
+      }
+    ],
+    "topics": [
+      "city"
+    ],
+    "sources": [
+      "L2p1"
+    ],
+    "id": "w_mesto",
+    "units": [
+      "u_city_01"
+    ]
+  },
+  {
+    "cz": "škola",
+    "zh": "學校",
+    "en": "school",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "škola",
+        "gen": "školy",
+        "acc": "školu",
+        "loc": "škole"
+      }
+    },
+    "examples": [
+      {
+        "cz": "To je nová škola.",
+        "zh": "這是新學校。",
+        "en": "This is a new school.",
+        "targetForm": "škola",
+        "case": 1,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_skola_ex1"
+      },
+      {
+        "cz": "Jdu do školy.",
+        "zh": "我去學校。",
+        "en": "I am going to school.",
+        "targetForm": "školy",
+        "case": 2,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_skola_ex2"
+      },
+      {
+        "cz": "Jsem ve škole.",
+        "zh": "我在學校。",
+        "en": "I am at school.",
+        "targetForm": "škole",
+        "case": 6,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_skola_ex3"
+      }
+    ],
+    "topics": [
+      "city"
+    ],
+    "sources": [
+      "L2p1"
+    ],
+    "id": "w_skola",
+    "units": [
+      "u_city_01"
+    ]
+  },
+  {
+    "cz": "nádraží",
+    "zh": "火車站",
+    "en": "railway station",
+    "pos": "noun",
+    "gender": "n",
+    "declension": {
+      "sg": {
+        "nom": "nádraží",
+        "gen": "nádraží",
+        "acc": "nádraží",
+        "loc": "nádraží"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "city"
+    ],
+    "sources": [
+      "L2p1"
+    ],
+    "id": "w_nadrazi",
+    "units": [
+      "u_city_01"
+    ]
+  },
+  {
+    "cz": "kino",
+    "zh": "電影院",
+    "en": "cinema",
+    "pos": "noun",
+    "gender": "n",
+    "declension": {
+      "sg": {
+        "nom": "kino",
+        "gen": "kina",
+        "acc": "kino",
+        "loc": "kině"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "city"
+    ],
+    "sources": [
+      "L2p1"
+    ],
+    "id": "w_kino",
+    "units": [
+      "u_city_01"
+    ]
+  },
+  {
+    "cz": "náměstí",
+    "zh": "廣場",
+    "en": "square",
+    "pos": "noun",
+    "gender": "n",
+    "declension": {
+      "sg": {
+        "nom": "náměstí",
+        "gen": "náměstí",
+        "acc": "náměstí",
+        "loc": "náměstí"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "city"
+    ],
+    "sources": [
+      "L2p1"
+    ],
+    "id": "w_namesti",
+    "units": [
+      "u_city_01"
+    ]
+  },
+  {
+    "cz": "obchod",
+    "zh": "商店（買東西的場所）",
+    "en": "shop",
+    "pos": "noun",
+    "gender": "mi",
+    "declension": {
+      "sg": {
+        "nom": "obchod",
+        "gen": "obchodu",
+        "acc": "obchod",
+        "loc": "obchodě"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "city",
+      "food"
+    ],
+    "sources": [
+      "L2p1",
+      "L4p1"
+    ],
+    "id": "w_obchod",
+    "units": [
+      "u_city_01",
+      "u_food_01"
+    ]
+  },
+  {
+    "cz": "restaurace",
+    "zh": "餐廳（點餐情境）",
+    "en": "restaurant",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "restaurace",
+        "gen": "restaurace",
+        "acc": "restauraci",
+        "loc": "restauraci"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "city",
+      "food"
+    ],
+    "sources": [
+      "L2p1",
+      "L7p1"
+    ],
+    "id": "w_restaurace",
+    "units": [
+      "u_city_01",
+      "u_food_01"
+    ]
+  },
+  {
+    "cz": "daleko × blízko",
+    "contrastSet": [
+      "daleko",
+      "blízko"
+    ],
+    "contrastZh": [
+      "遠",
+      "近"
+    ],
+    "zh": "遠 × 近",
+    "en": "far × near",
+    "pos": "contrast-set",
+    "examples": [],
+    "topics": [
+      "city"
+    ],
+    "sources": [
+      "L2p2"
+    ],
+    "id": "w_daleko_blizko",
+    "units": [
+      "u_city_01"
+    ]
+  },
+  {
+    "cz": "pokoj",
+    "zh": "房間",
+    "en": "room",
+    "pos": "noun",
+    "gender": "mi",
+    "declension": {
+      "sg": {
+        "nom": "pokoj",
+        "gen": "pokoje",
+        "acc": "pokoj",
+        "loc": "pokoji"
+      }
+    },
+    "examples": [
+      {
+        "cz": "To je hezký pokoj.",
+        "zh": "這是個好看的房間。",
+        "en": "This is a nice room.",
+        "targetForm": "pokoj",
+        "case": 1,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_pokoj_ex1"
+      },
+      {
+        "cz": "Jdu do pokoje.",
+        "zh": "我走進房間。",
+        "en": "I am going into the room.",
+        "targetForm": "pokoje",
+        "case": 2,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_pokoj_ex2"
+      },
+      {
+        "cz": "Mám hezký pokoj.",
+        "zh": "我有個好看的房間。",
+        "en": "I have a nice room.",
+        "targetForm": "pokoj",
+        "case": 4,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_pokoj_ex3"
+      },
+      {
+        "cz": "Jsem v pokoji.",
+        "zh": "我在房間裡。",
+        "en": "I am in the room.",
+        "targetForm": "pokoji",
+        "case": 6,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_pokoj_ex4"
+      }
+    ],
+    "topics": [
+      "home"
+    ],
+    "sources": [
+      "L3p1"
+    ],
+    "id": "w_pokoj",
+    "units": [
+      "u_home_01"
+    ]
+  },
+  {
+    "cz": "byt",
+    "zh": "公寓",
+    "en": "flat, apartment",
+    "pos": "noun",
+    "gender": "mi",
+    "declension": {
+      "sg": {
+        "nom": "byt",
+        "gen": "bytu",
+        "acc": "byt",
+        "loc": "bytě"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "home"
+    ],
+    "sources": [
+      "L3p1"
+    ],
+    "id": "w_byt",
+    "units": [
+      "u_home_01"
+    ]
+  },
+  {
+    "cz": "dům",
+    "zh": "房子",
+    "en": "house",
+    "pos": "noun",
+    "gender": "mi",
+    "declension": {
+      "sg": {
+        "nom": "dům",
+        "gen": "domu",
+        "acc": "dům",
+        "loc": "domě"
+      }
+    },
+    "note": "注意變格時 ů → o",
+    "examples": [],
+    "topics": [
+      "home"
+    ],
+    "sources": [
+      "L3p1"
+    ],
+    "id": "w_dum",
+    "units": [
+      "u_home_01"
+    ]
+  },
+  {
+    "cz": "kuchyň",
+    "zh": "廚房",
+    "en": "kitchen",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "kuchyň",
+        "gen": "kuchyně",
+        "acc": "kuchyň",
+        "loc": "kuchyni"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "home"
+    ],
+    "sources": [
+      "L3p1"
+    ],
+    "id": "w_kuchyn",
+    "units": [
+      "u_home_01"
+    ]
+  },
+  {
+    "cz": "koupelna",
+    "zh": "浴室",
+    "en": "bathroom",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "koupelna",
+        "gen": "koupelny",
+        "acc": "koupelnu",
+        "loc": "koupelně"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "home"
+    ],
+    "sources": [
+      "L3p1"
+    ],
+    "id": "w_koupelna",
+    "units": [
+      "u_home_01"
+    ]
+  },
+  {
+    "cz": "záchod",
+    "alsoWritten": [
+      "toaleta"
+    ],
+    "zh": "廁所",
+    "en": "toilet",
+    "pos": "noun",
+    "gender": "mi",
+    "declension": {
+      "sg": {
+        "nom": "záchod",
+        "gen": "záchodu",
+        "acc": "záchod",
+        "loc": "záchodě"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "home"
+    ],
+    "sources": [
+      "L3p1"
+    ],
+    "id": "w_zachod",
+    "units": [
+      "u_home_01"
+    ]
+  },
+  {
+    "cz": "patro",
+    "zh": "樓層",
+    "en": "floor, storey",
+    "pos": "noun",
+    "gender": "n",
+    "declension": {
+      "sg": {
+        "nom": "patro",
+        "gen": "patra",
+        "acc": "patro",
+        "loc": "patře"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "home"
+    ],
+    "sources": [
+      "L3p1"
+    ],
+    "id": "w_patro",
+    "units": [
+      "u_home_01"
+    ]
+  },
+  {
+    "cz": "chleba",
+    "alsoWritten": [
+      "chléb"
+    ],
+    "zh": "麵包",
+    "en": "bread",
+    "pos": "noun",
+    "gender": "mi",
+    "declension": {
+      "sg": {
+        "nom": "chleba",
+        "gen": "chleba",
+        "acc": "chleba",
+        "loc": "chlebu"
+      }
+    },
+    "note": "chléb 為書面形",
+    "examples": [],
+    "topics": [
+      "food"
+    ],
+    "sources": [
+      "L3p2"
+    ],
+    "id": "w_chleba",
+    "units": [
+      "u_food_01"
+    ]
+  },
+  {
+    "cz": "pivo",
+    "zh": "啤酒",
+    "en": "beer",
+    "pos": "noun",
+    "gender": "n",
+    "declension": {
+      "sg": {
+        "nom": "pivo",
+        "gen": "piva",
+        "acc": "pivo",
+        "loc": "pivě"
+      }
+    },
+    "examples": [
+      {
+        "id": "w_pivo_ex1",
+        "cz": "Mám chuť na pivo.",
+        "zh": "",
+        "targetForm": "pivo",
+        "origin": "textbook",
+        "reviewed": true,
+        "case": 4
+      },
+      {
+        "cz": "To je dobré pivo.",
+        "zh": "這是好啤酒。",
+        "en": "This is good beer.",
+        "targetForm": "pivo",
+        "case": 1,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_pivo_ex2"
+      },
+      {
+        "cz": "Káva je bez piva.",
+        "zh": "咖啡裡沒有啤酒。",
+        "en": "The coffee is without beer.",
+        "targetForm": "piva",
+        "case": 2,
+        "origin": "generated",
+        "reviewed": false,
+        "id": "w_pivo_ex3"
+      },
+      {
+        "cz": "Chci pivo.",
+        "zh": "我想要啤酒。",
+        "en": "I want a beer.",
+        "targetForm": "pivo",
+        "case": 4,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_pivo_ex4"
+      }
+    ],
+    "topics": [
+      "food"
+    ],
+    "sources": [
+      "L3p2"
+    ],
+    "id": "w_pivo",
+    "units": [
+      "u_food_01"
+    ]
+  },
+  {
+    "cz": "voda",
+    "zh": "水",
+    "en": "water",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "voda",
+        "gen": "vody",
+        "acc": "vodu",
+        "loc": "vodě"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "food"
+    ],
+    "sources": [
+      "L3p2"
+    ],
+    "id": "w_voda",
+    "units": [
+      "u_food_01"
+    ]
+  },
+  {
+    "cz": "káva",
+    "zh": "咖啡",
+    "en": "coffee",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "káva",
+        "gen": "kávy",
+        "acc": "kávu",
+        "loc": "kávě"
+      }
+    },
+    "examples": [
+      {
+        "cz": "To je dobrá káva.",
+        "zh": "這是好咖啡。",
+        "en": "This is good coffee.",
+        "targetForm": "káva",
+        "case": 1,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_kava_ex1"
+      },
+      {
+        "cz": "Čaj je bez kávy.",
+        "zh": "茶裡沒有咖啡。",
+        "en": "The tea is without coffee.",
+        "targetForm": "kávy",
+        "case": 2,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_kava_ex2"
+      },
+      {
+        "cz": "Chci kávu.",
+        "zh": "我要咖啡。",
+        "en": "I want a coffee.",
+        "targetForm": "kávu",
+        "case": 4,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_kava_ex3"
+      },
+      {
+        "cz": "Mluvíme o kávě.",
+        "zh": "我們在談咖啡。",
+        "en": "We are talking about coffee.",
+        "targetForm": "kávě",
+        "case": 6,
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_kava_ex4"
+      }
+    ],
+    "topics": [
+      "food"
+    ],
+    "sources": [
+      "L3p2"
+    ],
+    "id": "w_kava",
+    "units": [
+      "u_food_01"
+    ]
+  },
+  {
+    "cz": "maso",
+    "zh": "肉",
+    "en": "meat",
+    "pos": "noun",
+    "gender": "n",
+    "declension": {
+      "sg": {
+        "nom": "maso",
+        "gen": "masa",
+        "acc": "maso",
+        "loc": "mase"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "food"
+    ],
+    "sources": [
+      "L3p2"
+    ],
+    "id": "w_maso",
+    "units": [
+      "u_food_01"
+    ]
+  },
+  {
+    "cz": "polévka",
+    "zh": "湯",
+    "en": "soup",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "polévka",
+        "gen": "polévky",
+        "acc": "polévku",
+        "loc": "polévce"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "food"
+    ],
+    "sources": [
+      "L3p2"
+    ],
+    "id": "w_polevka",
+    "units": [
+      "u_food_01"
+    ]
+  },
+  {
+    "cz": "zelenina",
+    "zh": "蔬菜",
+    "en": "vegetables",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "zelenina",
+        "gen": "zeleniny",
+        "acc": "zeleninu",
+        "loc": "zelenině"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "food"
+    ],
+    "sources": [
+      "L3p2"
+    ],
+    "id": "w_zelenina",
+    "units": [
+      "u_food_01"
+    ]
+  },
+  {
+    "cz": "máslo",
+    "zh": "奶油",
+    "en": "butter",
+    "pos": "noun",
+    "gender": "n",
+    "declension": {
+      "sg": {
+        "nom": "máslo",
+        "gen": "másla",
+        "acc": "máslo",
+        "loc": "másle"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "food"
+    ],
+    "sources": [
+      "L3p2"
+    ],
+    "id": "w_maslo",
+    "units": [
+      "u_food_02"
+    ]
+  },
+  {
+    "cz": "guláš",
+    "zh": "匈牙利燉肉（菜單用語）",
+    "en": "goulash",
+    "pos": "noun",
+    "gender": "mi",
+    "declension": {
+      "sg": {
+        "nom": "guláš",
+        "gen": "guláše",
+        "acc": "guláš",
+        "loc": "guláši"
+      }
+    },
+    "note": "菜單上常見 hovězí guláš",
+    "examples": [],
+    "topics": [
+      "food"
+    ],
+    "sources": [
+      "L3p2",
+      "L7p1"
+    ],
+    "id": "w_gulas",
+    "units": [
+      "u_food_02"
+    ]
+  },
+  {
+    "cz": "horký",
+    "zh": "熱的",
+    "en": "hot",
+    "pos": "adj",
+    "confusables": [
+      "hořký"
+    ],
+    "examples": [],
+    "topics": [
+      "food"
+    ],
+    "sources": [
+      "L5"
+    ],
+    "id": "w_horky",
+    "units": [
+      "u_food_02"
+    ]
+  },
+  {
+    "cz": "hořký",
+    "zh": "苦的",
+    "en": "bitter",
+    "pos": "adj",
+    "relations": [
+      {
+        "type": "contrast",
+        "ref": "sladký"
+      }
+    ],
+    "examples": [],
+    "topics": [
+      "food"
+    ],
+    "sources": [
+      "L5"
+    ],
+    "id": "w_horky_2",
+    "units": [
+      "u_food_02"
+    ]
+  },
+  {
+    "cz": "bílý",
+    "zh": "白色的",
+    "en": "white",
+    "pos": "adj",
+    "adjForms": {
+      "m": "bílý",
+      "f": "bílá",
+      "n": "bílé"
+    },
+    "examples": [
+      {
+        "cz": "To je bílý dům.",
+        "zh": "那是白色的房子。",
+        "en": "That is a white house.",
+        "targetForm": "bílý",
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_bily_ex1"
+      },
+      {
+        "cz": "To je bílá káva.",
+        "zh": "那是白咖啡（加奶的咖啡）。",
+        "en": "That is a white coffee.",
+        "targetForm": "bílá",
+        "origin": "generated",
+        "reviewed": true,
+        "id": "w_bily_ex2"
+      },
+      {
+        "cz": "To je bílé máslo.",
+        "zh": "那是白色的奶油。",
+        "en": "That is white butter.",
+        "targetForm": "bílé",
+        "origin": "generated",
+        "reviewed": false,
+        "id": "w_bily_ex3"
+      }
+    ],
+    "topics": [
+      "colors"
+    ],
+    "sources": [
+      "L5"
+    ],
+    "id": "w_bily",
+    "units": [
+      "u_colors_01"
+    ]
+  },
+  {
+    "cz": "černý",
+    "zh": "黑色的",
+    "en": "black",
+    "pos": "adj",
+    "adjForms": {
+      "m": "černý",
+      "f": "černá",
+      "n": "černé"
+    },
+    "examples": [],
+    "topics": [
+      "colors"
+    ],
+    "sources": [
+      "L5"
+    ],
+    "id": "w_cerny",
+    "units": [
+      "u_colors_01"
+    ]
+  },
+  {
+    "cz": "červený",
+    "zh": "紅色的",
+    "en": "red",
+    "pos": "adj",
+    "adjForms": {
+      "m": "červený",
+      "f": "červená",
+      "n": "červené"
+    },
+    "examples": [],
+    "topics": [
+      "colors"
+    ],
+    "sources": [
+      "L5"
+    ],
+    "id": "w_cerveny",
+    "units": [
+      "u_colors_01"
+    ]
+  },
+  {
+    "cz": "zelený",
+    "zh": "綠色的",
+    "en": "green",
+    "pos": "adj",
+    "adjForms": {
+      "m": "zelený",
+      "f": "zelená",
+      "n": "zelené"
+    },
+    "examples": [],
+    "topics": [
+      "colors"
+    ],
+    "sources": [
+      "L5"
+    ],
+    "id": "w_zeleny",
+    "units": [
+      "u_colors_01"
+    ]
+  },
+  {
+    "cz": "modrý",
+    "zh": "藍色的",
+    "en": "blue",
+    "pos": "adj",
+    "adjForms": {
+      "m": "modrý",
+      "f": "modrá",
+      "n": "modré"
+    },
+    "examples": [],
+    "topics": [
+      "colors"
+    ],
+    "sources": [
+      "L5"
+    ],
+    "id": "w_modry",
+    "units": [
+      "u_colors_01"
+    ]
+  },
+  {
+    "cz": "pondělí",
+    "zh": "星期一",
+    "en": "Monday",
+    "pos": "noun",
+    "gender": "n",
+    "declension": {
+      "sg": {
+        "nom": "pondělí",
+        "gen": "pondělí",
+        "acc": "pondělí",
+        "loc": "pondělí"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "time"
+    ],
+    "sources": [
+      "L6"
+    ],
+    "id": "w_pondeli",
+    "units": [
+      "u_time_01"
+    ]
+  },
+  {
+    "cz": "úterý",
+    "zh": "星期一",
+    "en": "Monday",
+    "pos": "noun",
+    "gender": "n",
+    "examples": [],
+    "topics": [
+      "time"
+    ],
+    "sources": [
+      "L6"
+    ],
+    "id": "w_utery",
+    "units": [
+      "u_time_01"
+    ]
+  },
+  {
+    "cz": "sobota",
+    "zh": "星期六",
+    "en": "Saturday",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "sobota",
+        "gen": "soboty",
+        "acc": "sobotu",
+        "loc": "sobotě"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "time"
+    ],
+    "sources": [
+      "L6"
+    ],
+    "id": "w_sobota",
+    "units": [
+      "u_time_01"
+    ]
+  },
+  {
+    "cz": "neděle",
+    "zh": "星期日",
+    "en": "Sunday",
+    "pos": "noun",
+    "gender": "f",
+    "declension": {
+      "sg": {
+        "nom": "neděle",
+        "gen": "neděle",
+        "acc": "neděli",
+        "loc": "neděli"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "time"
+    ],
+    "sources": [
+      "L6"
+    ],
+    "id": "w_nedele",
+    "units": [
+      "u_time_01"
+    ]
+  },
+  {
+    "cz": "týden",
+    "zh": "一個星期（時間長度）",
+    "en": "week",
+    "pos": "noun",
+    "gender": "mi",
+    "declension": {
+      "sg": {
+        "nom": "týden",
+        "gen": "týdne",
+        "acc": "týden",
+        "loc": "týdnu"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "time"
+    ],
+    "sources": [
+      "L6",
+      "L7p2"
+    ],
+    "id": "w_tyden",
+    "units": [
+      "u_time_01"
+    ]
+  },
+  {
+    "cz": "narozeniny",
+    "zh": "生日",
+    "en": "birthday",
+    "pos": "noun",
+    "gender": "f",
+    "pluraleTantum": true,
+    "declension": {
+      "sg": {
+        "nom": "narozeniny",
+        "gen": "narozenin",
+        "acc": "narozeniny",
+        "loc": "narozeninách"
+      },
+      "pl": {
+        "nom": "narozeniny",
+        "gen": "narozenin",
+        "acc": "narozeniny",
+        "loc": "narozeninách"
+      }
+    },
+    "examples": [],
+    "topics": [
+      "time"
+    ],
+    "sources": [
+      "L6"
+    ],
+    "id": "w_narozeniny",
+    "units": [
+      "u_time_01"
+    ]
+  },
+  {
+    "cz": "nikdy × někdy × vždycky",
+    "contrastSet": [
+      "nikdy",
+      "někdy",
+      "vždycky"
+    ],
+    "contrastZh": [
+      "從不",
+      "有時",
+      "總是"
+    ],
+    "zh": "從不 × 有時 × 總是",
+    "en": "never × sometimes × always",
+    "pos": "contrast-set",
+    "examples": [],
+    "topics": [
+      "time"
+    ],
+    "sources": [
+      "L6"
+    ],
+    "id": "w_nikdy_nekdy_vzdycky",
+    "units": [
+      "u_time_01"
+    ]
+  },
+  {
+    "cz": "hodně × málo",
+    "contrastSet": [
+      "hodně",
+      "málo"
+    ],
+    "contrastZh": [
+      "多",
+      "少"
+    ],
+    "zh": "多 × 少",
+    "en": "a lot × little",
+    "pos": "contrast-set",
+    "examples": [],
+    "topics": [
+      "time"
+    ],
+    "sources": [
+      "L6"
+    ],
+    "id": "w_hodne_malo",
+    "units": [
+      "u_time_01"
+    ]
+  },
+  {
+    "cz": "dělat",
+    "zh": "做",
+    "en": "to do, to make",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 1,
+      "groups": [
+        "class1"
+      ],
+      "present": [
+        "dělám",
+        "děláš",
+        "dělá",
+        "děláme",
+        "děláte",
+        "dělají"
+      ],
+      "negation": "nedělám",
+      "reflexive": null
+    },
+    "examples": [
+      {
+        "id": "w_delat_ex1",
+        "cz": "Co děláš?",
+        "zh": "你在做什麼？",
+        "targetForm": "děláš",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 2
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L2p1"
+    ],
+    "id": "w_delat",
+    "units": [
+      "u_verb_class1_01"
+    ],
+    "grammarRefs": [
+      12
+    ]
+  },
+  {
+    "cz": "čekat",
+    "zh": "等",
+    "en": "to wait",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "pair": "počkat",
+      "verbClass": 1,
+      "groups": [
+        "class1"
+      ],
+      "present": [
+        "čekám",
+        "čekáš",
+        "čeká",
+        "čekáme",
+        "čekáte",
+        "čekají"
+      ],
+      "pairPresent": [
+        "počkám",
+        "počkáš",
+        "počká",
+        "počkáme",
+        "počkáte",
+        "počkají"
+      ],
+      "negation": "nečekám",
+      "reflexive": null
+    },
+    "rekce": "na + 4. pád",
+    "examples": [
+      {
+        "id": "w_cekat_ex1",
+        "cz": "Čekám na kamaráda.",
+        "zh": "我在等朋友。",
+        "targetForm": "čekám",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L2p2"
+    ],
+    "id": "w_cekat",
+    "units": [
+      "u_verb_class1_01"
+    ],
+    "grammarRefs": [
+      12,
+      15
+    ]
+  },
+  {
+    "cz": "mluvit",
+    "zh": "說話",
+    "en": "to speak",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 2,
+      "groups": [
+        "class2"
+      ],
+      "present": [
+        "mluvím",
+        "mluvíš",
+        "mluví",
+        "mluvíme",
+        "mluvíte",
+        "mluví"
+      ],
+      "negation": "nemluvím",
+      "reflexive": null
+    },
+    "rekce": "o + 6. pád",
+    "examples": [
+      {
+        "id": "w_mluvit_ex1",
+        "cz": "Mluvím česky.",
+        "zh": "我說捷克語。",
+        "targetForm": "mluvím",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L2p2"
+    ],
+    "id": "w_mluvit",
+    "units": [
+      "u_verb_class2_01"
+    ],
+    "grammarRefs": [
+      12,
+      15
+    ]
+  },
+  {
+    "cz": "bydlet",
+    "zh": "居住",
+    "en": "to live, to reside",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 2,
+      "groups": [
+        "class2"
+      ],
+      "present": [
+        "bydlím",
+        "bydlíš",
+        "bydlí",
+        "bydlíme",
+        "bydlíte",
+        "bydlí"
+      ],
+      "negation": "nebydlím",
+      "reflexive": null
+    },
+    "rekce": "v + 6. pád",
+    "examples": [
+      {
+        "id": "w_bydlet_ex1",
+        "cz": "Bydlím v Praze.",
+        "zh": "我住在布拉格。",
+        "targetForm": "bydlím",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L2p2"
+    ],
+    "id": "w_bydlet",
+    "units": [
+      "u_verb_class2_01"
+    ],
+    "grammarRefs": [
+      12,
+      15
+    ]
+  },
+  {
+    "cz": "studovat",
+    "zh": "就讀／研讀",
+    "en": "to study",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 3,
+      "groups": [
+        "class3"
+      ],
+      "present": [
+        "studuju",
+        "studuješ",
+        "studuje",
+        "studujeme",
+        "studujete",
+        "studujou"
+      ],
+      "negation": "nestuduju",
+      "reflexive": null
+    },
+    "examples": [
+      {
+        "id": "w_studovat_ex1",
+        "cz": "Studuju v Praze.",
+        "zh": "我在布拉格唸書。",
+        "targetForm": "studuju",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L3p1"
+    ],
+    "id": "w_studovat",
+    "units": [
+      "u_verb_class3_01"
+    ],
+    "grammarRefs": [
+      24
+    ]
+  },
+  {
+    "cz": "pracovat",
+    "zh": "工作",
+    "en": "to work",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 3,
+      "groups": [
+        "class3"
+      ],
+      "present": [
+        "pracuju",
+        "pracuješ",
+        "pracuje",
+        "pracujeme",
+        "pracujete",
+        "pracujou"
+      ],
+      "negation": "nepracuju",
+      "reflexive": null
+    },
+    "examples": [
+      {
+        "id": "w_pracovat_ex1",
+        "cz": "Pracuju v obchodě.",
+        "zh": "我在商店工作。",
+        "targetForm": "pracuju",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L3p1"
+    ],
+    "id": "w_pracovat",
+    "units": [
+      "u_verb_class3_01"
+    ],
+    "grammarRefs": [
+      24
+    ]
+  },
+  {
+    "cz": "kupovat",
+    "zh": "買",
+    "en": "to buy",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 3,
+      "groups": [
+        "class3"
+      ],
+      "present": [
+        "kupuju",
+        "kupuješ",
+        "kupuje",
+        "kupujeme",
+        "kupujete",
+        "kupujou"
+      ],
+      "negation": "nekupuju",
+      "reflexive": null
+    },
+    "examples": [
+      {
+        "id": "w_kupovat_ex1",
+        "cz": "Kupuju chleba.",
+        "zh": "我買麵包。",
+        "targetForm": "kupuju",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L4p1"
+    ],
+    "id": "w_kupovat",
+    "units": [
+      "u_verb_class3_01"
+    ],
+    "grammarRefs": [
+      24
+    ]
+  },
+  {
+    "cz": "psát",
+    "zh": "寫",
+    "en": "to write",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "pair": "napsat",
+      "verbClass": 4,
+      "groups": [
+        "class4"
+      ],
+      "present": [
+        "píšu",
+        "píšeš",
+        "píše",
+        "píšeme",
+        "píšete",
+        "píšou"
+      ],
+      "pairPresent": [
+        "napíšu",
+        "napíšeš",
+        "napíše",
+        "napíšeme",
+        "napíšete",
+        "napíšou"
+      ],
+      "negation": "nepíšu",
+      "reflexive": null
+    },
+    "examples": [
+      {
+        "id": "w_psat_ex1",
+        "cz": "Píšu e-mail.",
+        "zh": "我在寫電子郵件。",
+        "targetForm": "píšu",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L4p1"
+    ],
+    "id": "w_psat",
+    "units": [
+      "u_verb_class4_01"
+    ],
+    "grammarRefs": [
+      35
+    ]
+  },
+  {
+    "cz": "číst",
+    "zh": "讀",
+    "en": "to read",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 4,
+      "groups": [
+        "class4"
+      ],
+      "present": [
+        "čtu",
+        "čteš",
+        "čte",
+        "čteme",
+        "čtete",
+        "čtou"
+      ],
+      "negation": "nečtu",
+      "reflexive": null
+    },
+    "examples": [
+      {
+        "id": "w_cist_ex1",
+        "cz": "Čtu knihu.",
+        "zh": "我在讀書。",
+        "targetForm": "čtu",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L4p1"
+    ],
+    "id": "w_cist",
+    "units": [
+      "u_verb_class4_01"
+    ],
+    "grammarRefs": [
+      35
+    ]
+  },
+  {
+    "cz": "mýt",
+    "zh": "洗",
+    "en": "to wash",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 4,
+      "groups": [
+        "class4"
+      ],
+      "present": [
+        "myju",
+        "myješ",
+        "myje",
+        "myjeme",
+        "myjete",
+        "myjou"
+      ],
+      "negation": "nemyju",
+      "reflexive": null
+    },
+    "note": "mýt 洗 有",
+    "relations": [
+      {
+        "type": "contrast",
+        "ref": "mít"
+      }
+    ],
+    "examples": [],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L5"
+    ],
+    "id": "w_myt",
+    "units": [
+      "u_verb_class4_01"
+    ],
+    "grammarRefs": [
+      35
+    ]
+  },
+  {
+    "cz": "jít",
+    "zh": "去（走路）",
+    "en": "to go (on foot)",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 4,
+      "groups": [
+        "class4",
+        "motion"
+      ],
+      "present": [
+        "jdu",
+        "jdeš",
+        "jde",
+        "jdeme",
+        "jdete",
+        "jdou"
+      ],
+      "negation": "nejdu",
+      "reflexive": null
+    },
+    "examples": [
+      {
+        "id": "w_jit_ex1",
+        "cz": "Jdu do kina.",
+        "zh": "我要去電影院。",
+        "targetForm": "jdu",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L3p2"
+    ],
+    "id": "w_jit",
+    "units": [
+      "u_verb_class4_01",
+      "u_verb_motion_01"
+    ],
+    "grammarRefs": [
+      35,
+      36,
+      47
+    ]
+  },
+  {
+    "cz": "chodit",
+    "zh": "經常去（走路）",
+    "en": "to go regularly (on foot)",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 2,
+      "groups": [
+        "class2",
+        "motion"
+      ],
+      "present": [
+        "chodím",
+        "chodíš",
+        "chodí",
+        "chodíme",
+        "chodíte",
+        "chodí"
+      ],
+      "negation": "nechodím",
+      "reflexive": null
+    },
+    "examples": [
+      {
+        "id": "w_chodit_ex1",
+        "cz": "Každý den chodím do školy.",
+        "zh": "我每天走路去學校。",
+        "targetForm": "chodím",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L3p2"
+    ],
+    "id": "w_chodit",
+    "units": [
+      "u_verb_class2_01",
+      "u_verb_motion_01"
+    ],
+    "grammarRefs": [
+      12,
+      36,
+      47
+    ]
+  },
+  {
+    "cz": "jet",
+    "zh": "搭乘（交通工具）",
+    "en": "to go (by vehicle)",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 4,
+      "groups": [
+        "class4",
+        "motion"
+      ],
+      "present": [
+        "jedu",
+        "jedeš",
+        "jede",
+        "jedeme",
+        "jedete",
+        "jedou"
+      ],
+      "negation": "nejedu",
+      "reflexive": null
+    },
+    "examples": [
+      {
+        "id": "w_jet_ex1",
+        "cz": "Jedu do Brna.",
+        "zh": "我要去布爾諾。",
+        "targetForm": "jedu",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L6",
+      "L7p1"
+    ],
+    "id": "w_jet",
+    "units": [
+      "u_verb_class4_01",
+      "u_verb_motion_01"
+    ],
+    "grammarRefs": [
+      35,
+      36,
+      47
+    ]
+  },
+  {
+    "cz": "jezdit",
+    "zh": "經常去（搭車）",
+    "en": "to go regularly (by vehicle)",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 2,
+      "groups": [
+        "class2",
+        "motion"
+      ],
+      "present": [
+        "jezdím",
+        "jezdíš",
+        "jezdí",
+        "jezdíme",
+        "jezdíte",
+        "jezdí"
+      ],
+      "negation": "nejezdím",
+      "reflexive": null
+    },
+    "examples": [],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L6"
+    ],
+    "id": "w_jezdit",
+    "units": [
+      "u_verb_class2_01",
+      "u_verb_motion_01"
+    ],
+    "grammarRefs": [
+      12,
+      36,
+      47
+    ]
+  },
+  {
+    "cz": "muset",
+    "zh": "必須",
+    "en": "must, to have to",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 2,
+      "groups": [
+        "class2",
+        "modal"
+      ],
+      "present": [
+        "musím",
+        "musíš",
+        "musí",
+        "musíme",
+        "musíte",
+        "musí"
+      ],
+      "negation": "nemusím",
+      "reflexive": null
+    },
+    "examples": [
+      {
+        "id": "w_muset_ex1",
+        "cz": "Musím pracovat.",
+        "zh": "我必須工作。",
+        "targetForm": "musím",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L4p1"
+    ],
+    "id": "w_muset",
+    "units": [
+      "u_verb_class2_01",
+      "u_verb_modal_01"
+    ],
+    "grammarRefs": [
+      12,
+      43,
+      46
+    ]
+  },
+  {
+    "cz": "moct",
+    "zh": "能夠（表示能力）",
+    "en": "can, to be able to",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 4,
+      "groups": [
+        "class4",
+        "modal"
+      ],
+      "present": [
+        "můžu",
+        "můžeš",
+        "může",
+        "můžeme",
+        "můžete",
+        "můžou"
+      ],
+      "negation": "nemůžu",
+      "reflexive": null
+    },
+    "examples": [
+      {
+        "id": "w_moct_ex1",
+        "cz": "Můžu jít domů?",
+        "zh": "我可以回家嗎？",
+        "targetForm": "můžu",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L4p1",
+      "L7p2"
+    ],
+    "id": "w_moct",
+    "units": [
+      "u_verb_class4_01",
+      "u_verb_modal_01"
+    ],
+    "grammarRefs": [
+      35,
+      43,
+      46
+    ]
+  },
+  {
+    "cz": "chtít",
+    "zh": "想要",
+    "en": "to want",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 4,
+      "groups": [
+        "class4",
+        "modal"
+      ],
+      "present": [
+        "chci",
+        "chceš",
+        "chce",
+        "chceme",
+        "chcete",
+        "chtějí"
+      ],
+      "negation": "nechci",
+      "reflexive": null
+    },
+    "examples": [
+      {
+        "id": "w_chtit_ex1",
+        "cz": "Chci kávu.",
+        "zh": "我想要咖啡。",
+        "targetForm": "chci",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L4p1"
+    ],
+    "id": "w_chtit",
+    "units": [
+      "u_verb_class4_01",
+      "u_verb_modal_01"
+    ],
+    "grammarRefs": [
+      35,
+      43,
+      46
+    ]
+  },
+  {
+    "cz": "dívat se",
+    "zh": "看／觀看",
+    "en": "to watch, to look",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 1,
+      "groups": [
+        "class1",
+        "reflexive"
+      ],
+      "present": [
+        "dívám se",
+        "díváš se",
+        "dívá se",
+        "díváme se",
+        "díváte se",
+        "dívají se"
+      ],
+      "negation": "nedívám se",
+      "reflexive": "se"
+    },
+    "rekce": "na + 4. pád",
+    "examples": [
+      {
+        "id": "w_divat_se_ex1",
+        "cz": "Dívám se na film.",
+        "zh": "我在看電影。",
+        "targetForm": "dívám se",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L5"
+    ],
+    "id": "w_divat_se",
+    "units": [
+      "u_verb_class1_01",
+      "u_verb_reflexive_01"
+    ],
+    "grammarRefs": [
+      12,
+      13,
+      15,
+      50
+    ]
+  },
+  {
+    "cz": "učit se",
+    "zh": "學習",
+    "en": "to learn, to study",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 2,
+      "groups": [
+        "class2",
+        "reflexive"
+      ],
+      "present": [
+        "učím se",
+        "učíš se",
+        "učí se",
+        "učíme se",
+        "učíte se",
+        "učí se"
+      ],
+      "negation": "neučím se",
+      "reflexive": "se"
+    },
+    "examples": [
+      {
+        "id": "w_ucit_se_ex1",
+        "cz": "Učím se česky.",
+        "zh": "我在學捷克語。",
+        "targetForm": "učím se",
+        "origin": "textbook",
+        "reviewed": true,
+        "person": 1
+      }
+    ],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L5"
+    ],
+    "id": "w_ucit_se",
+    "units": [
+      "u_verb_class2_01",
+      "u_verb_reflexive_01"
+    ],
+    "grammarRefs": [
+      12,
+      13,
+      50
+    ]
+  },
+  {
+    "cz": "ptát se",
+    "zh": "詢問",
+    "en": "to ask",
+    "pos": "verb",
+    "verb": {
+      "aspect": "impf",
+      "verbClass": 4,
+      "groups": [
+        "class4",
+        "reflexive"
+      ],
+      "present": [
+        "ptám se",
+        "ptáš se",
+        "ptá se",
+        "ptáme se",
+        "ptáte se",
+        "ptají se"
+      ],
+      "negation": "neptám se",
+      "reflexive": "se"
+    },
+    "rekce": "na + 4. pád",
+    "examples": [],
+    "topics": [
+      "verb"
+    ],
+    "sources": [
+      "L6"
+    ],
+    "id": "w_ptat_se",
+    "units": [
+      "u_verb_class4_01",
+      "u_verb_reflexive_01"
+    ],
+    "grammarRefs": [
+      13,
+      15,
+      35,
+      50
+    ]
+  }
+]

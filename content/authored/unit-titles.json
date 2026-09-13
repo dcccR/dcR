@@ -1,0 +1,4 @@
+{
+  "_comment": "覆寫自動產生的小節標題（§4.1）。鍵為 unitId，可填 cz / zh / subtitle。",
+  "u_greet_01": { "zh": "招呼・基本片語 ・ 第 1 節", "subtitle": "見面到道別" }
+}

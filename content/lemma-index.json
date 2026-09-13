@@ -1,0 +1,1944 @@
+{
+  "ahoj!": [
+    "w_ahoj"
+  ],
+  "čau!": [
+    "w_ahoj"
+  ],
+  "cau!": [
+    "w_ahoj"
+  ],
+  "dobrý": [
+    "w_dobry_den"
+  ],
+  "dobry": [
+    "w_dobry_den"
+  ],
+  "den!": [
+    "w_dobry_den"
+  ],
+  "dobrý den!": [
+    "w_dobry_den"
+  ],
+  "dobry den!": [
+    "w_dobry_den"
+  ],
+  "na": [
+    "w_na_shledanou"
+  ],
+  "shledanou!": [
+    "w_na_shledanou"
+  ],
+  "na shledanou!": [
+    "w_na_shledanou"
+  ],
+  "děkuju!": [
+    "w_dekuju"
+  ],
+  "dekuju!": [
+    "w_dekuju"
+  ],
+  "děkuji!": [
+    "w_dekuju"
+  ],
+  "dekuji!": [
+    "w_dekuju"
+  ],
+  "prosím!": [
+    "w_prosim"
+  ],
+  "prosim!": [
+    "w_prosim"
+  ],
+  "promiňte!": [
+    "w_prominte"
+  ],
+  "prominte!": [
+    "w_prominte"
+  ],
+  "jak": [
+    "w_jak_se_mas"
+  ],
+  "se": [
+    "w_jak_se_mas",
+    "w_divat_se",
+    "w_ucit_se",
+    "w_ptat_se"
+  ],
+  "máš?": [
+    "w_jak_se_mas"
+  ],
+  "mas?": [
+    "w_jak_se_mas"
+  ],
+  "jak se máš?": [
+    "w_jak_se_mas"
+  ],
+  "jak se mas?": [
+    "w_jak_se_mas"
+  ],
+  "vchod": [
+    "w_vchod"
+  ],
+  "vchodu": [
+    "w_vchod"
+  ],
+  "východ": [
+    "w_vychod"
+  ],
+  "vychod": [
+    "w_vychod"
+  ],
+  "východu": [
+    "w_vychod"
+  ],
+  "vychodu": [
+    "w_vychod"
+  ],
+  "východě": [
+    "w_vychod"
+  ],
+  "vychode": [
+    "w_vychod"
+  ],
+  "pokladna": [
+    "w_pokladna"
+  ],
+  "pokladny": [
+    "w_pokladna"
+  ],
+  "pokladnu": [
+    "w_pokladna"
+  ],
+  "pokladně": [
+    "w_pokladna"
+  ],
+  "pokladne": [
+    "w_pokladna"
+  ],
+  "šatna": [
+    "w_satna"
+  ],
+  "satna": [
+    "w_satna"
+  ],
+  "šatny": [
+    "w_satna"
+  ],
+  "satny": [
+    "w_satna"
+  ],
+  "šatnu": [
+    "w_satna"
+  ],
+  "satnu": [
+    "w_satna"
+  ],
+  "šatně": [
+    "w_satna"
+  ],
+  "satne": [
+    "w_satna"
+  ],
+  "otevřeno": [
+    "w_otevreno"
+  ],
+  "otevreno": [
+    "w_otevreno"
+  ],
+  "zavřeno": [
+    "w_zavreno"
+  ],
+  "zavreno": [
+    "w_zavreno"
+  ],
+  "mimo": [
+    "w_mimo_provoz"
+  ],
+  "provoz": [
+    "w_mimo_provoz"
+  ],
+  "mimo provoz": [
+    "w_mimo_provoz"
+  ],
+  "student": [
+    "w_student"
+  ],
+  "studentka": [
+    "w_student"
+  ],
+  "studenta": [
+    "w_student"
+  ],
+  "studentovi": [
+    "w_student"
+  ],
+  "učitel": [
+    "w_ucitel"
+  ],
+  "ucitel": [
+    "w_ucitel"
+  ],
+  "učitelka": [
+    "w_ucitel"
+  ],
+  "ucitelka": [
+    "w_ucitel"
+  ],
+  "učitele": [
+    "w_ucitel"
+  ],
+  "ucitele": [
+    "w_ucitel"
+  ],
+  "učiteli": [
+    "w_ucitel"
+  ],
+  "uciteli": [
+    "w_ucitel"
+  ],
+  "kamarád": [
+    "w_kamarad"
+  ],
+  "kamarad": [
+    "w_kamarad"
+  ],
+  "kamarádka": [
+    "w_kamarad"
+  ],
+  "kamaradka": [
+    "w_kamarad"
+  ],
+  "kamaráda": [
+    "w_kamarad"
+  ],
+  "kamarada": [
+    "w_kamarad"
+  ],
+  "kamarádovi": [
+    "w_kamarad"
+  ],
+  "kamaradovi": [
+    "w_kamarad"
+  ],
+  "čech": [
+    "w_cech"
+  ],
+  "cech": [
+    "w_cech"
+  ],
+  "češka": [
+    "w_cech"
+  ],
+  "ceska": [
+    "w_cech"
+  ],
+  "čecha": [
+    "w_cech"
+  ],
+  "cecha": [
+    "w_cech"
+  ],
+  "čechovi": [
+    "w_cech"
+  ],
+  "cechovi": [
+    "w_cech"
+  ],
+  "muž": [
+    "w_muz"
+  ],
+  "muz": [
+    "w_muz"
+  ],
+  "muže": [
+    "w_muz"
+  ],
+  "muze": [
+    "w_muz",
+    "w_moct"
+  ],
+  "muži": [
+    "w_muz"
+  ],
+  "muzi": [
+    "w_muz"
+  ],
+  "žena": [
+    "w_zena"
+  ],
+  "zena": [
+    "w_zena"
+  ],
+  "ženy": [
+    "w_zena"
+  ],
+  "zeny": [
+    "w_zena"
+  ],
+  "ženu": [
+    "w_zena"
+  ],
+  "zenu": [
+    "w_zena"
+  ],
+  "ženě": [
+    "w_zena"
+  ],
+  "zene": [
+    "w_zena"
+  ],
+  "kluk": [
+    "w_kluk"
+  ],
+  "kluka": [
+    "w_kluk"
+  ],
+  "klukovi": [
+    "w_kluk"
+  ],
+  "holka": [
+    "w_holka"
+  ],
+  "holky": [
+    "w_holka"
+  ],
+  "holku": [
+    "w_holka"
+  ],
+  "holce": [
+    "w_holka"
+  ],
+  "čeština": [
+    "w_cestina"
+  ],
+  "cestina": [
+    "w_cestina"
+  ],
+  "češtiny": [
+    "w_cestina"
+  ],
+  "cestiny": [
+    "w_cestina"
+  ],
+  "češtinu": [
+    "w_cestina"
+  ],
+  "cestinu": [
+    "w_cestina"
+  ],
+  "češtině": [
+    "w_cestina"
+  ],
+  "cestine": [
+    "w_cestina"
+  ],
+  "angličtina": [
+    "w_anglictina"
+  ],
+  "anglictina": [
+    "w_anglictina"
+  ],
+  "angličtiny": [
+    "w_anglictina"
+  ],
+  "anglictiny": [
+    "w_anglictina"
+  ],
+  "angličtinu": [
+    "w_anglictina"
+  ],
+  "anglictinu": [
+    "w_anglictina"
+  ],
+  "angličtině": [
+    "w_anglictina"
+  ],
+  "anglictine": [
+    "w_anglictina"
+  ],
+  "němčina": [
+    "w_nemcina"
+  ],
+  "nemcina": [
+    "w_nemcina"
+  ],
+  "němčiny": [
+    "w_nemcina"
+  ],
+  "nemciny": [
+    "w_nemcina"
+  ],
+  "němčinu": [
+    "w_nemcina"
+  ],
+  "nemcinu": [
+    "w_nemcina"
+  ],
+  "němčině": [
+    "w_nemcina"
+  ],
+  "nemcine": [
+    "w_nemcina"
+  ],
+  "španělština": [
+    "w_spanelstina"
+  ],
+  "spanelstina": [
+    "w_spanelstina"
+  ],
+  "španělštiny": [
+    "w_spanelstina"
+  ],
+  "spanelstiny": [
+    "w_spanelstina"
+  ],
+  "španělštinu": [
+    "w_spanelstina"
+  ],
+  "spanelstinu": [
+    "w_spanelstina"
+  ],
+  "španělštině": [
+    "w_spanelstina"
+  ],
+  "spanelstine": [
+    "w_spanelstina"
+  ],
+  "město": [
+    "w_mesto"
+  ],
+  "mesto": [
+    "w_mesto"
+  ],
+  "města": [
+    "w_mesto"
+  ],
+  "mesta": [
+    "w_mesto"
+  ],
+  "městě": [
+    "w_mesto"
+  ],
+  "meste": [
+    "w_mesto"
+  ],
+  "škola": [
+    "w_skola"
+  ],
+  "skola": [
+    "w_skola"
+  ],
+  "školy": [
+    "w_skola"
+  ],
+  "skoly": [
+    "w_skola"
+  ],
+  "školu": [
+    "w_skola"
+  ],
+  "skolu": [
+    "w_skola"
+  ],
+  "škole": [
+    "w_skola"
+  ],
+  "skole": [
+    "w_skola"
+  ],
+  "nádraží": [
+    "w_nadrazi"
+  ],
+  "nadrazi": [
+    "w_nadrazi"
+  ],
+  "kino": [
+    "w_kino"
+  ],
+  "kina": [
+    "w_kino"
+  ],
+  "kině": [
+    "w_kino"
+  ],
+  "kine": [
+    "w_kino"
+  ],
+  "náměstí": [
+    "w_namesti"
+  ],
+  "namesti": [
+    "w_namesti"
+  ],
+  "obchod": [
+    "w_obchod"
+  ],
+  "obchodu": [
+    "w_obchod"
+  ],
+  "obchodě": [
+    "w_obchod"
+  ],
+  "obchode": [
+    "w_obchod"
+  ],
+  "restaurace": [
+    "w_restaurace"
+  ],
+  "restauraci": [
+    "w_restaurace"
+  ],
+  "daleko": [
+    "w_daleko_blizko"
+  ],
+  "×": [
+    "w_daleko_blizko",
+    "w_nikdy_nekdy_vzdycky",
+    "w_hodne_malo"
+  ],
+  "blízko": [
+    "w_daleko_blizko"
+  ],
+  "blizko": [
+    "w_daleko_blizko"
+  ],
+  "daleko × blízko": [
+    "w_daleko_blizko"
+  ],
+  "daleko × blizko": [
+    "w_daleko_blizko"
+  ],
+  "pokoj": [
+    "w_pokoj"
+  ],
+  "pokoje": [
+    "w_pokoj"
+  ],
+  "pokoji": [
+    "w_pokoj"
+  ],
+  "byt": [
+    "w_byt"
+  ],
+  "bytu": [
+    "w_byt"
+  ],
+  "bytě": [
+    "w_byt"
+  ],
+  "byte": [
+    "w_byt"
+  ],
+  "dům": [
+    "w_dum"
+  ],
+  "dum": [
+    "w_dum"
+  ],
+  "domu": [
+    "w_dum"
+  ],
+  "domě": [
+    "w_dum"
+  ],
+  "dome": [
+    "w_dum"
+  ],
+  "kuchyň": [
+    "w_kuchyn"
+  ],
+  "kuchyn": [
+    "w_kuchyn"
+  ],
+  "kuchyně": [
+    "w_kuchyn"
+  ],
+  "kuchyne": [
+    "w_kuchyn"
+  ],
+  "kuchyni": [
+    "w_kuchyn"
+  ],
+  "koupelna": [
+    "w_koupelna"
+  ],
+  "koupelny": [
+    "w_koupelna"
+  ],
+  "koupelnu": [
+    "w_koupelna"
+  ],
+  "koupelně": [
+    "w_koupelna"
+  ],
+  "koupelne": [
+    "w_koupelna"
+  ],
+  "záchod": [
+    "w_zachod"
+  ],
+  "zachod": [
+    "w_zachod"
+  ],
+  "toaleta": [
+    "w_zachod"
+  ],
+  "záchodu": [
+    "w_zachod"
+  ],
+  "zachodu": [
+    "w_zachod"
+  ],
+  "záchodě": [
+    "w_zachod"
+  ],
+  "zachode": [
+    "w_zachod"
+  ],
+  "patro": [
+    "w_patro"
+  ],
+  "patra": [
+    "w_patro"
+  ],
+  "patře": [
+    "w_patro"
+  ],
+  "patre": [
+    "w_patro"
+  ],
+  "chleba": [
+    "w_chleba"
+  ],
+  "chléb": [
+    "w_chleba"
+  ],
+  "chleb": [
+    "w_chleba"
+  ],
+  "chlebu": [
+    "w_chleba"
+  ],
+  "pivo": [
+    "w_pivo"
+  ],
+  "piva": [
+    "w_pivo"
+  ],
+  "pivě": [
+    "w_pivo"
+  ],
+  "pive": [
+    "w_pivo"
+  ],
+  "voda": [
+    "w_voda"
+  ],
+  "vody": [
+    "w_voda"
+  ],
+  "vodu": [
+    "w_voda"
+  ],
+  "vodě": [
+    "w_voda"
+  ],
+  "vode": [
+    "w_voda"
+  ],
+  "káva": [
+    "w_kava"
+  ],
+  "kava": [
+    "w_kava"
+  ],
+  "kávy": [
+    "w_kava"
+  ],
+  "kavy": [
+    "w_kava"
+  ],
+  "kávu": [
+    "w_kava"
+  ],
+  "kavu": [
+    "w_kava"
+  ],
+  "kávě": [
+    "w_kava"
+  ],
+  "kave": [
+    "w_kava"
+  ],
+  "maso": [
+    "w_maso"
+  ],
+  "masa": [
+    "w_maso"
+  ],
+  "mase": [
+    "w_maso"
+  ],
+  "polévka": [
+    "w_polevka"
+  ],
+  "polevka": [
+    "w_polevka"
+  ],
+  "polévky": [
+    "w_polevka"
+  ],
+  "polevky": [
+    "w_polevka"
+  ],
+  "polévku": [
+    "w_polevka"
+  ],
+  "polevku": [
+    "w_polevka"
+  ],
+  "polévce": [
+    "w_polevka"
+  ],
+  "polevce": [
+    "w_polevka"
+  ],
+  "zelenina": [
+    "w_zelenina"
+  ],
+  "zeleniny": [
+    "w_zelenina"
+  ],
+  "zeleninu": [
+    "w_zelenina"
+  ],
+  "zelenině": [
+    "w_zelenina"
+  ],
+  "zelenine": [
+    "w_zelenina"
+  ],
+  "máslo": [
+    "w_maslo"
+  ],
+  "maslo": [
+    "w_maslo"
+  ],
+  "másla": [
+    "w_maslo"
+  ],
+  "masla": [
+    "w_maslo"
+  ],
+  "másle": [
+    "w_maslo"
+  ],
+  "masle": [
+    "w_maslo"
+  ],
+  "guláš": [
+    "w_gulas"
+  ],
+  "gulas": [
+    "w_gulas"
+  ],
+  "guláše": [
+    "w_gulas"
+  ],
+  "gulase": [
+    "w_gulas"
+  ],
+  "guláši": [
+    "w_gulas"
+  ],
+  "gulasi": [
+    "w_gulas"
+  ],
+  "horký": [
+    "w_horky"
+  ],
+  "horky": [
+    "w_horky",
+    "w_horky_2"
+  ],
+  "hořký": [
+    "w_horky_2"
+  ],
+  "bílý": [
+    "w_bily"
+  ],
+  "bily": [
+    "w_bily"
+  ],
+  "bílá": [
+    "w_bily"
+  ],
+  "bila": [
+    "w_bily"
+  ],
+  "bílé": [
+    "w_bily"
+  ],
+  "bile": [
+    "w_bily"
+  ],
+  "černý": [
+    "w_cerny"
+  ],
+  "cerny": [
+    "w_cerny"
+  ],
+  "černá": [
+    "w_cerny"
+  ],
+  "cerna": [
+    "w_cerny"
+  ],
+  "černé": [
+    "w_cerny"
+  ],
+  "cerne": [
+    "w_cerny"
+  ],
+  "červený": [
+    "w_cerveny"
+  ],
+  "cerveny": [
+    "w_cerveny"
+  ],
+  "červená": [
+    "w_cerveny"
+  ],
+  "cervena": [
+    "w_cerveny"
+  ],
+  "červené": [
+    "w_cerveny"
+  ],
+  "cervene": [
+    "w_cerveny"
+  ],
+  "zelený": [
+    "w_zeleny"
+  ],
+  "zeleny": [
+    "w_zeleny"
+  ],
+  "zelená": [
+    "w_zeleny"
+  ],
+  "zelena": [
+    "w_zeleny"
+  ],
+  "zelené": [
+    "w_zeleny"
+  ],
+  "zelene": [
+    "w_zeleny"
+  ],
+  "modrý": [
+    "w_modry"
+  ],
+  "modry": [
+    "w_modry"
+  ],
+  "modrá": [
+    "w_modry"
+  ],
+  "modra": [
+    "w_modry"
+  ],
+  "modré": [
+    "w_modry"
+  ],
+  "modre": [
+    "w_modry"
+  ],
+  "pondělí": [
+    "w_pondeli"
+  ],
+  "pondeli": [
+    "w_pondeli"
+  ],
+  "úterý": [
+    "w_utery"
+  ],
+  "utery": [
+    "w_utery"
+  ],
+  "sobota": [
+    "w_sobota"
+  ],
+  "soboty": [
+    "w_sobota"
+  ],
+  "sobotu": [
+    "w_sobota"
+  ],
+  "sobotě": [
+    "w_sobota"
+  ],
+  "sobote": [
+    "w_sobota"
+  ],
+  "neděle": [
+    "w_nedele"
+  ],
+  "nedele": [
+    "w_nedele"
+  ],
+  "neděli": [
+    "w_nedele"
+  ],
+  "nedeli": [
+    "w_nedele"
+  ],
+  "týden": [
+    "w_tyden"
+  ],
+  "tyden": [
+    "w_tyden"
+  ],
+  "týdne": [
+    "w_tyden"
+  ],
+  "tydne": [
+    "w_tyden"
+  ],
+  "týdnu": [
+    "w_tyden"
+  ],
+  "tydnu": [
+    "w_tyden"
+  ],
+  "narozeniny": [
+    "w_narozeniny"
+  ],
+  "narozenin": [
+    "w_narozeniny"
+  ],
+  "narozeninách": [
+    "w_narozeniny"
+  ],
+  "narozeninach": [
+    "w_narozeniny"
+  ],
+  "nikdy": [
+    "w_nikdy_nekdy_vzdycky"
+  ],
+  "někdy": [
+    "w_nikdy_nekdy_vzdycky"
+  ],
+  "nekdy": [
+    "w_nikdy_nekdy_vzdycky"
+  ],
+  "vždycky": [
+    "w_nikdy_nekdy_vzdycky"
+  ],
+  "vzdycky": [
+    "w_nikdy_nekdy_vzdycky"
+  ],
+  "nikdy × někdy × vždycky": [
+    "w_nikdy_nekdy_vzdycky"
+  ],
+  "nikdy × nekdy × vzdycky": [
+    "w_nikdy_nekdy_vzdycky"
+  ],
+  "hodně": [
+    "w_hodne_malo"
+  ],
+  "hodne": [
+    "w_hodne_malo"
+  ],
+  "málo": [
+    "w_hodne_malo"
+  ],
+  "malo": [
+    "w_hodne_malo"
+  ],
+  "hodně × málo": [
+    "w_hodne_malo"
+  ],
+  "hodne × malo": [
+    "w_hodne_malo"
+  ],
+  "dělat": [
+    "w_delat"
+  ],
+  "delat": [
+    "w_delat"
+  ],
+  "dělám": [
+    "w_delat"
+  ],
+  "delam": [
+    "w_delat"
+  ],
+  "děláš": [
+    "w_delat"
+  ],
+  "delas": [
+    "w_delat"
+  ],
+  "dělá": [
+    "w_delat"
+  ],
+  "dela": [
+    "w_delat"
+  ],
+  "děláme": [
+    "w_delat"
+  ],
+  "delame": [
+    "w_delat"
+  ],
+  "děláte": [
+    "w_delat"
+  ],
+  "delate": [
+    "w_delat"
+  ],
+  "dělají": [
+    "w_delat"
+  ],
+  "delaji": [
+    "w_delat"
+  ],
+  "nedělám": [
+    "w_delat"
+  ],
+  "nedelam": [
+    "w_delat"
+  ],
+  "čekat": [
+    "w_cekat"
+  ],
+  "cekat": [
+    "w_cekat"
+  ],
+  "čekám": [
+    "w_cekat"
+  ],
+  "cekam": [
+    "w_cekat"
+  ],
+  "čekáš": [
+    "w_cekat"
+  ],
+  "cekas": [
+    "w_cekat"
+  ],
+  "čeká": [
+    "w_cekat"
+  ],
+  "ceka": [
+    "w_cekat"
+  ],
+  "čekáme": [
+    "w_cekat"
+  ],
+  "cekame": [
+    "w_cekat"
+  ],
+  "čekáte": [
+    "w_cekat"
+  ],
+  "cekate": [
+    "w_cekat"
+  ],
+  "čekají": [
+    "w_cekat"
+  ],
+  "cekaji": [
+    "w_cekat"
+  ],
+  "počkám": [
+    "w_cekat"
+  ],
+  "pockam": [
+    "w_cekat"
+  ],
+  "počkáš": [
+    "w_cekat"
+  ],
+  "pockas": [
+    "w_cekat"
+  ],
+  "počká": [
+    "w_cekat"
+  ],
+  "pocka": [
+    "w_cekat"
+  ],
+  "počkáme": [
+    "w_cekat"
+  ],
+  "pockame": [
+    "w_cekat"
+  ],
+  "počkáte": [
+    "w_cekat"
+  ],
+  "pockate": [
+    "w_cekat"
+  ],
+  "počkají": [
+    "w_cekat"
+  ],
+  "pockaji": [
+    "w_cekat"
+  ],
+  "nečekám": [
+    "w_cekat"
+  ],
+  "necekam": [
+    "w_cekat"
+  ],
+  "mluvit": [
+    "w_mluvit"
+  ],
+  "mluvím": [
+    "w_mluvit"
+  ],
+  "mluvim": [
+    "w_mluvit"
+  ],
+  "mluvíš": [
+    "w_mluvit"
+  ],
+  "mluvis": [
+    "w_mluvit"
+  ],
+  "mluví": [
+    "w_mluvit"
+  ],
+  "mluvi": [
+    "w_mluvit"
+  ],
+  "mluvíme": [
+    "w_mluvit"
+  ],
+  "mluvime": [
+    "w_mluvit"
+  ],
+  "mluvíte": [
+    "w_mluvit"
+  ],
+  "mluvite": [
+    "w_mluvit"
+  ],
+  "nemluvím": [
+    "w_mluvit"
+  ],
+  "nemluvim": [
+    "w_mluvit"
+  ],
+  "bydlet": [
+    "w_bydlet"
+  ],
+  "bydlím": [
+    "w_bydlet"
+  ],
+  "bydlim": [
+    "w_bydlet"
+  ],
+  "bydlíš": [
+    "w_bydlet"
+  ],
+  "bydlis": [
+    "w_bydlet"
+  ],
+  "bydlí": [
+    "w_bydlet"
+  ],
+  "bydli": [
+    "w_bydlet"
+  ],
+  "bydlíme": [
+    "w_bydlet"
+  ],
+  "bydlime": [
+    "w_bydlet"
+  ],
+  "bydlíte": [
+    "w_bydlet"
+  ],
+  "bydlite": [
+    "w_bydlet"
+  ],
+  "nebydlím": [
+    "w_bydlet"
+  ],
+  "nebydlim": [
+    "w_bydlet"
+  ],
+  "studovat": [
+    "w_studovat"
+  ],
+  "studuju": [
+    "w_studovat"
+  ],
+  "studuješ": [
+    "w_studovat"
+  ],
+  "studujes": [
+    "w_studovat"
+  ],
+  "studuje": [
+    "w_studovat"
+  ],
+  "studujeme": [
+    "w_studovat"
+  ],
+  "studujete": [
+    "w_studovat"
+  ],
+  "studujou": [
+    "w_studovat"
+  ],
+  "nestuduju": [
+    "w_studovat"
+  ],
+  "pracovat": [
+    "w_pracovat"
+  ],
+  "pracuju": [
+    "w_pracovat"
+  ],
+  "pracuješ": [
+    "w_pracovat"
+  ],
+  "pracujes": [
+    "w_pracovat"
+  ],
+  "pracuje": [
+    "w_pracovat"
+  ],
+  "pracujeme": [
+    "w_pracovat"
+  ],
+  "pracujete": [
+    "w_pracovat"
+  ],
+  "pracujou": [
+    "w_pracovat"
+  ],
+  "nepracuju": [
+    "w_pracovat"
+  ],
+  "kupovat": [
+    "w_kupovat"
+  ],
+  "kupuju": [
+    "w_kupovat"
+  ],
+  "kupuješ": [
+    "w_kupovat"
+  ],
+  "kupujes": [
+    "w_kupovat"
+  ],
+  "kupuje": [
+    "w_kupovat"
+  ],
+  "kupujeme": [
+    "w_kupovat"
+  ],
+  "kupujete": [
+    "w_kupovat"
+  ],
+  "kupujou": [
+    "w_kupovat"
+  ],
+  "nekupuju": [
+    "w_kupovat"
+  ],
+  "psát": [
+    "w_psat"
+  ],
+  "psat": [
+    "w_psat"
+  ],
+  "píšu": [
+    "w_psat"
+  ],
+  "pisu": [
+    "w_psat"
+  ],
+  "píšeš": [
+    "w_psat"
+  ],
+  "pises": [
+    "w_psat"
+  ],
+  "píše": [
+    "w_psat"
+  ],
+  "pise": [
+    "w_psat"
+  ],
+  "píšeme": [
+    "w_psat"
+  ],
+  "piseme": [
+    "w_psat"
+  ],
+  "píšete": [
+    "w_psat"
+  ],
+  "pisete": [
+    "w_psat"
+  ],
+  "píšou": [
+    "w_psat"
+  ],
+  "pisou": [
+    "w_psat"
+  ],
+  "napíšu": [
+    "w_psat"
+  ],
+  "napisu": [
+    "w_psat"
+  ],
+  "napíšeš": [
+    "w_psat"
+  ],
+  "napises": [
+    "w_psat"
+  ],
+  "napíše": [
+    "w_psat"
+  ],
+  "napise": [
+    "w_psat"
+  ],
+  "napíšeme": [
+    "w_psat"
+  ],
+  "napiseme": [
+    "w_psat"
+  ],
+  "napíšete": [
+    "w_psat"
+  ],
+  "napisete": [
+    "w_psat"
+  ],
+  "napíšou": [
+    "w_psat"
+  ],
+  "napisou": [
+    "w_psat"
+  ],
+  "nepíšu": [
+    "w_psat"
+  ],
+  "nepisu": [
+    "w_psat"
+  ],
+  "číst": [
+    "w_cist"
+  ],
+  "cist": [
+    "w_cist"
+  ],
+  "čtu": [
+    "w_cist"
+  ],
+  "ctu": [
+    "w_cist"
+  ],
+  "čteš": [
+    "w_cist"
+  ],
+  "ctes": [
+    "w_cist"
+  ],
+  "čte": [
+    "w_cist"
+  ],
+  "cte": [
+    "w_cist"
+  ],
+  "čteme": [
+    "w_cist"
+  ],
+  "cteme": [
+    "w_cist"
+  ],
+  "čtete": [
+    "w_cist"
+  ],
+  "ctete": [
+    "w_cist"
+  ],
+  "čtou": [
+    "w_cist"
+  ],
+  "ctou": [
+    "w_cist"
+  ],
+  "nečtu": [
+    "w_cist"
+  ],
+  "nectu": [
+    "w_cist"
+  ],
+  "mýt": [
+    "w_myt"
+  ],
+  "myt": [
+    "w_myt"
+  ],
+  "myju": [
+    "w_myt"
+  ],
+  "myješ": [
+    "w_myt"
+  ],
+  "myjes": [
+    "w_myt"
+  ],
+  "myje": [
+    "w_myt"
+  ],
+  "myjeme": [
+    "w_myt"
+  ],
+  "myjete": [
+    "w_myt"
+  ],
+  "myjou": [
+    "w_myt"
+  ],
+  "nemyju": [
+    "w_myt"
+  ],
+  "jít": [
+    "w_jit"
+  ],
+  "jit": [
+    "w_jit"
+  ],
+  "jdu": [
+    "w_jit"
+  ],
+  "jdeš": [
+    "w_jit"
+  ],
+  "jdes": [
+    "w_jit"
+  ],
+  "jde": [
+    "w_jit"
+  ],
+  "jdeme": [
+    "w_jit"
+  ],
+  "jdete": [
+    "w_jit"
+  ],
+  "jdou": [
+    "w_jit"
+  ],
+  "nejdu": [
+    "w_jit"
+  ],
+  "chodit": [
+    "w_chodit"
+  ],
+  "chodím": [
+    "w_chodit"
+  ],
+  "chodim": [
+    "w_chodit"
+  ],
+  "chodíš": [
+    "w_chodit"
+  ],
+  "chodis": [
+    "w_chodit"
+  ],
+  "chodí": [
+    "w_chodit"
+  ],
+  "chodi": [
+    "w_chodit"
+  ],
+  "chodíme": [
+    "w_chodit"
+  ],
+  "chodime": [
+    "w_chodit"
+  ],
+  "chodíte": [
+    "w_chodit"
+  ],
+  "chodite": [
+    "w_chodit"
+  ],
+  "nechodím": [
+    "w_chodit"
+  ],
+  "nechodim": [
+    "w_chodit"
+  ],
+  "jet": [
+    "w_jet"
+  ],
+  "jedu": [
+    "w_jet"
+  ],
+  "jedeš": [
+    "w_jet"
+  ],
+  "jedes": [
+    "w_jet"
+  ],
+  "jede": [
+    "w_jet"
+  ],
+  "jedeme": [
+    "w_jet"
+  ],
+  "jedete": [
+    "w_jet"
+  ],
+  "jedou": [
+    "w_jet"
+  ],
+  "nejedu": [
+    "w_jet"
+  ],
+  "jezdit": [
+    "w_jezdit"
+  ],
+  "jezdím": [
+    "w_jezdit"
+  ],
+  "jezdim": [
+    "w_jezdit"
+  ],
+  "jezdíš": [
+    "w_jezdit"
+  ],
+  "jezdis": [
+    "w_jezdit"
+  ],
+  "jezdí": [
+    "w_jezdit"
+  ],
+  "jezdi": [
+    "w_jezdit"
+  ],
+  "jezdíme": [
+    "w_jezdit"
+  ],
+  "jezdime": [
+    "w_jezdit"
+  ],
+  "jezdíte": [
+    "w_jezdit"
+  ],
+  "jezdite": [
+    "w_jezdit"
+  ],
+  "nejezdím": [
+    "w_jezdit"
+  ],
+  "nejezdim": [
+    "w_jezdit"
+  ],
+  "muset": [
+    "w_muset"
+  ],
+  "musím": [
+    "w_muset"
+  ],
+  "musim": [
+    "w_muset"
+  ],
+  "musíš": [
+    "w_muset"
+  ],
+  "musis": [
+    "w_muset"
+  ],
+  "musí": [
+    "w_muset"
+  ],
+  "musi": [
+    "w_muset"
+  ],
+  "musíme": [
+    "w_muset"
+  ],
+  "musime": [
+    "w_muset"
+  ],
+  "musíte": [
+    "w_muset"
+  ],
+  "musite": [
+    "w_muset"
+  ],
+  "nemusím": [
+    "w_muset"
+  ],
+  "nemusim": [
+    "w_muset"
+  ],
+  "moct": [
+    "w_moct"
+  ],
+  "můžu": [
+    "w_moct"
+  ],
+  "muzu": [
+    "w_moct"
+  ],
+  "můžeš": [
+    "w_moct"
+  ],
+  "muzes": [
+    "w_moct"
+  ],
+  "může": [
+    "w_moct"
+  ],
+  "můžeme": [
+    "w_moct"
+  ],
+  "muzeme": [
+    "w_moct"
+  ],
+  "můžete": [
+    "w_moct"
+  ],
+  "muzete": [
+    "w_moct"
+  ],
+  "můžou": [
+    "w_moct"
+  ],
+  "muzou": [
+    "w_moct"
+  ],
+  "nemůžu": [
+    "w_moct"
+  ],
+  "nemuzu": [
+    "w_moct"
+  ],
+  "chtít": [
+    "w_chtit"
+  ],
+  "chtit": [
+    "w_chtit"
+  ],
+  "chci": [
+    "w_chtit"
+  ],
+  "chceš": [
+    "w_chtit"
+  ],
+  "chces": [
+    "w_chtit"
+  ],
+  "chce": [
+    "w_chtit"
+  ],
+  "chceme": [
+    "w_chtit"
+  ],
+  "chcete": [
+    "w_chtit"
+  ],
+  "chtějí": [
+    "w_chtit"
+  ],
+  "chteji": [
+    "w_chtit"
+  ],
+  "nechci": [
+    "w_chtit"
+  ],
+  "dívat": [
+    "w_divat_se"
+  ],
+  "divat": [
+    "w_divat_se"
+  ],
+  "dívat se": [
+    "w_divat_se"
+  ],
+  "divat se": [
+    "w_divat_se"
+  ],
+  "dívám": [
+    "w_divat_se"
+  ],
+  "divam": [
+    "w_divat_se"
+  ],
+  "dívám se": [
+    "w_divat_se"
+  ],
+  "divam se": [
+    "w_divat_se"
+  ],
+  "díváš": [
+    "w_divat_se"
+  ],
+  "divas": [
+    "w_divat_se"
+  ],
+  "díváš se": [
+    "w_divat_se"
+  ],
+  "divas se": [
+    "w_divat_se"
+  ],
+  "dívá": [
+    "w_divat_se"
+  ],
+  "diva": [
+    "w_divat_se"
+  ],
+  "dívá se": [
+    "w_divat_se"
+  ],
+  "diva se": [
+    "w_divat_se"
+  ],
+  "díváme": [
+    "w_divat_se"
+  ],
+  "divame": [
+    "w_divat_se"
+  ],
+  "díváme se": [
+    "w_divat_se"
+  ],
+  "divame se": [
+    "w_divat_se"
+  ],
+  "díváte": [
+    "w_divat_se"
+  ],
+  "divate": [
+    "w_divat_se"
+  ],
+  "díváte se": [
+    "w_divat_se"
+  ],
+  "divate se": [
+    "w_divat_se"
+  ],
+  "dívají": [
+    "w_divat_se"
+  ],
+  "divaji": [
+    "w_divat_se"
+  ],
+  "dívají se": [
+    "w_divat_se"
+  ],
+  "divaji se": [
+    "w_divat_se"
+  ],
+  "nedívám": [
+    "w_divat_se"
+  ],
+  "nedivam": [
+    "w_divat_se"
+  ],
+  "nedívám se": [
+    "w_divat_se"
+  ],
+  "nedivam se": [
+    "w_divat_se"
+  ],
+  "učit": [
+    "w_ucit_se"
+  ],
+  "ucit": [
+    "w_ucit_se"
+  ],
+  "učit se": [
+    "w_ucit_se"
+  ],
+  "ucit se": [
+    "w_ucit_se"
+  ],
+  "učím": [
+    "w_ucit_se"
+  ],
+  "ucim": [
+    "w_ucit_se"
+  ],
+  "učím se": [
+    "w_ucit_se"
+  ],
+  "ucim se": [
+    "w_ucit_se"
+  ],
+  "učíš": [
+    "w_ucit_se"
+  ],
+  "ucis": [
+    "w_ucit_se"
+  ],
+  "učíš se": [
+    "w_ucit_se"
+  ],
+  "ucis se": [
+    "w_ucit_se"
+  ],
+  "učí": [
+    "w_ucit_se"
+  ],
+  "uci": [
+    "w_ucit_se"
+  ],
+  "učí se": [
+    "w_ucit_se"
+  ],
+  "uci se": [
+    "w_ucit_se"
+  ],
+  "učíme": [
+    "w_ucit_se"
+  ],
+  "ucime": [
+    "w_ucit_se"
+  ],
+  "učíme se": [
+    "w_ucit_se"
+  ],
+  "ucime se": [
+    "w_ucit_se"
+  ],
+  "učíte": [
+    "w_ucit_se"
+  ],
+  "ucite": [
+    "w_ucit_se"
+  ],
+  "učíte se": [
+    "w_ucit_se"
+  ],
+  "ucite se": [
+    "w_ucit_se"
+  ],
+  "neučím": [
+    "w_ucit_se"
+  ],
+  "neucim": [
+    "w_ucit_se"
+  ],
+  "neučím se": [
+    "w_ucit_se"
+  ],
+  "neucim se": [
+    "w_ucit_se"
+  ],
+  "ptát": [
+    "w_ptat_se"
+  ],
+  "ptat": [
+    "w_ptat_se"
+  ],
+  "ptát se": [
+    "w_ptat_se"
+  ],
+  "ptat se": [
+    "w_ptat_se"
+  ],
+  "ptám": [
+    "w_ptat_se"
+  ],
+  "ptam": [
+    "w_ptat_se"
+  ],
+  "ptám se": [
+    "w_ptat_se"
+  ],
+  "ptam se": [
+    "w_ptat_se"
+  ],
+  "ptáš": [
+    "w_ptat_se"
+  ],
+  "ptas": [
+    "w_ptat_se"
+  ],
+  "ptáš se": [
+    "w_ptat_se"
+  ],
+  "ptas se": [
+    "w_ptat_se"
+  ],
+  "ptá": [
+    "w_ptat_se"
+  ],
+  "pta": [
+    "w_ptat_se"
+  ],
+  "ptá se": [
+    "w_ptat_se"
+  ],
+  "pta se": [
+    "w_ptat_se"
+  ],
+  "ptáme": [
+    "w_ptat_se"
+  ],
+  "ptame": [
+    "w_ptat_se"
+  ],
+  "ptáme se": [
+    "w_ptat_se"
+  ],
+  "ptame se": [
+    "w_ptat_se"
+  ],
+  "ptáte": [
+    "w_ptat_se"
+  ],
+  "ptate": [
+    "w_ptat_se"
+  ],
+  "ptáte se": [
+    "w_ptat_se"
+  ],
+  "ptate se": [
+    "w_ptat_se"
+  ],
+  "ptají": [
+    "w_ptat_se"
+  ],
+  "ptaji": [
+    "w_ptat_se"
+  ],
+  "ptají se": [
+    "w_ptat_se"
+  ],
+  "ptaji se": [
+    "w_ptat_se"
+  ],
+  "neptám": [
+    "w_ptat_se"
+  ],
+  "neptam": [
+    "w_ptat_se"
+  ],
+  "neptám se": [
+    "w_ptat_se"
+  ],
+  "neptam se": [
+    "w_ptat_se"
+  ]
+}

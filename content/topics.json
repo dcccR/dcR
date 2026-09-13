@@ -1,0 +1,48 @@
+[
+  {
+    "id": "greet",
+    "cz": "Pozdravy a fráze",
+    "zh": "招呼・基本片語"
+  },
+  {
+    "id": "signs",
+    "cz": "Nápisy a značky",
+    "zh": "標示與告示"
+  },
+  {
+    "id": "people",
+    "cz": "Lidé a národnosti",
+    "zh": "人與國籍"
+  },
+  {
+    "id": "city",
+    "cz": "Město a místa",
+    "zh": "城市與場所"
+  },
+  {
+    "id": "home",
+    "cz": "Bydlení",
+    "zh": "居住"
+  },
+  {
+    "id": "food",
+    "cz": "Jídlo a pití",
+    "zh": "飲食"
+  },
+  {
+    "id": "colors",
+    "cz": "Barvy",
+    "zh": "顏色"
+  },
+  {
+    "id": "time",
+    "cz": "Čas a dny",
+    "zh": "時間與星期"
+  },
+  {
+    "id": "verb",
+    "cz": "Slovesa",
+    "zh": "動詞",
+    "standalone": true
+  }
+]

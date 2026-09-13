@@ -1,0 +1,358 @@
+[
+  {
+    "id": "u_greet_01",
+    "topicId": "greet",
+    "index": 1,
+    "title": {
+      "cz": "Pozdravy a fráze 1",
+      "zh": "招呼・基本片語 ・ 第 1 節"
+    },
+    "subtitle": "見面到道別",
+    "wordIds": [
+      "w_ahoj",
+      "w_dobry_den",
+      "w_na_shledanou",
+      "w_dekuju",
+      "w_prosim",
+      "w_prominte",
+      "w_jak_se_mas"
+    ],
+    "checkpoints": [
+      4,
+      7
+    ]
+  },
+  {
+    "id": "u_signs_01",
+    "topicId": "signs",
+    "index": 1,
+    "title": {
+      "cz": "Nápisy a značky 1",
+      "zh": "標示與告示 ・ 第 1 節"
+    },
+    "subtitle": "vchod → MIMO PROVOZ",
+    "wordIds": [
+      "w_vchod",
+      "w_vychod",
+      "w_pokladna",
+      "w_satna",
+      "w_otevreno",
+      "w_zavreno",
+      "w_mimo_provoz"
+    ],
+    "checkpoints": [
+      4,
+      7
+    ]
+  },
+  {
+    "id": "u_people_01",
+    "topicId": "people",
+    "index": 1,
+    "title": {
+      "cz": "Lidé a národnosti 1",
+      "zh": "人與國籍 ・ 第 1 節"
+    },
+    "subtitle": "student → španělština",
+    "wordIds": [
+      "w_student",
+      "w_ucitel",
+      "w_kamarad",
+      "w_cech",
+      "w_muz",
+      "w_zena",
+      "w_kluk",
+      "w_holka",
+      "w_cestina",
+      "w_anglictina",
+      "w_nemcina",
+      "w_spanelstina"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      12
+    ]
+  },
+  {
+    "id": "u_city_01",
+    "topicId": "city",
+    "index": 1,
+    "title": {
+      "cz": "Město a místa 1",
+      "zh": "城市與場所 ・ 第 1 節"
+    },
+    "subtitle": "město → daleko × blízko",
+    "wordIds": [
+      "w_mesto",
+      "w_skola",
+      "w_nadrazi",
+      "w_kino",
+      "w_namesti",
+      "w_obchod",
+      "w_restaurace",
+      "w_daleko_blizko"
+    ],
+    "checkpoints": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": "u_home_01",
+    "topicId": "home",
+    "index": 1,
+    "title": {
+      "cz": "Bydlení 1",
+      "zh": "居住 ・ 第 1 節"
+    },
+    "subtitle": "pokoj → patro",
+    "wordIds": [
+      "w_pokoj",
+      "w_byt",
+      "w_dum",
+      "w_kuchyn",
+      "w_koupelna",
+      "w_zachod",
+      "w_patro"
+    ],
+    "checkpoints": [
+      4,
+      7
+    ]
+  },
+  {
+    "id": "u_food_01",
+    "topicId": "food",
+    "index": 1,
+    "title": {
+      "cz": "Jídlo a pití 1",
+      "zh": "飲食 ・ 第 1 節"
+    },
+    "subtitle": "obchod → zelenina",
+    "wordIds": [
+      "w_obchod",
+      "w_restaurace",
+      "w_chleba",
+      "w_pivo",
+      "w_voda",
+      "w_kava",
+      "w_maso",
+      "w_polevka",
+      "w_zelenina"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "u_food_02",
+    "topicId": "food",
+    "index": 2,
+    "title": {
+      "cz": "Jídlo a pití 2",
+      "zh": "飲食 ・ 第 2 節"
+    },
+    "subtitle": "máslo → hořký",
+    "wordIds": [
+      "w_maslo",
+      "w_gulas",
+      "w_horky",
+      "w_horky_2"
+    ],
+    "checkpoints": [
+      4
+    ]
+  },
+  {
+    "id": "u_colors_01",
+    "topicId": "colors",
+    "index": 1,
+    "title": {
+      "cz": "Barvy 1",
+      "zh": "顏色 ・ 第 1 節"
+    },
+    "subtitle": "bílý → modrý",
+    "wordIds": [
+      "w_bily",
+      "w_cerny",
+      "w_cerveny",
+      "w_zeleny",
+      "w_modry"
+    ],
+    "checkpoints": [
+      4,
+      5
+    ]
+  },
+  {
+    "id": "u_time_01",
+    "topicId": "time",
+    "index": 1,
+    "title": {
+      "cz": "Čas a dny 1",
+      "zh": "時間與星期 ・ 第 1 節"
+    },
+    "subtitle": "pondělí → hodně × málo",
+    "wordIds": [
+      "w_pondeli",
+      "w_utery",
+      "w_sobota",
+      "w_nedele",
+      "w_tyden",
+      "w_narozeniny",
+      "w_nikdy_nekdy_vzdycky",
+      "w_hodne_malo"
+    ],
+    "checkpoints": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": "u_verb_class1_01",
+    "topicId": "verb",
+    "index": 1,
+    "title": {
+      "cz": "1. třída 1",
+      "zh": "第 1 類 -AT → -ÁM ・ 第 1 節"
+    },
+    "subtitle": "dělat → dívat se",
+    "wordIds": [
+      "w_delat",
+      "w_cekat",
+      "w_divat_se"
+    ],
+    "checkpoints": [
+      3
+    ],
+    "verbGroup": "class1"
+  },
+  {
+    "id": "u_verb_class2_01",
+    "topicId": "verb",
+    "index": 1,
+    "title": {
+      "cz": "2. třída 1",
+      "zh": "第 2 類 -IT/-ET/-ĚT → -ÍM ・ 第 1 節"
+    },
+    "subtitle": "mluvit → jezdit",
+    "wordIds": [
+      "w_mluvit",
+      "w_bydlet",
+      "w_chodit",
+      "w_muset",
+      "w_ucit_se",
+      "w_jezdit"
+    ],
+    "checkpoints": [
+      4,
+      6
+    ],
+    "verbGroup": "class2"
+  },
+  {
+    "id": "u_verb_class3_01",
+    "topicId": "verb",
+    "index": 1,
+    "title": {
+      "cz": "3. třída 1",
+      "zh": "第 3 類 -OVAT → -UJU ・ 第 1 節"
+    },
+    "subtitle": "studovat → kupovat",
+    "wordIds": [
+      "w_studovat",
+      "w_pracovat",
+      "w_kupovat"
+    ],
+    "checkpoints": [
+      3
+    ],
+    "verbGroup": "class3"
+  },
+  {
+    "id": "u_verb_class4_01",
+    "topicId": "verb",
+    "index": 1,
+    "title": {
+      "cz": "4. třída 1",
+      "zh": "第 4 類 不規則 ・ 第 1 節"
+    },
+    "subtitle": "jít → ptát se",
+    "wordIds": [
+      "w_jit",
+      "w_psat",
+      "w_cist",
+      "w_moct",
+      "w_chtit",
+      "w_myt",
+      "w_jet",
+      "w_ptat_se"
+    ],
+    "checkpoints": [
+      4,
+      8
+    ],
+    "verbGroup": "class4"
+  },
+  {
+    "id": "u_verb_modal_01",
+    "topicId": "verb",
+    "index": 1,
+    "title": {
+      "cz": "Modální slovesa 1",
+      "zh": "情態動詞 ・ 第 1 節"
+    },
+    "subtitle": "muset → chtít",
+    "wordIds": [
+      "w_muset",
+      "w_moct",
+      "w_chtit"
+    ],
+    "checkpoints": [
+      3
+    ],
+    "verbGroup": "modal"
+  },
+  {
+    "id": "u_verb_motion_01",
+    "topicId": "verb",
+    "index": 1,
+    "title": {
+      "cz": "Slovesa pohybu 1",
+      "zh": "移動動詞對 ・ 第 1 節"
+    },
+    "subtitle": "jít → jezdit",
+    "wordIds": [
+      "w_jit",
+      "w_chodit",
+      "w_jet",
+      "w_jezdit"
+    ],
+    "checkpoints": [
+      4
+    ],
+    "verbGroup": "motion"
+  },
+  {
+    "id": "u_verb_reflexive_01",
+    "topicId": "verb",
+    "index": 1,
+    "title": {
+      "cz": "Zvratná slovesa 1",
+      "zh": "反身動詞 ・ 第 1 節"
+    },
+    "subtitle": "dívat se → ptát se",
+    "wordIds": [
+      "w_divat_se",
+      "w_ucit_se",
+      "w_ptat_se"
+    ],
+    "checkpoints": [
+      3
+    ],
+    "verbGroup": "reflexive"
+  }
+]

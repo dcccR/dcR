@@ -1,0 +1,157 @@
+[
+  {
+    "id": "g1",
+    "number": 1,
+    "titleCz": "Výslovnost a pravopis",
+    "titleZh": "發音與拼寫",
+    "source": "L1p1",
+    "categories": [
+      "pronunciation"
+    ],
+    "bodyHtml": "<p>捷克語一字一音，重音永遠在<b>第一個音節</b>。長音符號 <span class=\"cz-i\">á é í ó ú ů ý</span> 只表示長度，不改變重音位置。</p><div class=\"tscroll\"><table><tr><th>字母</th><th>近似</th><th>例</th></tr><tr><td>c</td><td>ts</td><td><span class=\"cz-i\">cukr</span></td></tr><tr><td>č</td><td>ch</td><td><span class=\"cz-i\">čeština</span></td></tr><tr><td>ř</td><td>—</td><td><span class=\"cz-i\">řeka</span></td></tr></table></div>",
+    "relatedWordIds": [
+      "w_cestina"
+    ]
+  },
+  {
+    "id": "g2",
+    "number": 2,
+    "titleCz": "Sloveso být",
+    "titleZh": "動詞 být（是）",
+    "source": "L1p1",
+    "categories": [
+      "person-tense"
+    ],
+    "bodyHtml": "<div class=\"tscroll\"><table><tr><th></th><th>肯定</th><th>否定</th></tr><tr><td>já</td><td><span class=\"cz-i\">jsem</span></td><td><span class=\"cz-i\">nejsem</span></td></tr><tr><td>ty</td><td><span class=\"cz-i\">jsi</span></td><td><span class=\"cz-i\">nejsi</span></td></tr><tr><td>on/ona/ono</td><td><span class=\"cz-i\">je</span></td><td><span class=\"cz-i\">není</span></td></tr><tr><td>my</td><td><span class=\"cz-i\">jsme</span></td><td><span class=\"cz-i\">nejsme</span></td></tr><tr><td>vy</td><td><span class=\"cz-i\">jste</span></td><td><span class=\"cz-i\">nejste</span></td></tr><tr><td>oni</td><td><span class=\"cz-i\">jsou</span></td><td><span class=\"cz-i\">nejsou</span></td></tr></table></div>",
+    "relatedWordIds": []
+  },
+  {
+    "id": "g4",
+    "number": 4,
+    "titleCz": "Rod podstatných jmen",
+    "titleZh": "名詞的性",
+    "source": "L1p2",
+    "categories": [
+      "case-1"
+    ],
+    "bodyHtml": "<p>捷克語名詞分四類：陽性有生命、陽性無生命、陰性、中性。判斷主要看第 1 格字尾。</p><div class=\"tscroll\"><table><tr><th>性</th><th>典型字尾</th><th>例</th></tr><tr><td>M 有生命</td><td>子音</td><td><span class=\"cz-i\">student, muž</span></td></tr><tr><td>M 無生命</td><td>子音</td><td><span class=\"cz-i\">pokoj, byt</span></td></tr><tr><td>F</td><td>-a, -e, 子音</td><td><span class=\"cz-i\">žena, restaurace, kuchyň</span></td></tr><tr><td>N</td><td>-o, -e, -í</td><td><span class=\"cz-i\">město, nádraží</span></td></tr></table></div>",
+    "relatedWordIds": [
+      "w_student",
+      "w_muz",
+      "w_pokoj",
+      "w_byt",
+      "w_zena",
+      "w_restaurace",
+      "w_kuchyn",
+      "w_mesto",
+      "w_nadrazi"
+    ]
+  },
+  {
+    "id": "g12",
+    "number": 12,
+    "titleCz": "Slovesné třídy 1 a 2",
+    "titleZh": "動詞第 1、2 變化類",
+    "source": "L2p1",
+    "categories": [
+      "person-tense"
+    ],
+    "bodyHtml": "<div class=\"tscroll\"><table><tr><th></th><th>-AT → -ÁM</th><th>-IT/-ET/-ĚT → -ÍM</th></tr><tr><td>já</td><td><span class=\"cz-i\">dělám</span></td><td><span class=\"cz-i\">mluvím</span></td></tr><tr><td>ty</td><td><span class=\"cz-i\">děláš</span></td><td><span class=\"cz-i\">mluvíš</span></td></tr><tr><td>oni</td><td><span class=\"cz-i\">dělají</span></td><td><span class=\"cz-i\">mluví</span></td></tr></table></div>",
+    "relatedWordIds": []
+  },
+  {
+    "id": "g15",
+    "number": 15,
+    "titleCz": "Akuzativ singuláru",
+    "titleZh": "第 4 格（單數）",
+    "source": "L3p1",
+    "categories": [
+      "case-4"
+    ],
+    "bodyHtml": "<p>陽性無生命與中性第 4 格＝第 1 格；陰性 -a → -u；陽性有生命加 -a。</p><div class=\"tscroll\"><table><tr><th>性</th><th>1. pád</th><th>4. pád</th></tr><tr><td>M 有生命</td><td><span class=\"cz-i\">student</span></td><td><span class=\"cz-i\">studenta</span></td></tr><tr><td>M 無生命</td><td><span class=\"cz-i\">pokoj</span></td><td><span class=\"cz-i\">pokoj</span></td></tr><tr><td>F</td><td><span class=\"cz-i\">káva</span></td><td><span class=\"cz-i\">kávu</span></td></tr><tr><td>N</td><td><span class=\"cz-i\">pivo</span></td><td><span class=\"cz-i\">pivo</span></td></tr></table></div>",
+    "relatedWordIds": [
+      "w_student",
+      "w_pokoj",
+      "w_kava",
+      "w_pivo"
+    ]
+  },
+  {
+    "id": "g24",
+    "number": 24,
+    "titleCz": "Slovesa na -OVAT",
+    "titleZh": "第 3 變化類 -OVAT → -UJU",
+    "source": "L3p1",
+    "categories": [
+      "person-tense"
+    ],
+    "bodyHtml": "<div class=\"tscroll\"><table><tr><th></th><th>studovat</th><th>pracovat</th></tr><tr><td>já</td><td><span class=\"cz-i\">studuju</span></td><td><span class=\"cz-i\">pracuju</span></td></tr><tr><td>oni</td><td><span class=\"cz-i\">studujou</span></td><td><span class=\"cz-i\">pracujou</span></td></tr></table></div>",
+    "relatedWordIds": [
+      "w_studovat",
+      "w_pracovat"
+    ]
+  },
+  {
+    "id": "g36",
+    "number": 36,
+    "titleCz": "Jít × chodit, jet × jezdit",
+    "titleZh": "移動動詞對",
+    "source": "L6",
+    "categories": [
+      "verb-type",
+      "motion-verbs"
+    ],
+    "bodyHtml": "<p>一次性的移動用 <span class=\"cz-i\">jít / jet</span>；重複、習慣性的移動用 <span class=\"cz-i\">chodit / jezdit</span>。</p><p><span class=\"cz-i\">Teď jdu do školy.</span> 我現在要去學校。／<span class=\"cz-i\">Každý den chodím do školy.</span> 我每天去學校。</p>",
+    "relatedWordIds": [
+      "w_jit",
+      "w_jet",
+      "w_chodit",
+      "w_jezdit"
+    ]
+  },
+  {
+    "id": "g39",
+    "number": 39,
+    "titleCz": "Lokál singuláru",
+    "titleZh": "第 6 格（位格，單數）",
+    "source": "L6",
+    "categories": [
+      "case-6",
+      "preposition"
+    ],
+    "bodyHtml": "<p>第 6 格只跟介系詞出現：<span class=\"cz-i\">v, na, o, po, při</span>。</p><div class=\"tscroll\"><table><tr><th>1. pád</th><th>6. pád</th></tr><tr><td><span class=\"cz-i\">Praha</span></td><td><span class=\"cz-i\">v Praze</span></td></tr><tr><td><span class=\"cz-i\">město</span></td><td><span class=\"cz-i\">ve městě</span></td></tr><tr><td><span class=\"cz-i\">pokoj</span></td><td><span class=\"cz-i\">v pokoji</span></td></tr></table></div>",
+    "relatedWordIds": [
+      "w_mesto",
+      "w_pokoj"
+    ]
+  },
+  {
+    "id": "g43",
+    "number": 43,
+    "titleCz": "Modální slovesa",
+    "titleZh": "情態動詞",
+    "source": "L4p1",
+    "categories": [
+      "person-tense",
+      "verb-type"
+    ],
+    "bodyHtml": "<p>情態動詞後面接<b>不定式</b>：<span class=\"cz-i\">Musím pracovat. Můžu jít domů? Chci kávu.</span></p>",
+    "relatedWordIds": [
+      "w_pracovat",
+      "w_jit"
+    ]
+  },
+  {
+    "id": "g50",
+    "number": 50,
+    "titleCz": "Zvratná slovesa",
+    "titleZh": "反身動詞 se / si",
+    "source": "L5",
+    "categories": [
+      "person-tense",
+      "syntax"
+    ],
+    "bodyHtml": "<p><span class=\"cz-i\">se / si</span> 固定站在句子的<b>第二位</b>，不跟著動詞跑。</p><p><span class=\"cz-i\">Dívám se na film.</span>／<span class=\"cz-i\">Na film se dívám každý večer.</span></p>",
+    "relatedWordIds": []
+  }
+]

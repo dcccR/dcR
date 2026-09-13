@@ -1,0 +1,45 @@
+{
+  "_comment": "人工／AI 撰寫的例句（§4.5、§12.3）。鍵為 wordId 或 headword。App 預設只顯示 reviewed: true。",
+  "w_pokoj": [
+    { "cz": "To je hezký pokoj.", "zh": "這是個好看的房間。", "en": "This is a nice room.", "targetForm": "pokoj", "case": 1, "origin": "generated", "reviewed": true },
+    { "cz": "Jdu do pokoje.", "zh": "我走進房間。", "en": "I am going into the room.", "targetForm": "pokoje", "case": 2, "origin": "generated", "reviewed": true },
+    { "cz": "Mám hezký pokoj.", "zh": "我有個好看的房間。", "en": "I have a nice room.", "targetForm": "pokoj", "case": 4, "origin": "generated", "reviewed": true },
+    { "cz": "Jsem v pokoji.", "zh": "我在房間裡。", "en": "I am in the room.", "targetForm": "pokoji", "case": 6, "origin": "generated", "reviewed": true }
+  ],
+  "w_kava": [
+    { "cz": "To je dobrá káva.", "zh": "這是好咖啡。", "en": "This is good coffee.", "targetForm": "káva", "case": 1, "origin": "generated", "reviewed": true },
+    { "cz": "Čaj je bez kávy.", "zh": "茶裡沒有咖啡。", "en": "The tea is without coffee.", "targetForm": "kávy", "case": 2, "origin": "generated", "reviewed": true },
+    { "cz": "Chci kávu.", "zh": "我要咖啡。", "en": "I want a coffee.", "targetForm": "kávu", "case": 4, "origin": "generated", "reviewed": true },
+    { "cz": "Mluvíme o kávě.", "zh": "我們在談咖啡。", "en": "We are talking about coffee.", "targetForm": "kávě", "case": 6, "origin": "generated", "reviewed": true }
+  ],
+  "w_mesto": [
+    { "cz": "To je velké město.", "zh": "這是個大城市。", "en": "This is a big city.", "targetForm": "město", "case": 1, "origin": "generated", "reviewed": true },
+    { "cz": "Jdu do města.", "zh": "我去市區。", "en": "I am going to town.", "targetForm": "města", "case": 2, "origin": "generated", "reviewed": true },
+    { "cz": "Vidím město.", "zh": "我看見城市。", "en": "I see the city.", "targetForm": "město", "case": 4, "origin": "generated", "reviewed": true },
+    { "cz": "Bydlím ve městě.", "zh": "我住在城裡。", "en": "I live in the city.", "targetForm": "městě", "case": 6, "origin": "generated", "reviewed": true }
+  ],
+  "w_zena": [
+    { "cz": "To je mladá žena.", "zh": "那是個年輕女子。", "en": "That is a young woman.", "targetForm": "žena", "case": 1, "origin": "generated", "reviewed": true },
+    { "cz": "Vidím ženu.", "zh": "我看見那位女士。", "en": "I see the woman.", "targetForm": "ženu", "case": 4, "origin": "generated", "reviewed": true },
+    { "cz": "Mluvíme o ženě.", "zh": "我們在談那位女士。", "en": "We are talking about the woman.", "targetForm": "ženě", "case": 6, "origin": "generated", "reviewed": true }
+  ],
+  "w_pivo": [
+    { "cz": "To je dobré pivo.", "zh": "這是好啤酒。", "en": "This is good beer.", "targetForm": "pivo", "case": 1, "origin": "generated", "reviewed": true },
+    { "cz": "Káva je bez piva.", "zh": "咖啡裡沒有啤酒。", "en": "The coffee is without beer.", "targetForm": "piva", "case": 2, "origin": "generated", "reviewed": false },
+    { "cz": "Chci pivo.", "zh": "我想要啤酒。", "en": "I want a beer.", "targetForm": "pivo", "case": 4, "origin": "generated", "reviewed": true }
+  ],
+  "w_skola": [
+    { "cz": "To je nová škola.", "zh": "這是新學校。", "en": "This is a new school.", "targetForm": "škola", "case": 1, "origin": "generated", "reviewed": true },
+    { "cz": "Jdu do školy.", "zh": "我去學校。", "en": "I am going to school.", "targetForm": "školy", "case": 2, "origin": "generated", "reviewed": true },
+    { "cz": "Jsem ve škole.", "zh": "我在學校。", "en": "I am at school.", "targetForm": "škole", "case": 6, "origin": "generated", "reviewed": true }
+  ],
+  "w_student": [
+    { "cz": "To je student.", "zh": "這是個學生。", "en": "This is a student.", "targetForm": "student", "case": 1, "origin": "generated", "reviewed": true },
+    { "cz": "Znáte studenta?", "zh": "您認識那個學生嗎？", "en": "Do you know the student?", "targetForm": "studenta", "case": 4, "origin": "generated", "reviewed": true }
+  ],
+  "w_bily": [
+    { "cz": "To je bílý dům.", "zh": "那是白色的房子。", "en": "That is a white house.", "targetForm": "bílý", "origin": "generated", "reviewed": true },
+    { "cz": "To je bílá káva.", "zh": "那是白咖啡（加奶的咖啡）。", "en": "That is a white coffee.", "targetForm": "bílá", "origin": "generated", "reviewed": true },
+    { "cz": "To je bílé máslo.", "zh": "那是白色的奶油。", "en": "That is white butter.", "targetForm": "bílé", "origin": "generated", "reviewed": false }
+  ]
+}

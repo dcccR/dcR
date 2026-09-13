@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #edeae1;
+  --paper-2: #f6f4ef;
+  --ink: #191a1c;
+  --ink-soft: #5c5e63;
+  --rule: #cfcabc;
+  --red: #c4162a;
+  --blue: #1f4e8c;
+  --marker: #f2d14b;
+  --green: #2c6e52;
+  color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --paper: #16171a;
+  --paper-2: #1f2125;
+  --ink: #eceae4;
+  --ink-soft: #a3a5ab;
+  --rule: #3a3d43;
+  --red: #e2596a;
+  --blue: #7aa5dd;
+  --marker: #b99a2e;
+  --green: #5fa384;
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--paper);
+  /* 格線紙質感 */
+  background-image:
+    linear-gradient(var(--rule) 1px, transparent 1px),
+    linear-gradient(90deg, var(--rule) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: -1px -1px;
+  color: var(--ink);
+  font-family: Archivo, "Noto Sans TC", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+@layer components {
+  .sheet {
+    background: var(--paper-2);
+    border: 1px solid var(--rule);
+  }
+  .tag-mono {
+    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+  .hit {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  .mark {
+    background: var(--marker);
+    box-shadow: 0 0 0 2px var(--marker);
+    border-radius: 2px;
+  }
+  /* 文法表格橫向可捲動，行動裝置不溢出（沿用原檔 .tscroll） */
+  .tscroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .tscroll table {
+    border-collapse: collapse;
+    min-width: 100%;
+  }
+  .tscroll th,
+  .tscroll td {
+    border: 1px solid var(--rule);
+    padding: 6px 10px;
+    text-align: left;
+    white-space: nowrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

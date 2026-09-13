@@ -1,0 +1,5 @@
+{
+  "_comment": "人工判定的 headword 分類（§2.3）。鍵為原始 headword，type 可填 gender-pair / aspect-pair / variant / adjective / split / contrast。scripts/ingest.ts 只讀不寫。",
+  "pondělí / úterý": { "type": "split", "note": "兩個不同的星期名，拆成獨立條目" },
+  "záchod / toaleta": { "type": "variant", "note": "同義，toaleta 較正式" }
+}
