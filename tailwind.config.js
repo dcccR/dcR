@@ -15,9 +15,9 @@ export default {
         green: "var(--green)",
       },
       fontFamily: {
-        sans: ["Archivo", "Noto Sans TC", "system-ui", "sans-serif"],
-        narrow: ["Archivo Narrow", "Archivo", "Noto Sans TC", "sans-serif"],
-        mono: ["IBM Plex Mono", "ui-monospace", "monospace"],
+        sans: ["Archivo", "Iansui", "system-ui", "sans-serif"],
+        narrow: ["Archivo Narrow", "Archivo", "Iansui", "sans-serif"],
+        mono: ["IBM Plex Mono", "Iansui", "ui-monospace", "monospace"],
       },
       maxWidth: { app: "1080px" },
     },

@@ -54,6 +54,8 @@ content/authored/        # 人工／AI 撰寫，腳本只讀不寫
 - **§4.6–4.7 測驗**：檢查點只考剛學的 4 個字；總測驗抽 6 題並優先抽答錯過的字；**選項一律原形**；誘答依 confusables → 同小節同性別 → 同主題 → 拼寫相近（Levenshtein ≤2）→ 同來源；例句不足的字改考純詞義，不跳過；「不確定，直接看答案」不算答錯但進需加強；連續答對 2 次才移出需加強。
 - **§3 持久化**：IndexedDB 主、localStorage 鏡射 settings，可匯出／匯入 JSON。
 
+中文字型用 **芫荽體 Iansui**（Google Fonts），拉丁／捷克文維持 Archivo・Archivo Narrow，標籤與格位維持 IBM Plex Mono。Iansui 只有 400 一個字重，中文粗體是瀏覽器合成的假粗體。
+
 語音目前是 Web Speech API 備援（§5.1 的 fallback）；M2 會換成建置期產生的本地 mp3 + manifest，`src/lib/audio.ts` 已預留切換點。
 
 ## 還沒做

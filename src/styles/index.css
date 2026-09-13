@@ -44,7 +44,7 @@ body {
   background-size: 28px 28px;
   background-position: -1px -1px;
   color: var(--ink);
-  font-family: Archivo, "Noto Sans TC", system-ui, sans-serif;
+  font-family: Archivo, Iansui, system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -54,7 +54,7 @@ body {
     border: 1px solid var(--rule);
   }
   .tag-mono {
-    font-family: "IBM Plex Mono", ui-monospace, monospace;
+    font-family: "IBM Plex Mono", Iansui, ui-monospace, monospace;
     font-size: 11px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
