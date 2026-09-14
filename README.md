@@ -1,6 +1,7 @@
 # ČEŠTINA APP
 
-捷克語整合複習 App。依 `docs/design-spec.md` 實作，目前完成 **M0 資料管線** 與 **M1 單字模組（無語音）**。
+捷克語整合複習 App。規格見 [`docs/design-spec.md`](docs/design-spec.md)，
+程式架構見 [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md)（含流程圖）。依規格實作，目前完成 **M0 資料管線** 與 **M1 單字模組（無語音）**。
 
 不計分、不計時、不排行。回饋只有「對／錯 + 解釋」與「這個單元學完了沒」。
 

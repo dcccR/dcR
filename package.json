@@ -11,7 +11,8 @@
     "validate": "tsx scripts/validate.ts",
     "test": "vitest run",
     "typecheck": "tsc -b --noEmit false --force",
-    "e2e": "node e2e/smoke.mjs"
+    "e2e": "node e2e/smoke.mjs",
+    "diagrams": "node scripts/render-diagrams.mjs"
   },
   "dependencies": {
     "idb": "^8.0.0",
@@ -26,6 +27,7 @@
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.2",
     "autoprefixer": "^10.4.20",
+    "mermaid": "^10.9.1",
     "node-html-parser": "^6.1.13",
     "playwright": "^1.49.1",
     "postcss": "^8.4.47",
