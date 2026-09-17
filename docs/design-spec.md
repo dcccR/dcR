@@ -737,7 +737,59 @@ L1 part 2
 
 ---
 
-## 14. 已確認的決策紀錄
+## 14. 每日一句（iOS 桌面小工具，延伸功能）
+
+不屬於主 App 的四大模組，是獨立的輕量延伸：用 iOS 的 **Scriptable** 讀取主 App 產生的靜態 JSON，在桌面顯示每日一句捷克文＋中文，點擊可 deep link 回主 App 的對應單字卡。不需要原生開發、不需要上架、不需要開發者帳號。
+
+### 15.1 資料產出：`scripts/gen-daily.ts`
+
+從 `content/words.json` 裡所有 `origin: "textbook"` 且 `reviewed: true` 的例句中篩選，產生固定順序的每日清單，寫入 `content/daily.json`（與其他 `content/*.json` 一起隨主 App 部署，不需要額外的空間或服務）。
+
+**篩選條件**（挑「適合單獨呈現、不需要上下文就看得懂」的句子）：
+
+- 長度 3–8 個捷克文字（太短像 `To je pravda.` 沒有學習價值，太長超出小工具版面）
+- 不是挖空模板生成的句子（排除 `origin: "generated"`），只用 `textbook` 或已審過的自然例句
+- 不含代名詞開頭且缺乏上下文會看不懂的句子（例如 `Znám ho.` 不知道 ho 是誰）——用簡單規則過濾：句首若為 `On/Ona/Ono/Oni/To/Ten/Ta` 且句中無具體名詞則排除
+- 優先挑常用招呼語、日常短句、情境對話中的單句（`greet`、`travel`、`shop`、`restaurant` 主題優先）
+- 每句記錄來源 `wordId`，供點擊 deep link 使用
+
+**排序**：不隨機，**依固定索引排序**（可先按主題與課次順序排，讓幾個月下來慢慢從 L1 走到 L7），存成陣列，選句時用「天數 % 陣列長度」對應到固定的一句。
+
+```ts
+interface DailyItem {
+  index: number;      // 陣列位置，同時也決定哪一天出現
+  cz: string;
+  zh: string;
+  wordId: string;      // 供 deep link
+}
+```
+
+**去重與循環**：陣列跑完一輪後從頭開始（例如 200 句可以撐 200 天，之後重複）。若之後想避免重複，可在 `gen-daily.ts` 加入「排除近 30 天出現過的」邏輯，但初版不需要，句子夠多的話重複週期已經很長。
+
+**驗證**：`scripts/validate.ts` 加一項檢查——`daily.json` 裡的每個 `wordId` 都必須在 `words.json` 裡存在（deep link 才不會連到不存在的卡片）。
+
+### 15.2 靜態空間
+
+`daily.json` **跟著主 App 一起部署，不需要另外找地方放**。主 App 本來就是純靜態內容（§11：無後端，靜態 JSON + 音檔），部署到哪裡（GitHub Pages、Cloudflare Pages、Vercel 等）`daily.json` 就自動在那個網域下的 `/content/daily.json`。
+
+Scriptable 抓取沒有跨網域（CORS）限制，直接用完整網址 `https://你的網域/content/daily.json` 即可。
+
+**deep link**：`APP_BASE_URL` 設成主 App 的單字卡路由，例如 `https://你的網域/word/`，接上 `wordId` 就能從桌面小工具直接跳進 App 對應那張卡。這代表**單字卡的路由需要支援直接用 wordId 開啟**（不必先經過主題→小節），實作時 React Router 開一條 `/word/:id` 的路徑，內部自動查出該字所屬的 unit 並載入卡片即可。
+
+### 15.3 Scriptable 腳本
+
+腳本本身（`cestina-daily-widget.js`）不放在主 App 專案裡，是使用者手動貼進 Scriptable App 的獨立檔案，設計要點：
+
+- 抓取 JSON 成功就寫入本機快取（`FileManager`），下次沒網路直接讀快取，避免顯示空白
+- 選句公式與 `gen-daily.ts` 一致：`(今天與起算日的天數差) % 陣列長度`，兩邊的起算日 `START_DATE` 需手動保持一致
+- 點擊小工具用 `widget.url` 開啟 `APP_BASE_URL + wordId`
+- 視覺沿用主 App 的色票（`--paper` `--ink` `--red` 等），維持一致感
+
+安裝步驟：開 Scriptable App → 新增腳本 → 貼上程式碼 → 桌面長按加入小工具 → 選 Scriptable → 編輯小工具指定剛才那個腳本。
+
+---
+
+## 15. 已確認的決策紀錄
 
 | # | 決策 |
 |---|---|
@@ -756,3 +808,4 @@ L1 part 2
 | 13 | 聽力初版只做 Part L2、L3 少量示範；Part L1（看圖）頁面預留不實作 |
 | 14 | 閱讀目標量 R1×15 / R2×10 / R3×6，初版各 2–3 篇 |
 | 15 | 例句由 AI 模板生成 + 自動驗證 + 自行語意複核，不依賴使用者校對 |
+| 16 | iOS 桌面小工具用 Scriptable 讀取主 App 的靜態 `daily.json`，不做原生 WidgetKit；單字卡路由需支援 `/word/:id` 直連以供 deep link |

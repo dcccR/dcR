@@ -444,11 +444,26 @@ if (reviewNeeded.length === 0) {
   for (const r of reviewNeeded) lines.push(`| \`${r.cz}\` | ${r.source} | ${r.reason} |`);
 }
 lines.push("");
-lines.push("## 缺例句的單字", "");
-lines.push(`共 ${noExamples.length} 個（§4.5：初版每主題補 3–5 個示範即可，UI 會優雅處理例句不足）`, "");
+lines.push("## 缺例句的名詞", "");
+const nounsNoExamples = noExamples.filter((w) => w.pos === "noun");
+lines.push(
+  `共 ${nounsNoExamples.length} 個（§4.5 目標是每個名詞 4 句、示範第 1／2／4／6 格；` +
+    "初版每主題補 3–5 個即可，UI 會優雅處理例句不足）",
+  "",
+);
 for (const t of topics) {
-  const xs = noExamples.filter((w) => w.topics.includes(t.id));
+  const xs = nounsNoExamples.filter((w) => w.topics.includes(t.id));
   if (xs.length) lines.push(`- **${t.zh}**：${xs.map((w) => w.cz).join("、")}`);
+}
+lines.push("");
+lines.push("## 缺例句的其他詞性", "");
+const othersNoExamples = noExamples.filter((w) => w.pos !== "noun");
+lines.push(`共 ${othersNoExamples.length} 個`, "");
+for (const t of topics) {
+  const xs = othersNoExamples.filter((w) => w.topics.includes(t.id));
+  if (xs.length) {
+    lines.push(`- **${t.zh}**：${xs.map((w) => `${w.cz}（${w.pos}）`).join("、")}`);
+  }
 }
 lines.push("");
 lines.push("## 缺變格資料的名詞", "");

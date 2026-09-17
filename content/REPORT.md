@@ -1,6 +1,6 @@
 # 轉換報告
 
-產生時間：2026-09-13T17:51:23.247Z
+產生時間：2026-09-17T16:00:01.719Z
 
 ## 來源
 
@@ -51,19 +51,28 @@
 |---|---|---|
 | `Ahoj! / Čau!` | L1p1 | 兩形拼寫不近，無法自動判定（預設為③同義變體） |
 
-## 缺例句的單字
+## 缺例句的名詞
 
-共 59 個（§4.5：初版每主題補 3–5 個示範即可，UI 會優雅處理例句不足）
+共 38 個（§4.5 目標是每個名詞 4 句、示範第 1／2／4／6 格；初版每主題補 3–5 個即可，UI 會優雅處理例句不足）
 
-- **招呼・基本片語**：Ahoj!、Dobrý den!、Na shledanou!、Děkuju!、Prosím!、Promiňte!
-- **標示與告示**：vchod、východ、pokladna、šatna、OTEVŘENO、ZAVŘENO、MIMO PROVOZ
+- **標示與告示**：vchod、východ、pokladna、šatna
 - **人與國籍**：učitel、kamarád、Čech、muž、kluk、holka、čeština、angličtina、němčina、španělština
-- **城市與場所**：nádraží、kino、náměstí、obchod、restaurace、daleko × blízko
+- **城市與場所**：nádraží、kino、náměstí、obchod、restaurace
 - **居住**：byt、dům、kuchyň、koupelna、záchod、patro
-- **飲食**：obchod、restaurace、chleba、voda、maso、polévka、zelenina、máslo、guláš、horký、hořký
-- **顏色**：černý、červený、zelený、modrý
-- **時間與星期**：pondělí、úterý、sobota、neděle、týden、narozeniny、nikdy × někdy × vždycky、hodně × málo
-- **動詞**：mýt、jezdit、ptát se
+- **飲食**：obchod、restaurace、chleba、voda、maso、polévka、zelenina、máslo、guláš
+- **時間與星期**：pondělí、úterý、sobota、neděle、týden、narozeniny
+
+## 缺例句的其他詞性
+
+共 21 個
+
+- **招呼・基本片語**：Ahoj!（phrase）、Dobrý den!（phrase）、Na shledanou!（phrase）、Děkuju!（phrase）、Prosím!（phrase）、Promiňte!（phrase）
+- **標示與告示**：OTEVŘENO（adv）、ZAVŘENO（adv）、MIMO PROVOZ（phrase）
+- **城市與場所**：daleko × blízko（contrast-set）
+- **飲食**：horký（adj）、hořký（adj）
+- **顏色**：černý（adj）、červený（adj）、zelený（adj）、modrý（adj）
+- **時間與星期**：nikdy × někdy × vždycky（contrast-set）、hodně × málo（contrast-set）
+- **動詞**：mýt（verb）、jezdit（verb）、ptát se（verb）
 
 ## 缺變格資料的名詞
 

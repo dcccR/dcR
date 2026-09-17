@@ -112,6 +112,20 @@ for (const w of words) {
   }
 }
 
+// §14：daily.json 的每個 wordId 都要存在，deep link 才不會連到不存在的卡片。
+// 檔案由 gen-daily.ts 產生，還沒產生就跳過。
+const dailyFile = path.join(CONTENT, "daily.json");
+if (fs.existsSync(dailyFile)) {
+  const daily = read<{ index: number; cz: string; zh: string; wordId: string }[]>("daily.json");
+  const seenIndex = new Set<number>();
+  for (const d of daily) {
+    if (!wordIds.has(d.wordId)) err(`daily.json：${d.wordId} 不在 words.json 中（deep link 會斷）`);
+    if (seenIndex.has(d.index)) err(`daily.json：index ${d.index} 重複`);
+    seenIndex.add(d.index);
+    if (!d.cz.trim() || !d.zh.trim()) err(`daily.json：index ${d.index} 缺捷克文或中文`);
+  }
+}
+
 for (const line of warnings) console.warn(`warn  ${line}`);
 for (const line of errors) console.error(`ERROR ${line}`);
 console.log(
