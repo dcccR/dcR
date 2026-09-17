@@ -9,17 +9,184 @@
     },
     "subtitle": "見面到道別",
     "wordIds": [
-      "w_ahoj",
+      "w_dobre_rano",
       "w_dobry_den",
+      "w_dobre_odpoledne",
+      "w_dobry_vecer",
+      "w_dobrou_noc",
       "w_na_shledanou",
-      "w_dekuju",
-      "w_prosim",
-      "w_prominte",
-      "w_jak_se_mas"
+      "w_nashle",
+      "w_ahoj",
+      "w_tesi_me",
+      "w_mejte_se_hezky"
     ],
     "checkpoints": [
       4,
-      7
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_greet_02",
+    "topicId": "greet",
+    "index": 2,
+    "title": {
+      "cz": "Pozdravy a fráze 2",
+      "zh": "招呼・基本片語 ・ 第 2 節"
+    },
+    "subtitle": "Vy taky. → Nerozumím.",
+    "wordIds": [
+      "w_vy_taky",
+      "w_dekuju",
+      "w_diky",
+      "w_prosim",
+      "w_neni_zac",
+      "w_prominte",
+      "w_pardon",
+      "w_to_nic",
+      "w_bohuzel_nemluvim_cesky",
+      "w_nerozumim"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_greet_03",
+    "topicId": "greet",
+    "index": 3,
+    "title": {
+      "cz": "Pozdravy a fráze 3",
+      "zh": "招呼・基本片語 ・ 第 3 節"
+    },
+    "subtitle": "Mluvíte anglicky? → Mám se dobře.",
+    "wordIds": [
+      "w_mluvite_anglicky",
+      "w_pomalu_prosim",
+      "w_opakujte_prosim",
+      "w_nevim",
+      "w_mam_otazku",
+      "w_jak_se_rekne_cesky",
+      "w_co_znamena",
+      "w_prominte_ze_jdu_pozde",
+      "w_jak_se_mate",
+      "w_mam_se_dobre"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_greet_04",
+    "topicId": "greet",
+    "index": 4,
+    "title": {
+      "cz": "Pozdravy a fráze 4",
+      "zh": "招呼・基本片語 ・ 第 4 節"
+    },
+    "subtitle": "Ujde to. → To je škoda.",
+    "wordIds": [
+      "w_ujde_to",
+      "w_nic_moc",
+      "w_jakz_takz",
+      "w_fantasticky",
+      "w_dobre",
+      "w_spatne",
+      "w_hrozne",
+      "w_vazne",
+      "w_to_je_pravda",
+      "w_to_je_skoda"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_greet_05",
+    "topicId": "greet",
+    "index": 5,
+    "title": {
+      "cz": "Pozdravy a fráze 5",
+      "zh": "招呼・基本片語 ・ 第 5 節"
+    },
+    "subtitle": "To je v pořádku. → Čas jsou peníze.",
+    "wordIds": [
+      "w_to_je_v_poradku",
+      "w_to_je_jedno",
+      "w_to_je_nesmysl",
+      "w_to_je_vsechno",
+      "w_nemohl_a_byste_to_napsat",
+      "w_to_neni_mozne",
+      "w_samozrejme",
+      "w_to_neni_tvoje_vec",
+      "w_ty_se_mas",
+      "w_cas_jsou_penize"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_greet_06",
+    "topicId": "greet",
+    "index": 6,
+    "title": {
+      "cz": "Pozdravy a fráze 6",
+      "zh": "招呼・基本片語 ・ 第 6 節"
+    },
+    "subtitle": "Rádo se stalo! → Bože!",
+    "wordIds": [
+      "w_rado_se_stalo",
+      "w_to_me_mrzi",
+      "w_ale_to_nic",
+      "w_no_vidis_to",
+      "w_to_vis_ze_jo",
+      "w_to_staci",
+      "w_delam_co_muzu",
+      "w_mam_moc_prace",
+      "w_napriklad",
+      "w_boze"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_greet_07",
+    "topicId": "greet",
+    "index": 7,
+    "title": {
+      "cz": "Pozdravy a fráze 7",
+      "zh": "招呼・基本片語 ・ 第 7 節"
+    },
+    "subtitle": "Člověče! → Za málo.",
+    "wordIds": [
+      "w_clovece",
+      "w_jak_kdy",
+      "w_jak_myslis",
+      "w_mam_radeji",
+      "w_nesnasim_to",
+      "w_s_dovolenim",
+      "w_zalezi",
+      "w_zda_se_ze",
+      "w_tykat_si",
+      "w_vykat_si",
+      "w_za_malo"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      11
     ]
   },
   {
@@ -27,22 +194,101 @@
     "topicId": "signs",
     "index": 1,
     "title": {
-      "cz": "Nápisy a značky 1",
+      "cz": "Nápisy 1",
       "zh": "標示與告示 ・ 第 1 節"
     },
-    "subtitle": "vchod → MIMO PROVOZ",
+    "subtitle": "OBCHOD A RESTAURACE → POKLADNA",
     "wordIds": [
+      "w_obchod_a_restaurace",
       "w_vchod",
       "w_vychod",
-      "w_pokladna",
-      "w_satna",
+      "w_sem",
+      "w_tam",
+      "w_pracovni_doba",
       "w_otevreno",
       "w_zavreno",
-      "w_mimo_provoz"
+      "w_kabinky",
+      "w_pokladna"
     ],
     "checkpoints": [
       4,
-      7
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_signs_02",
+    "topicId": "signs",
+    "index": 2,
+    "title": {
+      "cz": "Nápisy 2",
+      "zh": "標示與告示 ・ 第 2 節"
+    },
+    "subtitle": "M → KONZULTAČNÍ HODINY",
+    "wordIds": [
+      "w_m",
+      "w_muzi",
+      "w_pani",
+      "w_z",
+      "w_zeny",
+      "w_damy",
+      "w_obsazeno",
+      "w_fakulta_urad",
+      "w_uredni_hodiny",
+      "w_konzultacni_hodiny"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_signs_03",
+    "topicId": "signs",
+    "index": 3,
+    "title": {
+      "cz": "Nápisy 3",
+      "zh": "標示與告示 ・ 第 3 節"
+    },
+    "subtitle": "ROZVRH HODIN → PŘEDPRODEJ VSTUPENEK",
+    "wordIds": [
+      "w_rozvrh_hodin",
+      "w_hodina_odpada",
+      "w_technicke_problemy",
+      "w_mimo_provoz",
+      "w_vytah_nejezdi",
+      "w_stanice_metra_zavrena",
+      "w_doprava_a_kultura",
+      "w_jizdenky",
+      "w_jizdni_rad",
+      "w_predprodej_vstupenek"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_signs_04",
+    "topicId": "signs",
+    "index": 4,
+    "title": {
+      "cz": "Nápisy 4",
+      "zh": "標示與告示 ・ 第 4 節"
+    },
+    "subtitle": "ŠATNA → POLICIE!",
+    "wordIds": [
+      "w_satna",
+      "w_mame_problemy",
+      "w_pomoc",
+      "w_zlodej",
+      "w_policie"
+    ],
+    "checkpoints": [
+      4,
+      5
     ]
   },
   {
@@ -51,70 +297,206 @@
     "index": 1,
     "title": {
       "cz": "Lidé a národnosti 1",
-      "zh": "人與國籍 ・ 第 1 節"
+      "zh": "人・國籍・職業 ・ 第 1 節"
     },
-    "subtitle": "student → španělština",
+    "subtitle": "slečna → student",
     "wordIds": [
-      "w_student",
-      "w_ucitel",
-      "w_kamarad",
-      "w_cech",
+      "w_slecna",
+      "w_madarsko",
       "w_muz",
       "w_zena",
       "w_kluk",
       "w_holka",
-      "w_cestina",
-      "w_anglictina",
-      "w_nemcina",
-      "w_spanelstina"
+      "w_devce",
+      "w_dite",
+      "w_dospely",
+      "w_student"
     ],
     "checkpoints": [
       4,
       8,
-      12
+      10
     ]
   },
   {
-    "id": "u_city_01",
-    "topicId": "city",
-    "index": 1,
+    "id": "u_people_02",
+    "topicId": "people",
+    "index": 2,
     "title": {
-      "cz": "Město a místa 1",
-      "zh": "城市與場所 ・ 第 1 節"
+      "cz": "Lidé a národnosti 2",
+      "zh": "人・國籍・職業 ・ 第 2 節"
     },
-    "subtitle": "město → daleko × blízko",
+    "subtitle": "profesor → řidič",
     "wordIds": [
-      "w_mesto",
-      "w_skola",
-      "w_nadrazi",
-      "w_kino",
-      "w_namesti",
-      "w_obchod",
-      "w_restaurace",
-      "w_daleko_blizko"
+      "w_profesor",
+      "w_doktor",
+      "w_kamarad",
+      "w_cizinec",
+      "w_pan",
+      "w_pan_2",
+      "w_pane",
+      "w_pani_2",
+      "w_prezident",
+      "w_ridic"
     ],
     "checkpoints": [
       4,
-      8
+      8,
+      10
     ]
   },
   {
-    "id": "u_home_01",
-    "topicId": "home",
-    "index": 1,
+    "id": "u_people_03",
+    "topicId": "people",
+    "index": 3,
     "title": {
-      "cz": "Bydlení 1",
-      "zh": "居住 ・ 第 1 節"
+      "cz": "Lidé a národnosti 3",
+      "zh": "人・國籍・職業 ・ 第 3 節"
     },
-    "subtitle": "pokoj → patro",
+    "subtitle": "ředitel → Rakušan",
     "wordIds": [
-      "w_pokoj",
-      "w_byt",
-      "w_dum",
-      "w_kuchyn",
-      "w_koupelna",
-      "w_zachod",
-      "w_patro"
+      "w_reditel",
+      "w_soused",
+      "w_cech",
+      "w_american",
+      "w_anglican",
+      "w_nemec",
+      "w_francouz",
+      "w_ital",
+      "w_spanel",
+      "w_rakusan"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_people_04",
+    "topicId": "people",
+    "index": 4,
+    "title": {
+      "cz": "Lidé a národnosti 4",
+      "zh": "人・國籍・職業 ・ 第 4 節"
+    },
+    "subtitle": "Belgičan → Austrálie",
+    "wordIds": [
+      "w_belgican",
+      "w_australan",
+      "w_fin",
+      "w_portugalec",
+      "w_tchajwanec",
+      "w_amerika",
+      "w_anglie",
+      "w_italie",
+      "w_francie",
+      "w_australie"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_people_05",
+    "topicId": "people",
+    "index": 5,
+    "title": {
+      "cz": "Lidé a národnosti 5",
+      "zh": "人・國籍・職業 ・ 第 5 節"
+    },
+    "subtitle": "Belgie → Evropa",
+    "wordIds": [
+      "w_belgie",
+      "w_nemecko",
+      "w_spanelsko",
+      "w_rakousko",
+      "w_finsko",
+      "w_portugalsko",
+      "w_cesko",
+      "w_slovensko",
+      "w_polsko",
+      "w_evropa"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_people_06",
+    "topicId": "people",
+    "index": 6,
+    "title": {
+      "cz": "Lidé a národnosti 6",
+      "zh": "人・國籍・職業 ・ 第 6 節"
+    },
+    "subtitle": "učitel → inženýr",
+    "wordIds": [
+      "w_ucitel",
+      "w_pritel",
+      "w_bratr",
+      "w_sestra",
+      "w_prodavac",
+      "w_herec",
+      "w_zpevak",
+      "w_spisovatel",
+      "w_clovek",
+      "w_inzenyr"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_people_07",
+    "topicId": "people",
+    "index": 7,
+    "title": {
+      "cz": "Lidé a národnosti 7",
+      "zh": "人・國籍・職業 ・ 第 7 節"
+    },
+    "subtitle": "syn → babička",
+    "wordIds": [
+      "w_syn",
+      "w_lidi",
+      "w_kocka",
+      "w_pes",
+      "w_pasak",
+      "w_manzel",
+      "w_otec",
+      "w_matka",
+      "w_dedecek",
+      "w_babicka"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_people_08",
+    "topicId": "people",
+    "index": 8,
+    "title": {
+      "cz": "Lidé a národnosti 8",
+      "zh": "人・國籍・職業 ・ 第 8 節"
+    },
+    "subtitle": "rodiče → spolubydlící",
+    "wordIds": [
+      "w_rodice",
+      "w_prarodice",
+      "w_prazdniny",
+      "w_rodina",
+      "w_nepritel",
+      "w_sef",
+      "w_spolubydlici"
     ],
     "checkpoints": [
       4,
@@ -122,24 +504,426 @@
     ]
   },
   {
-    "id": "u_food_01",
-    "topicId": "food",
+    "id": "u_city_01",
+    "topicId": "city",
     "index": 1,
     "title": {
-      "cz": "Jídlo a pití 1",
-      "zh": "飲食 ・ 第 1 節"
+      "cz": "Město 1",
+      "zh": "城市・場所・建築 ・ 第 1 節"
     },
-    "subtitle": "obchod → zelenina",
+    "subtitle": "poschodí → banka",
     "wordIds": [
+      "w_poschodi",
+      "w_praha",
+      "w_brno",
+      "w_mesto",
+      "w_ulice",
+      "w_trida",
+      "w_namesti",
       "w_obchod",
+      "w_obchodni_dum",
+      "w_banka"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_city_02",
+    "topicId": "city",
+    "index": 2,
+    "title": {
+      "cz": "Město 2",
+      "zh": "城市・場所・建築 ・ 第 2 節"
+    },
+    "subtitle": "restaurace → divadlo",
+    "wordIds": [
       "w_restaurace",
-      "w_chleba",
-      "w_pivo",
-      "w_voda",
-      "w_kava",
-      "w_maso",
-      "w_polevka",
-      "w_zelenina"
+      "w_kavarna",
+      "w_cestovni_kancelar",
+      "w_trafika",
+      "w_knihkupectvi",
+      "w_knihovna",
+      "w_skola",
+      "w_kolej",
+      "w_posta",
+      "w_divadlo"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_city_03",
+    "topicId": "city",
+    "index": 3,
+    "title": {
+      "cz": "Město 3",
+      "zh": "城市・場所・建築 ・ 第 3 節"
+    },
+    "subtitle": "muzeum → supermarket",
+    "wordIds": [
+      "w_muzeum",
+      "w_hotel",
+      "w_most",
+      "w_reka",
+      "w_pomnik",
+      "w_krizovatka",
+      "w_letiste",
+      "w_metro",
+      "w_park",
+      "w_supermarket"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_city_04",
+    "topicId": "city",
+    "index": 4,
+    "title": {
+      "cz": "Město 4",
+      "zh": "城市・場所・建築 ・ 第 4 節"
+    },
+    "subtitle": "dům → procházka",
+    "wordIds": [
+      "w_dum",
+      "w_chodba",
+      "w_strecha",
+      "w_kino",
+      "w_nadrazi",
+      "w_byt",
+      "w_patro",
+      "w_vystava",
+      "w_navsteva",
+      "w_prochazka"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_place_01",
+    "topicId": "place",
+    "index": 1,
+    "title": {
+      "cz": "Kde? Kdo? Co? 1",
+      "zh": "方位・疑問詞 ・ 第 1 節"
+    },
+    "subtitle": "TAM → nalevo",
+    "wordIds": [
+      "w_tam",
+      "w_zitra",
+      "w_kdo",
+      "w_kde",
+      "w_co",
+      "w_jak",
+      "w_odkud",
+      "w_nahore",
+      "w_dole",
+      "w_nalevo"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_place_02",
+    "topicId": "place",
+    "index": 2,
+    "title": {
+      "cz": "Kde? Kdo? Co? 2",
+      "zh": "方位・疑問詞 ・ 第 2 節"
+    },
+    "subtitle": "napravo → kolik",
+    "wordIds": [
+      "w_napravo",
+      "w_uprostred",
+      "w_vpredu",
+      "w_vzadu",
+      "w_vedle",
+      "w_naproti",
+      "w_tady",
+      "w_ktery",
+      "w_jaky",
+      "w_kolik"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_place_03",
+    "topicId": "place",
+    "index": 3,
+    "title": {
+      "cz": "Kde? Kdo? Co? 3",
+      "zh": "方位・疑問詞 ・ 第 3 節"
+    },
+    "subtitle": "čí → něčí × ničí",
+    "wordIds": [
+      "w_ci",
+      "w_ted",
+      "w_dnes_dneska",
+      "w_bez",
+      "w_po",
+      "w_vlast",
+      "w_neco_nic",
+      "w_neci_nici"
+    ],
+    "checkpoints": [
+      4,
+      8
+    ]
+  },
+  {
+    "id": "u_thing_01",
+    "topicId": "thing",
+    "index": 1,
+    "title": {
+      "cz": "Věci 1",
+      "zh": "日常物品 ・ 第 1 節"
+    },
+    "subtitle": "šaty → slovník",
+    "wordIds": [
+      "w_saty",
+      "w_kosile",
+      "w_telefon",
+      "w_pocitac",
+      "w_klic",
+      "w_dopis",
+      "w_pohlednice",
+      "w_papir",
+      "w_kniha_knizka",
+      "w_slovnik"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_thing_02",
+    "topicId": "thing",
+    "index": 2,
+    "title": {
+      "cz": "Věci 2",
+      "zh": "日常物品 ・ 第 2 節"
+    },
+    "subtitle": "pero → vlak",
+    "wordIds": [
+      "w_pero",
+      "w_tuzka",
+      "w_mapa",
+      "w_adresa",
+      "w_taska",
+      "w_cedecko",
+      "w_auto",
+      "w_autobus",
+      "w_tramvaj",
+      "w_vlak"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_thing_03",
+    "topicId": "thing",
+    "index": 3,
+    "title": {
+      "cz": "Věci 3",
+      "zh": "日常物品 ・ 第 3 節"
+    },
+    "subtitle": "letadlo → kalhoty",
+    "wordIds": [
+      "w_letadlo",
+      "w_kolo",
+      "w_taxik",
+      "w_vytah",
+      "w_nuz",
+      "w_nuzky",
+      "w_bryle",
+      "w_penize",
+      "w_dvere",
+      "w_kalhoty"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_thing_04",
+    "topicId": "thing",
+    "index": 4,
+    "title": {
+      "cz": "Věci 4",
+      "zh": "日常物品 ・ 第 4 節"
+    },
+    "subtitle": "srdce → věta",
+    "wordIds": [
+      "w_srdce",
+      "w_duse",
+      "w_laska",
+      "w_pamet",
+      "w_odpoved",
+      "w_zprava",
+      "w_problem",
+      "w_jmeno",
+      "w_slovo",
+      "w_veta"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_thing_05",
+    "topicId": "thing",
+    "index": 5,
+    "title": {
+      "cz": "Věci 5",
+      "zh": "日常物品 ・ 第 5 節"
+    },
+    "subtitle": "jazyk → sešit",
+    "wordIds": [
+      "w_jazyk",
+      "w_cestina",
+      "w_text",
+      "w_radio",
+      "w_televize",
+      "w_internet",
+      "w_vizum",
+      "w_stipendium",
+      "w_centrum",
+      "w_sesit"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_thing_06",
+    "topicId": "thing",
+    "index": 6,
+    "title": {
+      "cz": "Věci 6",
+      "zh": "日常物品 ・ 第 6 節"
+    },
+    "subtitle": "fotka → časopis",
+    "wordIds": [
+      "w_fotka",
+      "w_listek",
+      "w_tricko",
+      "w_vec",
+      "w_otazka",
+      "w_napad",
+      "w_plan",
+      "w_cislo",
+      "w_film",
+      "w_casopis"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_thing_07",
+    "topicId": "thing",
+    "index": 7,
+    "title": {
+      "cz": "Věci 7",
+      "zh": "日常物品 ・ 第 7 節"
+    },
+    "subtitle": "román → zdraví",
+    "wordIds": [
+      "w_roman",
+      "w_sklenice",
+      "w_hudba",
+      "w_citat",
+      "w_esemeska",
+      "w_malickost",
+      "w_darek",
+      "w_pomoc_2",
+      "w_pozornost",
+      "w_zdravi"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_thing_08",
+    "topicId": "thing",
+    "index": 8,
+    "title": {
+      "cz": "Věci 8",
+      "zh": "日常物品 ・ 第 8 節"
+    },
+    "subtitle": "party → kytara",
+    "wordIds": [
+      "w_party",
+      "w_klub",
+      "w_slunce",
+      "w_svet",
+      "w_zachod",
+      "w_tanec",
+      "w_smula",
+      "w_chyba",
+      "w_zahrada",
+      "w_kytara"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_thing_09",
+    "topicId": "thing",
+    "index": 9,
+    "title": {
+      "cz": "Věci 9",
+      "zh": "日常物品 ・ 第 9 節"
+    },
+    "subtitle": "hra → budoucnost",
+    "wordIds": [
+      "w_hra",
+      "w_pisen",
+      "w_detektivka",
+      "w_nadobi",
+      "w_zub",
+      "w_zpravy",
+      "w_poradek",
+      "w_tajemstvi",
+      "w_budoucnost"
     ],
     "checkpoints": [
       4,
@@ -148,39 +932,347 @@
     ]
   },
   {
-    "id": "u_food_02",
-    "topicId": "food",
-    "index": 2,
+    "id": "u_room_01",
+    "topicId": "room",
+    "index": 1,
     "title": {
-      "cz": "Jídlo a pití 2",
-      "zh": "飲食 ・ 第 2 節"
+      "cz": "Pokoj a nábytek 1",
+      "zh": "房間・家具 ・ 第 1 節"
     },
-    "subtitle": "máslo → hořký",
+    "subtitle": "pokoj → skříň",
     "wordIds": [
-      "w_maslo",
-      "w_gulas",
-      "w_horky",
-      "w_horky_2"
+      "w_pokoj",
+      "w_obraz",
+      "w_pradlo",
+      "w_nabytek",
+      "w_postel",
+      "w_stul",
+      "w_zidle",
+      "w_kreslo",
+      "w_pohovka",
+      "w_skrin"
     ],
     "checkpoints": [
-      4
+      4,
+      8,
+      10
     ]
   },
   {
-    "id": "u_colors_01",
-    "topicId": "colors",
+    "id": "u_room_02",
+    "topicId": "room",
+    "index": 2,
+    "title": {
+      "cz": "Pokoj a nábytek 2",
+      "zh": "房間・家具 ・ 第 2 節"
+    },
+    "subtitle": "komoda → květina",
+    "wordIds": [
+      "w_komoda",
+      "w_police_na_knizky",
+      "w_koberec",
+      "w_lampa",
+      "w_okno",
+      "w_piano",
+      "w_hifi_vez",
+      "w_svetlo",
+      "w_stolek",
+      "w_zrcadlo",
+      "w_kvetina"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      11
+    ]
+  },
+  {
+    "id": "u_adj_01",
+    "topicId": "adj",
+    "index": 1,
+    "title": {
+      "cz": "Adjektiva 1",
+      "zh": "形容詞 ・ 第 1 節"
+    },
+    "subtitle": "národní → malý",
+    "wordIds": [
+      "w_narodni",
+      "w_statni",
+      "w_novy",
+      "w_stary",
+      "w_moderni",
+      "w_hezky",
+      "w_osklivy",
+      "w_krasny",
+      "w_velky",
+      "w_maly"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adj_02",
+    "topicId": "adj",
+    "index": 2,
+    "title": {
+      "cz": "Adjektiva 2",
+      "zh": "形容詞 ・ 第 2 節"
+    },
+    "subtitle": "světlý → špatný",
+    "wordIds": [
+      "w_svetly",
+      "w_tmavy",
+      "w_prijemny",
+      "w_studeny",
+      "w_teply",
+      "w_slaby",
+      "w_silny",
+      "w_cerny",
+      "w_dobry",
+      "w_spatny"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adj_03",
+    "topicId": "adj",
+    "index": 3,
+    "title": {
+      "cz": "Adjektiva 3",
+      "zh": "形容詞 ・ 第 3 節"
+    },
+    "subtitle": "výborný → nudný",
+    "wordIds": [
+      "w_vyborny",
+      "w_cesky",
+      "w_cizi",
+      "w_pomaly",
+      "w_rychly",
+      "w_mlady",
+      "w_chytry",
+      "w_hloupy",
+      "w_zajimavy",
+      "w_nudny"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adj_04",
+    "topicId": "adj",
+    "index": 4,
+    "title": {
+      "cz": "Adjektiva 4",
+      "zh": "形容詞 ・ 第 4 節"
+    },
+    "subtitle": "čistý → praktický",
+    "wordIds": [
+      "w_cisty",
+      "w_spinavy",
+      "w_drahy",
+      "w_levny",
+      "w_vysoky",
+      "w_hrozny",
+      "w_horky",
+      "w_indicky",
+      "w_oblibeny",
+      "w_prakticky"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adj_05",
+    "topicId": "adj",
+    "index": 5,
+    "title": {
+      "cz": "Adjektiva 5",
+      "zh": "形容詞 ・ 第 5 節"
+    },
+    "subtitle": "milý → hlavní",
+    "wordIds": [
+      "w_mily",
+      "w_unaveny",
+      "w_komplikovany",
+      "w_tezky",
+      "w_volny",
+      "w_obsazeny",
+      "w_posledni",
+      "w_pristi",
+      "w_minuly",
+      "w_hlavni"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adj_06",
+    "topicId": "adj",
+    "index": 6,
+    "title": {
+      "cz": "Adjektiva 6",
+      "zh": "形容詞 ・ 第 6 節"
+    },
+    "subtitle": "domácí → uzený",
+    "wordIds": [
+      "w_domaci",
+      "w_prazsky",
+      "w_slovansky",
+      "w_ovocny",
+      "w_bramborovy",
+      "w_grilovany",
+      "w_vareny",
+      "w_smazeny",
+      "w_peceny",
+      "w_uzeny"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adj_07",
+    "topicId": "adj",
+    "index": 7,
+    "title": {
+      "cz": "Adjektiva 7",
+      "zh": "形容詞 ・ 第 7 節"
+    },
+    "subtitle": "čerstvý → smutný",
+    "wordIds": [
+      "w_cerstvy",
+      "w_sladky",
+      "w_tucny",
+      "w_tlusty",
+      "w_liny",
+      "w_toaletni",
+      "w_igelitovy",
+      "w_papirovy",
+      "w_desetikorunovy",
+      "w_smutny"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adj_08",
+    "topicId": "adj",
+    "index": 8,
+    "title": {
+      "cz": "Adjektiva 8",
+      "zh": "形容詞 ・ 第 8 節"
+    },
+    "subtitle": "celý → jižní",
+    "wordIds": [
+      "w_cely",
+      "w_lehky",
+      "w_pekny",
+      "w_takovy",
+      "w_tradicni",
+      "w_bezny",
+      "w_dulezity",
+      "w_jediny",
+      "w_jiny",
+      "w_jizni"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adj_09",
+    "topicId": "adj",
+    "index": 9,
+    "title": {
+      "cz": "Adjektiva 9",
+      "zh": "形容詞 ・ 第 9 節"
+    },
+    "subtitle": "ospalý → jeho",
+    "wordIds": [
+      "w_ospaly",
+      "w_spokojeny",
+      "w_strasny",
+      "w_sympaticky",
+      "w_stastny",
+      "w_tvrdy",
+      "w_zvedavy",
+      "w_svuj_svoje",
+      "w_nejaky",
+      "w_nektery",
+      "w_zadny",
+      "w_jeho"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      12
+    ]
+  },
+  {
+    "id": "u_colour_01",
+    "topicId": "colour",
     "index": 1,
     "title": {
       "cz": "Barvy 1",
       "zh": "顏色 ・ 第 1 節"
     },
-    "subtitle": "bílý → modrý",
+    "subtitle": "černý → růžový",
     "wordIds": [
-      "w_bily",
       "w_cerny",
+      "w_bily",
       "w_cerveny",
+      "w_modry",
       "w_zeleny",
-      "w_modry"
+      "w_zluty",
+      "w_oranzovy",
+      "w_sedy",
+      "w_hnedy",
+      "w_ruzovy"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_colour_02",
+    "topicId": "colour",
+    "index": 2,
+    "title": {
+      "cz": "Barvy 2",
+      "zh": "顏色 ・ 第 2 節"
+    },
+    "subtitle": "fialový → barva",
+    "wordIds": [
+      "w_fialovy",
+      "w_bezovy",
+      "w_modrofialovy",
+      "w_zlaty",
+      "w_barva"
     ],
     "checkpoints": [
       4,
@@ -188,27 +1280,1228 @@
     ]
   },
   {
-    "id": "u_time_01",
-    "topicId": "time",
+    "id": "u_food_01",
+    "topicId": "food",
     "index": 1,
     "title": {
-      "cz": "Čas a dny 1",
-      "zh": "時間與星期 ・ 第 1 節"
+      "cz": "Jídlo a ovoce 1",
+      "zh": "食物・水果・飲料 ・ 第 1 節"
     },
-    "subtitle": "pondělí → hodně × málo",
+    "subtitle": "meloun → maso",
     "wordIds": [
-      "w_pondeli",
-      "w_utery",
-      "w_sobota",
-      "w_nedele",
-      "w_tyden",
-      "w_narozeniny",
-      "w_nikdy_nekdy_vzdycky",
-      "w_hodne_malo"
+      "w_meloun",
+      "w_chleba",
+      "w_houska",
+      "w_pivo",
+      "w_kava",
+      "w_caj",
+      "w_voda",
+      "w_mleko",
+      "w_dzus",
+      "w_maso"
     ],
     "checkpoints": [
       4,
-      8
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_food_02",
+    "topicId": "food",
+    "index": 2,
+    "title": {
+      "cz": "Jídlo a ovoce 2",
+      "zh": "食物・水果・飲料 ・ 第 2 節"
+    },
+    "subtitle": "sýr → mandarinka",
+    "wordIds": [
+      "w_syr",
+      "w_vejce",
+      "w_maslo",
+      "w_rohlik",
+      "w_salat",
+      "w_sendvic",
+      "w_kecup",
+      "w_ovoce",
+      "w_banan",
+      "w_mandarinka"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_food_03",
+    "topicId": "food",
+    "index": 3,
+    "title": {
+      "cz": "Jídlo a ovoce 3",
+      "zh": "食物・水果・飲料 ・ 第 3 節"
+    },
+    "subtitle": "hroznové víno → mango",
+    "wordIds": [
+      "w_hroznove_vino",
+      "w_citron",
+      "w_hruska",
+      "w_jablko",
+      "w_pomeranc",
+      "w_svestka",
+      "w_kiwi",
+      "w_orech",
+      "w_jahoda",
+      "w_mango"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_food_04",
+    "topicId": "food",
+    "index": 4,
+    "title": {
+      "cz": "Jídlo a ovoce 4",
+      "zh": "食物・水果・飲料 ・ 第 4 節"
+    },
+    "subtitle": "třešeň → guláš",
+    "wordIds": [
+      "w_tresen",
+      "w_jidlo",
+      "w_piti",
+      "w_vino",
+      "w_cukr",
+      "w_zmrzlina",
+      "w_obed",
+      "w_zelenina",
+      "w_cokolada",
+      "w_gulas"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_food_05",
+    "topicId": "food",
+    "index": 5,
+    "title": {
+      "cz": "Jídlo a ovoce 5",
+      "zh": "食物・水果・飲料 ・ 第 5 節"
+    },
+    "subtitle": "tvaroh → rajče",
+    "wordIds": [
+      "w_tvaroh",
+      "w_smetana",
+      "w_testo",
+      "w_kase",
+      "w_bramborak",
+      "w_chleb",
+      "w_kukurice",
+      "w_okurka",
+      "w_vanilka",
+      "w_rajce"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_food_06",
+    "topicId": "food",
+    "index": 6,
+    "title": {
+      "cz": "Jídlo a ovoce 6",
+      "zh": "食物・水果・飲料 ・ 第 6 節"
+    },
+    "subtitle": "paprika → česnek",
+    "wordIds": [
+      "w_paprika",
+      "w_sunka",
+      "w_krem",
+      "w_broskev",
+      "w_merunka",
+      "w_boruvka",
+      "w_ananas",
+      "w_kvetak",
+      "w_brokolice",
+      "w_cesnek"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_food_07",
+    "topicId": "food",
+    "index": 7,
+    "title": {
+      "cz": "Jídlo a ovoce 7",
+      "zh": "食物・水果・飲料 ・ 第 7 節"
+    },
+    "subtitle": "cibule → jogurt",
+    "wordIds": [
+      "w_cibule",
+      "w_fazole",
+      "w_dzem",
+      "w_jogurt"
+    ],
+    "checkpoints": [
+      4
+    ]
+  },
+  {
+    "id": "u_num_01",
+    "topicId": "num",
+    "index": 1,
+    "title": {
+      "cz": "Čísla, čas, peníze 1",
+      "zh": "數字・時間・金錢 ・ 第 1 節"
+    },
+    "subtitle": "týden → půlnoc",
+    "wordIds": [
+      "w_tyden",
+      "w_utery",
+      "w_patek",
+      "w_sobota",
+      "w_nedele",
+      "w_noc",
+      "w_den",
+      "w_pondeli",
+      "w_poledne",
+      "w_pulnoc"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_num_02",
+    "topicId": "num",
+    "index": 2,
+    "title": {
+      "cz": "Čísla, čas, peníze 2",
+      "zh": "數字・時間・金錢 ・ 第 2 節"
+    },
+    "subtitle": "ráno → nula",
+    "wordIds": [
+      "w_rano",
+      "w_vecer",
+      "w_rok",
+      "w_leto",
+      "w_pocasi",
+      "w_cena",
+      "w_kurz",
+      "w_narozeniny",
+      "w_cas",
+      "w_nula"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_num_03",
+    "topicId": "num",
+    "index": 3,
+    "title": {
+      "cz": "Čísla, čas, peníze 3",
+      "zh": "數字・時間・金錢 ・ 第 3 節"
+    },
+    "subtitle": "jeden → osm",
+    "wordIds": [
+      "w_jeden",
+      "w_jedna",
+      "w_jedno",
+      "w_dva",
+      "w_tri",
+      "w_ctyri",
+      "w_pet",
+      "w_sest",
+      "w_sedm",
+      "w_osm"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_num_04",
+    "topicId": "num",
+    "index": 4,
+    "title": {
+      "cz": "Čísla, čas, peníze 4",
+      "zh": "數字・時間・金錢 ・ 第 4 節"
+    },
+    "subtitle": "devět → dopoledne",
+    "wordIds": [
+      "w_devet",
+      "w_deset",
+      "w_sto",
+      "w_tisic",
+      "w_hodina",
+      "w_minuta",
+      "w_koruna",
+      "w_dolar",
+      "w_euro",
+      "w_dopoledne"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_num_05",
+    "topicId": "num",
+    "index": 5,
+    "title": {
+      "cz": "Čísla, čas, peníze 5",
+      "zh": "數字・時間・金錢 ・ 第 5 節"
+    },
+    "subtitle": "měsíc → předevčírem",
+    "wordIds": [
+      "w_mesic",
+      "w_stoleti",
+      "w_zari",
+      "w_stanice",
+      "w_patro",
+      "w_vagon",
+      "w_nastupiste",
+      "w_streda",
+      "w_ctvrtek",
+      "w_predevcirem"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_num_06",
+    "topicId": "num",
+    "index": 6,
+    "title": {
+      "cz": "Čísla, čas, peníze 6",
+      "zh": "數字・時間・金錢 ・ 第 6 節"
+    },
+    "subtitle": "pozítří → čtvrt",
+    "wordIds": [
+      "w_pozitri",
+      "w_o_vikendu",
+      "w_v_noci",
+      "w_leden",
+      "w_vanoce",
+      "w_ctvrt"
+    ],
+    "checkpoints": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "u_restaurant_01",
+    "topicId": "restaurant",
+    "index": 1,
+    "title": {
+      "cz": "V restauraci 1",
+      "zh": "餐廳・菜單 ・ 第 1 節"
+    },
+    "subtitle": "restaurace → limonáda",
+    "wordIds": [
+      "w_restaurace",
+      "w_gulas",
+      "w_jidelni_listek",
+      "w_cisnik",
+      "w_host",
+      "w_ucet",
+      "w_spropitne",
+      "w_chut",
+      "w_ryze",
+      "w_limonada"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_restaurant_02",
+    "topicId": "restaurant",
+    "index": 2,
+    "title": {
+      "cz": "V restauraci 2",
+      "zh": "餐廳・菜單 ・ 第 2 節"
+    },
+    "subtitle": "Co si dáte? → předkrm",
+    "wordIds": [
+      "w_co_si_date",
+      "w_mate_vybrano",
+      "w_jeste_neco",
+      "w_platite_zvlast_nebo_dohromady",
+      "w_dobrou_chut",
+      "w_na_zdravi",
+      "w_napodobne",
+      "w_mate_volny_stul",
+      "w_to_je_dobry",
+      "w_predkrm"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_restaurant_03",
+    "topicId": "restaurant",
+    "index": 3,
+    "title": {
+      "cz": "V restauraci 3",
+      "zh": "餐廳・菜單 ・ 第 3 節"
+    },
+    "subtitle": "polévka → šunková rolka",
+    "wordIds": [
+      "w_polevka",
+      "w_drubez",
+      "w_hlavni_jidlo",
+      "w_bezmasa_jidla",
+      "w_testoviny",
+      "w_zakusek",
+      "w_napoj",
+      "w_uzeny_losos",
+      "w_oblozeny_chlebicek",
+      "w_sunkova_rolka"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_restaurant_04",
+    "topicId": "restaurant",
+    "index": 4,
+    "title": {
+      "cz": "V restauraci 4",
+      "zh": "餐廳・菜單 ・ 第 4 節"
+    },
+    "subtitle": "vývar → hovězí maso",
+    "wordIds": [
+      "w_vyvar",
+      "w_nudle",
+      "w_knedlik",
+      "w_zeli",
+      "w_husa",
+      "w_kachna",
+      "w_krocan",
+      "w_kure",
+      "w_bramborova_kase",
+      "w_hovezi_maso"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_restaurant_05",
+    "topicId": "restaurant",
+    "index": 5,
+    "title": {
+      "cz": "V restauraci 5",
+      "zh": "餐廳・菜單 ・ 第 5 節"
+    },
+    "subtitle": "vepřové maso → pstruh",
+    "wordIds": [
+      "w_veprove_maso",
+      "w_zampion",
+      "w_houba",
+      "w_rajska_omacka",
+      "w_svickova_na_smetane",
+      "w_rizek",
+      "w_biftek",
+      "w_hranolky",
+      "w_kapr",
+      "w_pstruh"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_restaurant_06",
+    "topicId": "restaurant",
+    "index": 6,
+    "title": {
+      "cz": "V restauraci 6",
+      "zh": "餐廳・菜單 ・ 第 6 節"
+    },
+    "subtitle": "ryba → sušenka",
+    "wordIds": [
+      "w_ryba",
+      "w_spenat",
+      "w_smazeny_syr",
+      "w_michany_salat",
+      "w_palacinky_se_slehackou",
+      "w_pohar",
+      "w_dort",
+      "w_kolac",
+      "w_zavin",
+      "w_susenka"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_restaurant_07",
+    "topicId": "restaurant",
+    "index": 7,
+    "title": {
+      "cz": "V restauraci 7",
+      "zh": "餐廳・菜單 ・ 第 7 節"
+    },
+    "subtitle": "pivo světlé → menza",
+    "wordIds": [
+      "w_pivo_svetle",
+      "w_mineralni_voda",
+      "w_videnska_kava",
+      "w_horka_cokolada",
+      "w_svarene_vino",
+      "w_hospoda",
+      "w_cukrarna",
+      "w_vinarna",
+      "w_menza"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "u_shop_01",
+    "topicId": "shop",
+    "index": 1,
+    "title": {
+      "cz": "V obchodě 1",
+      "zh": "商店・購物 ・ 第 1 節"
+    },
+    "subtitle": "obchod → drobné",
+    "wordIds": [
+      "w_obchod",
+      "w_pohlednice",
+      "w_noviny",
+      "w_mydlo",
+      "w_potraviny",
+      "w_drogerie",
+      "w_papirnictvi",
+      "w_zakaznik",
+      "w_bankovka",
+      "w_drobne"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_shop_02",
+    "topicId": "shop",
+    "index": 2,
+    "title": {
+      "cz": "V obchodě 2",
+      "zh": "商店・購物 ・ 第 2 節"
+    },
+    "subtitle": "nazpátek → pudr",
+    "wordIds": [
+      "w_nazpatek",
+      "w_nakup",
+      "w_sampon",
+      "w_zubni_pasta",
+      "w_toaletni_papir",
+      "w_kapesnik",
+      "w_vata",
+      "w_telove_mleko",
+      "w_parfem",
+      "w_pudr"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_shop_03",
+    "topicId": "shop",
+    "index": 3,
+    "title": {
+      "cz": "V obchodě 3",
+      "zh": "商店・購物 ・ 第 3 節"
+    },
+    "subtitle": "obličej → zápalka",
+    "wordIds": [
+      "w_oblicej",
+      "w_vlasy",
+      "w_guma",
+      "w_blok",
+      "w_dopisni_papir",
+      "w_obalka",
+      "w_znamka",
+      "w_ucebnice",
+      "w_karta",
+      "w_zapalka"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_shop_04",
+    "topicId": "shop",
+    "index": 4,
+    "title": {
+      "cz": "V obchodě 4",
+      "zh": "商店・購物 ・ 第 4 節"
+    },
+    "subtitle": "cigareta → sleva",
+    "wordIds": [
+      "w_cigareta",
+      "w_co_si_prejete",
+      "w_chtel_a_bych",
+      "w_vezmu_si",
+      "w_jen_se_divam",
+      "w_je_to_vsechno",
+      "w_kolik_to_stoji",
+      "w_to_nevadi",
+      "w_sleva"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "u_study_01",
+    "topicId": "study",
+    "index": 1,
+    "title": {
+      "cz": "Studium a práce 1",
+      "zh": "學習・工作・職業 ・ 第 1 節"
+    },
+    "subtitle": "čeština → němčina",
+    "wordIds": [
+      "w_cestina",
+      "w_studium",
+      "w_prace",
+      "w_lekce",
+      "w_umeni",
+      "w_soudce",
+      "w_sportovec",
+      "w_obor",
+      "w_anglictina",
+      "w_nemcina"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_study_02",
+    "topicId": "study",
+    "index": 2,
+    "title": {
+      "cz": "Studium a práce 2",
+      "zh": "學習・工作・職業 ・ 第 2 節"
+    },
+    "subtitle": "španělština → historie",
+    "wordIds": [
+      "w_spanelstina",
+      "w_literatura",
+      "w_pedagogika",
+      "w_politologie",
+      "w_sociologie",
+      "w_psychologie",
+      "w_biologie",
+      "w_ekonomie",
+      "w_filozofie",
+      "w_historie"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_study_03",
+    "topicId": "study",
+    "index": 3,
+    "title": {
+      "cz": "Studium a práce 3",
+      "zh": "學習・工作・職業 ・ 第 3 節"
+    },
+    "subtitle": "informatika → novinář",
+    "wordIds": [
+      "w_informatika",
+      "w_zkouska",
+      "w_prestavka",
+      "w_lekar",
+      "w_urednik",
+      "w_zubar",
+      "w_pravnik",
+      "w_politik",
+      "w_novinar"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "u_study_04",
+    "topicId": "study",
+    "index": 4,
+    "title": {
+      "cz": "Studium a práce 4",
+      "zh": "學習・工作・職業 ・ 第 4 節"
+    },
+    "subtitle": "programátor → důvod",
+    "wordIds": [
+      "w_programator",
+      "w_navrh",
+      "w_rada",
+      "w_duvod"
+    ],
+    "checkpoints": [
+      4
+    ]
+  },
+  {
+    "id": "u_adverb_01",
+    "topicId": "adverb",
+    "index": 1,
+    "title": {
+      "cz": "Adverbia 1",
+      "zh": "副詞・頻率・程度 ・ 第 1 節"
+    },
+    "subtitle": "venku → jen",
+    "wordIds": [
+      "w_venku",
+      "w_velmi",
+      "w_brzo_brzy_pozde",
+      "w_spolu_dohromady",
+      "w_zvlast",
+      "w_vubec",
+      "w_uz",
+      "w_jeste",
+      "w_zatim",
+      "w_jen"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adverb_02",
+    "topicId": "adverb",
+    "index": 2,
+    "title": {
+      "cz": "Adverbia 2",
+      "zh": "副詞・頻率・程度 ・ 第 2 節"
+    },
+    "subtitle": "potom → trochu",
+    "wordIds": [
+      "w_potom",
+      "w_skoro",
+      "w_nikdy_nekdy_vzdycky",
+      "w_nekdo_nikdo",
+      "w_mozna",
+      "w_jasne",
+      "w_proto_protoze",
+      "w_rychle",
+      "w_pomalu",
+      "w_trochu"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adverb_03",
+    "topicId": "adverb",
+    "index": 3,
+    "title": {
+      "cz": "Adverbia 3",
+      "zh": "副詞・頻率・程度 ・ 第 3 節"
+    },
+    "subtitle": "skvěle → dvakrát",
+    "wordIds": [
+      "w_skvele",
+      "w_mizerne",
+      "w_cesky_2",
+      "w_dlouho",
+      "w_casto",
+      "w_daleko_blizko",
+      "w_teplo_chladno",
+      "w_hodne_malo",
+      "w_jednou",
+      "w_dvakrat"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adverb_04",
+    "topicId": "adverb",
+    "index": 4,
+    "title": {
+      "cz": "Adverbia 4",
+      "zh": "副詞・頻率・程度 ・ 第 4 節"
+    },
+    "subtitle": "párkrát → další",
+    "wordIds": [
+      "w_parkrat",
+      "w_vlastne",
+      "w_presne",
+      "w_hlavne",
+      "w_za_chvili",
+      "w_stale",
+      "w_ven",
+      "w_doma",
+      "w_domu",
+      "w_dalsi"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adverb_05",
+    "topicId": "adverb",
+    "index": 5,
+    "title": {
+      "cz": "Adverbia 5",
+      "zh": "副詞・頻率・程度 ・ 第 5 節"
+    },
+    "subtitle": "dokonce → když",
+    "wordIds": [
+      "w_dokonce",
+      "w_nakonec",
+      "w_najednou",
+      "w_hned",
+      "w_znovu",
+      "w_takze",
+      "w_celkem",
+      "w_jestli",
+      "w_jiste",
+      "w_kdyz"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adverb_06",
+    "topicId": "adverb",
+    "index": 6,
+    "title": {
+      "cz": "Adverbia 6",
+      "zh": "副詞・頻率・程度 ・ 第 6 節"
+    },
+    "subtitle": "konečně → obojí",
+    "wordIds": [
+      "w_konecne",
+      "w_moderne",
+      "w_nastesti",
+      "w_proste",
+      "w_totiz",
+      "w_treba",
+      "w_vcas",
+      "w_vic",
+      "w_vsude",
+      "w_oboji"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_adverb_07",
+    "topicId": "adverb",
+    "index": 7,
+    "title": {
+      "cz": "Adverbia 7",
+      "zh": "副詞・頻率・程度 ・ 第 7 節"
+    },
+    "subtitle": "někde × nikde → samozřejmě",
+    "wordIds": [
+      "w_nekde_nikde",
+      "w_nekam_nikam",
+      "w_nejak_nijak",
+      "w_radeji",
+      "w_urcite",
+      "w_samozrejme_2"
+    ],
+    "checkpoints": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "u_travel_01",
+    "topicId": "travel",
+    "index": 1,
+    "title": {
+      "cz": "Cesta a orientace 1",
+      "zh": "交通・方向・問路 ・ 第 1 節"
+    },
+    "subtitle": "SEM → motorka",
+    "wordIds": [
+      "w_sem",
+      "w_jet",
+      "w_navstivit",
+      "w_prestoupit",
+      "w_zahnout",
+      "w_ambasada",
+      "w_vylet",
+      "w_lyze",
+      "w_lod",
+      "w_motorka"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_travel_02",
+    "topicId": "travel",
+    "index": 2,
+    "title": {
+      "cz": "Cesta a orientace 2",
+      "zh": "交通・方向・問路 ・ 第 2 節"
+    },
+    "subtitle": "roh → průkaz",
+    "wordIds": [
+      "w_roh",
+      "w_smer",
+      "w_urad",
+      "w_hrad",
+      "w_zamek",
+      "w_pokladna_2",
+      "w_pokladni",
+      "w_policie_2",
+      "w_zpatecni_listek",
+      "w_prukaz"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_travel_03",
+    "topicId": "travel",
+    "index": 3,
+    "title": {
+      "cz": "Cesta a orientace 3",
+      "zh": "交通・方向・問路 ・ 第 3 節"
+    },
+    "subtitle": "povolení k pobytu → několik",
+    "wordIds": [
+      "w_povoleni_k_pobytu",
+      "w_trasa",
+      "w_stopem",
+      "w_doleva",
+      "w_nahoru",
+      "w_rovne",
+      "w_zpatky",
+      "w_kam",
+      "w_mockrat",
+      "w_nekolik"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_travel_04",
+    "topicId": "travel",
+    "index": 4,
+    "title": {
+      "cz": "Cesta a orientace 4",
+      "zh": "交通・方向・問路 ・ 第 4 節"
+    },
+    "subtitle": "průvodce → jízda",
+    "wordIds": [
+      "w_pruvodce",
+      "w_okoli",
+      "w_kontrolor",
+      "w_pokuta",
+      "w_tramvajenka",
+      "w_jizda"
+    ],
+    "checkpoints": [
+      4,
+      6
+    ]
+  },
+  {
+    "id": "u_routine_01",
+    "topicId": "routine",
+    "index": 1,
+    "title": {
+      "cz": "Denní režim 1",
+      "zh": "日常作息・身體 ・ 第 1 節"
+    },
+    "subtitle": "bolet → hodinky",
+    "wordIds": [
+      "w_bolet",
+      "w_holit_se",
+      "w_sprchovat_se",
+      "w_oblekat_se",
+      "w_cistit_si_zuby",
+      "w_utikat",
+      "w_spechat",
+      "w_budik",
+      "w_hodinky"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      9
+    ]
+  },
+  {
+    "id": "u_routine_02",
+    "topicId": "routine",
+    "index": 2,
+    "title": {
+      "cz": "Denní režim 2",
+      "zh": "日常作息・身體 ・ 第 2 節"
+    },
+    "subtitle": "bota → strach",
+    "wordIds": [
+      "w_bota",
+      "w_vousy",
+      "w_prasek",
+      "w_strach"
+    ],
+    "checkpoints": [
+      4
+    ]
+  },
+  {
+    "id": "u_note_01",
+    "topicId": "note",
+    "index": 1,
+    "title": {
+      "cz": "Poznámky z hodiny 1",
+      "zh": "課堂補充・延伸詞 ・ 第 1 節"
+    },
+    "subtitle": "krmivo → mycí stroj",
+    "wordIds": [
+      "w_krmivo",
+      "w_pecene",
+      "w_zverina",
+      "w_prokazat_se",
+      "w_rozkaz",
+      "w_dukaz",
+      "w_odkaz",
+      "w_citit_se",
+      "w_vidlicka",
+      "w_myci_stroj"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_note_02",
+    "topicId": "note",
+    "index": 2,
+    "title": {
+      "cz": "Poznámky z hodiny 2",
+      "zh": "課堂補充・延伸詞 ・ 第 2 節"
+    },
+    "subtitle": "Jedním slovem → lanovka",
+    "wordIds": [
+      "w_jednim_slovem",
+      "w_trvat_na_6",
+      "w_celek",
+      "w_zdravotni_duvod",
+      "w_hlucny",
+      "w_prostredi",
+      "w_bohaty",
+      "w_zebrak",
+      "w_kapat",
+      "w_lanovka"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_note_03",
+    "topicId": "note",
+    "index": 3,
+    "title": {
+      "cz": "Poznámky z hodiny 3",
+      "zh": "課堂補充・延伸詞 ・ 第 3 節"
+    },
+    "subtitle": "ranní ptáče → deprese",
+    "wordIds": [
+      "w_ranni_ptace",
+      "w_nocni_ptak",
+      "w_zklamat",
+      "w_zamilovany",
+      "w_sledovat",
+      "w_odejit",
+      "w_nahradit",
+      "w_nesnesitelny",
+      "w_klaustrofobie",
+      "w_deprese"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_note_04",
+    "topicId": "note",
+    "index": 4,
+    "title": {
+      "cz": "Poznámky z hodiny 4",
+      "zh": "課堂補充・延伸詞 ・ 第 4 節"
+    },
+    "subtitle": "smělý → vlastní",
+    "wordIds": [
+      "w_smely",
+      "w_bojovnik",
+      "w_lidska_prava",
+      "w_vlada",
+      "w_parlament",
+      "w_za_to_nemuzu",
+      "w_jisty",
+      "w_uvidime",
+      "w_lek_proti_boleni",
+      "w_vlastni"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_praha_01",
+    "topicId": "praha",
+    "index": 1,
+    "title": {
+      "cz": "Znáte Prahu? 1",
+      "zh": "布拉格地標 ・ 第 1 節"
+    },
+    "subtitle": "Můstek → Národní divadlo",
+    "wordIds": [
+      "w_mustek",
+      "w_stare_mesto",
+      "w_mala_strana",
+      "w_staromestske_namesti",
+      "w_vaclavske_namesti",
+      "w_karluv_most",
+      "w_prazsky_hrad",
+      "w_prazsky_orloj",
+      "w_karlova_univerzita",
+      "w_narodni_divadlo"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ]
+  },
+  {
+    "id": "u_praha_02",
+    "topicId": "praha",
+    "index": 2,
+    "title": {
+      "cz": "Znáte Prahu? 2",
+      "zh": "布拉格地標 ・ 第 2 節"
+    },
+    "subtitle": "Národní muzeum → Havelský trh",
+    "wordIds": [
+      "w_narodni_muzeum",
+      "w_zlata_ulicka",
+      "w_prasna_brana",
+      "w_petrinska_rozhledna",
+      "w_tynsky_chram",
+      "w_staronova_synagoga",
+      "w_strahovsky_klaster",
+      "w_hlavni_nadrazi",
+      "w_havelsky_trh"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      9
     ]
   },
   {
@@ -219,14 +2512,50 @@
       "cz": "1. třída 1",
       "zh": "第 1 類 -AT → -ÁM ・ 第 1 節"
     },
-    "subtitle": "dělat → dívat se",
+    "subtitle": "znamenat → snídat",
     "wordIds": [
-      "w_delat",
+      "w_znamenat",
+      "w_rikat",
       "w_cekat",
-      "w_divat_se"
+      "w_pocitat",
+      "w_delat",
+      "w_davat",
+      "w_doufat",
+      "w_hledat",
+      "w_obedvat",
+      "w_snidat"
     ],
     "checkpoints": [
-      3
+      4,
+      8,
+      10
+    ],
+    "verbGroup": "class1"
+  },
+  {
+    "id": "u_verb_class1_02",
+    "topicId": "verb",
+    "index": 2,
+    "title": {
+      "cz": "1. třída 2",
+      "zh": "第 1 類 -AT → -ÁM ・ 第 2 節"
+    },
+    "subtitle": "otevírat → trvat",
+    "wordIds": [
+      "w_otevirat",
+      "w_zavirat",
+      "w_poslouchat",
+      "w_prodavat",
+      "w_volat",
+      "w_vstavat",
+      "w_zacinat",
+      "w_zpivat",
+      "w_trvat"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      9
     ],
     "verbGroup": "class1"
   },
@@ -238,18 +2567,101 @@
       "cz": "2. třída 1",
       "zh": "第 2 類 -IT/-ET/-ĚT → -ÍM ・ 第 1 節"
     },
-    "subtitle": "mluvit → jezdit",
+    "subtitle": "mluvit → svítit",
     "wordIds": [
       "w_mluvit",
-      "w_bydlet",
+      "w_rozumet",
+      "w_prosit",
+      "w_platit",
       "w_chodit",
-      "w_muset",
-      "w_ucit_se",
-      "w_jezdit"
+      "w_sedet",
+      "w_souhlasit",
+      "w_videt",
+      "w_libit_se",
+      "w_svitit"
     ],
     "checkpoints": [
       4,
-      6
+      8,
+      10
+    ],
+    "verbGroup": "class2"
+  },
+  {
+    "id": "u_verb_class2_02",
+    "topicId": "verb",
+    "index": 2,
+    "title": {
+      "cz": "2. třída 2",
+      "zh": "第 2 類 -IT/-ET/-ĚT → -ÍM ・ 第 2 節"
+    },
+    "subtitle": "cvičit → uklízet",
+    "wordIds": [
+      "w_cvicit",
+      "w_narodit_se",
+      "w_zachranit",
+      "w_hasit",
+      "w_bydlet",
+      "w_koncit",
+      "w_kourit",
+      "w_ucit",
+      "w_ucit_se",
+      "w_uklizet"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ],
+    "verbGroup": "class2"
+  },
+  {
+    "id": "u_verb_class2_03",
+    "topicId": "verb",
+    "index": 3,
+    "title": {
+      "cz": "2. třída 3",
+      "zh": "第 2 類 -IT/-ET/-ĚT → -ÍM ・ 第 3 節"
+    },
+    "subtitle": "vařit → půjčit si",
+    "wordIds": [
+      "w_varit",
+      "w_veceret",
+      "w_ridit",
+      "w_slyset",
+      "w_muset",
+      "w_umet",
+      "w_smet",
+      "w_jezdit",
+      "w_poradit",
+      "w_pujcit_si"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ],
+    "verbGroup": "class2"
+  },
+  {
+    "id": "u_verb_class2_04",
+    "topicId": "verb",
+    "index": 4,
+    "title": {
+      "cz": "2. třída 4",
+      "zh": "第 2 類 -IT/-ET/-ĚT → -ÍM ・ 第 4 節"
+    },
+    "subtitle": "trávit → záležet",
+    "wordIds": [
+      "w_travit",
+      "w_odpovedet",
+      "w_mrzet",
+      "w_tesit",
+      "w_zalezet"
+    ],
+    "checkpoints": [
+      4,
+      5
     ],
     "verbGroup": "class2"
   },
@@ -261,14 +2673,53 @@
       "cz": "3. třída 1",
       "zh": "第 3 類 -OVAT → -UJU ・ 第 1 節"
     },
-    "subtitle": "studovat → kupovat",
+    "subtitle": "opakovat → trénovat",
     "wordIds": [
-      "w_studovat",
+      "w_opakovat",
       "w_pracovat",
-      "w_kupovat"
+      "w_fungovat",
+      "w_studovat",
+      "w_parkovat",
+      "w_nastupovat",
+      "w_milovat",
+      "w_potrebovat",
+      "w_tolerovat",
+      "w_trenovat"
     ],
     "checkpoints": [
-      3
+      4,
+      8,
+      10
+    ],
+    "verbGroup": "class3"
+  },
+  {
+    "id": "u_verb_class3_02",
+    "topicId": "verb",
+    "index": 2,
+    "title": {
+      "cz": "3. třída 2",
+      "zh": "第 3 類 -OVAT → -UJU ・ 第 2 節"
+    },
+    "subtitle": "opravovat → připravovat",
+    "wordIds": [
+      "w_opravovat",
+      "w_cestovat",
+      "w_gratulovat",
+      "w_lyzovat",
+      "w_pokracovat",
+      "w_tancovat",
+      "w_telefonovat",
+      "w_jmenovat_se",
+      "w_sportovat",
+      "w_spolupracovat",
+      "w_pamatovat_se",
+      "w_pripravovat"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      12
     ],
     "verbGroup": "class3"
   },
@@ -280,20 +2731,103 @@
       "cz": "4. třída 1",
       "zh": "第 4 類 不規則 ・ 第 1 節"
     },
-    "subtitle": "jít → ptát se",
+    "subtitle": "děkovat → vědět",
     "wordIds": [
-      "w_jit",
-      "w_psat",
+      "w_dekovat",
       "w_cist",
-      "w_moct",
-      "w_chtit",
-      "w_myt",
+      "w_pit",
+      "w_zit",
+      "w_myslet_si",
       "w_jet",
-      "w_ptat_se"
+      "w_otevrit",
+      "w_byt_2",
+      "w_jit",
+      "w_vedet"
     ],
     "checkpoints": [
       4,
-      8
+      8,
+      10
+    ],
+    "verbGroup": "class4"
+  },
+  {
+    "id": "u_verb_class4_02",
+    "topicId": "verb",
+    "index": 2,
+    "title": {
+      "cz": "4. třída 2",
+      "zh": "第 4 類 不規則 ・ 第 2 節"
+    },
+    "subtitle": "znát → ptát se na",
+    "wordIds": [
+      "w_znat",
+      "w_mit",
+      "w_mit_rad",
+      "w_psat",
+      "w_jist",
+      "w_stat",
+      "w_dat_si",
+      "w_cekat_na",
+      "w_divat_se_na",
+      "w_ptat_se_na"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ],
+    "verbGroup": "class4"
+  },
+  {
+    "id": "u_verb_class4_03",
+    "topicId": "verb",
+    "index": 3,
+    "title": {
+      "cz": "4. třída 3",
+      "zh": "第 4 類 不規則 ・ 第 3 節"
+    },
+    "subtitle": "zajímat se o → nést",
+    "wordIds": [
+      "w_zajimat_se_o",
+      "w_myslet_na",
+      "w_tesit_se_na",
+      "w_spat",
+      "w_kupovat",
+      "w_hrat_si",
+      "w_myt_se",
+      "w_prat_si",
+      "w_brat",
+      "w_nest"
+    ],
+    "checkpoints": [
+      4,
+      8,
+      10
+    ],
+    "verbGroup": "class4"
+  },
+  {
+    "id": "u_verb_class4_04",
+    "topicId": "verb",
+    "index": 4,
+    "title": {
+      "cz": "4. třída 4",
+      "zh": "第 4 類 不規則 ・ 第 4 節"
+    },
+    "subtitle": "chtít → bát se",
+    "wordIds": [
+      "w_chtit",
+      "w_moct",
+      "w_pomoct",
+      "w_vzit",
+      "w_zlobit_se_na",
+      "w_zoufat_si",
+      "w_bat_se"
+    ],
+    "checkpoints": [
+      4,
+      7
     ],
     "verbGroup": "class4"
   },
@@ -305,14 +2839,17 @@
       "cz": "Modální slovesa 1",
       "zh": "情態動詞 ・ 第 1 節"
     },
-    "subtitle": "muset → chtít",
+    "subtitle": "mít → smět",
     "wordIds": [
-      "w_muset",
+      "w_mit",
+      "w_chtit",
       "w_moct",
-      "w_chtit"
+      "w_muset",
+      "w_smet"
     ],
     "checkpoints": [
-      3
+      4,
+      5
     ],
     "verbGroup": "modal"
   },
@@ -324,11 +2861,11 @@
       "cz": "Slovesa pohybu 1",
       "zh": "移動動詞對 ・ 第 1 節"
     },
-    "subtitle": "jít → jezdit",
+    "subtitle": "chodit → jezdit",
     "wordIds": [
-      "w_jit",
       "w_chodit",
       "w_jet",
+      "w_jit",
       "w_jezdit"
     ],
     "checkpoints": [
@@ -344,14 +2881,22 @@
       "cz": "Zvratná slovesa 1",
       "zh": "反身動詞 ・ 第 1 節"
     },
-    "subtitle": "dívat se → ptát se",
+    "subtitle": "líbit se → bát se",
     "wordIds": [
-      "w_divat_se",
+      "w_libit_se",
+      "w_narodit_se",
+      "w_dat_si",
       "w_ucit_se",
-      "w_ptat_se"
+      "w_prat_si",
+      "w_jmenovat_se",
+      "w_pamatovat_se",
+      "w_pujcit_si",
+      "w_bat_se"
     ],
     "checkpoints": [
-      3
+      4,
+      8,
+      9
     ],
     "verbGroup": "reflexive"
   }

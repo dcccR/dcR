@@ -6,43 +6,98 @@
   },
   {
     "id": "signs",
-    "cz": "Nápisy a značky",
+    "cz": "Nápisy",
     "zh": "標示與告示"
   },
   {
     "id": "people",
     "cz": "Lidé a národnosti",
-    "zh": "人與國籍"
+    "zh": "人・國籍・職業"
   },
   {
     "id": "city",
-    "cz": "Město a místa",
-    "zh": "城市與場所"
+    "cz": "Město",
+    "zh": "城市・場所・建築"
   },
   {
-    "id": "home",
-    "cz": "Bydlení",
-    "zh": "居住"
+    "id": "place",
+    "cz": "Kde? Kdo? Co?",
+    "zh": "方位・疑問詞"
   },
   {
-    "id": "food",
-    "cz": "Jídlo a pití",
-    "zh": "飲食"
+    "id": "thing",
+    "cz": "Věci",
+    "zh": "日常物品"
   },
   {
-    "id": "colors",
+    "id": "room",
+    "cz": "Pokoj a nábytek",
+    "zh": "房間・家具"
+  },
+  {
+    "id": "adj",
+    "cz": "Adjektiva",
+    "zh": "形容詞"
+  },
+  {
+    "id": "colour",
     "cz": "Barvy",
     "zh": "顏色"
   },
   {
-    "id": "time",
-    "cz": "Čas a dny",
-    "zh": "時間與星期"
+    "id": "food",
+    "cz": "Jídlo a ovoce",
+    "zh": "食物・水果・飲料"
+  },
+  {
+    "id": "num",
+    "cz": "Čísla, čas, peníze",
+    "zh": "數字・時間・金錢"
   },
   {
     "id": "verb",
     "cz": "Slovesa",
     "zh": "動詞",
     "standalone": true
+  },
+  {
+    "id": "restaurant",
+    "cz": "V restauraci",
+    "zh": "餐廳・菜單"
+  },
+  {
+    "id": "shop",
+    "cz": "V obchodě",
+    "zh": "商店・購物"
+  },
+  {
+    "id": "study",
+    "cz": "Studium a práce",
+    "zh": "學習・工作・職業"
+  },
+  {
+    "id": "adverb",
+    "cz": "Adverbia",
+    "zh": "副詞・頻率・程度"
+  },
+  {
+    "id": "travel",
+    "cz": "Cesta a orientace",
+    "zh": "交通・方向・問路"
+  },
+  {
+    "id": "routine",
+    "cz": "Denní režim",
+    "zh": "日常作息・身體"
+  },
+  {
+    "id": "note",
+    "cz": "Poznámky z hodiny",
+    "zh": "課堂補充・延伸詞"
+  },
+  {
+    "id": "praha",
+    "cz": "Znáte Prahu?",
+    "zh": "布拉格地標"
   }
 ]

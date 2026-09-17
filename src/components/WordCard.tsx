@@ -99,7 +99,8 @@ function ExampleBlock({ word }: { word: Word }) {
   return (
     <div className="space-y-2">
       {examples.map((ex) => {
-        const idx = ex.cz.toLowerCase().indexOf(ex.targetForm.toLowerCase());
+        // targetForm 可能是空的（例句用了資料沒有的形），這時就不 highlight
+        const idx = ex.targetForm ? ex.cz.toLowerCase().indexOf(ex.targetForm.toLowerCase()) : -1;
         return (
           <div key={ex.id} className="flex items-start gap-2 border-l-2 border-[var(--rule)] pl-3">
             <div className="flex-1">

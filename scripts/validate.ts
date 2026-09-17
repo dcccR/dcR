@@ -50,7 +50,11 @@ for (const w of words) {
   for (const ex of w.examples) {
     if (exIds.has(ex.id)) err(`${w.id}：例句 id 重複 ${ex.id}`);
     exIds.add(ex.id);
-    if (!ex.cz.trim() || !ex.zh.trim()) warn(`${w.id}：例句「${ex.cz}」缺捷克文或中文`);
+    if (!ex.cz.trim()) err(`${w.id}：例句缺捷克文`);
+    // 沒有中文的句子已標 reviewed:false，App 不顯示，不算問題（見 REPORT 的待補清單）
+    if (ex.reviewed && !ex.zh.trim()) warn(`${w.id}：標為已複核的例句「${ex.cz}」缺中文`);
+    // targetForm 允許為空（例句用了資料沒有的形，見 REPORT）；
+    // 但只要有填，就必須真的出現在句中。
     const hay = deaccent(ex.cz).toLowerCase();
     const needle = deaccent(ex.targetForm).toLowerCase().split(/\s+/)[0];
     if (needle && !hay.includes(needle)) {

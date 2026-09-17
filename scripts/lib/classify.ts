@@ -33,6 +33,15 @@ const FEM_SUFFIX = /(ka|ice|kyně|ička|ová)$/;
 const ADJ_FEM = /á$/;
 const ADJ_MASC = /ý$/;
 
+/** ④ 的另一種寫法：教材把形容詞記成 `který, -á, -é`（真實資料共 86 筆）。 */
+const ADJ_TRIPLE = /^(.+?ý),\s*-á,\s*-é$/;
+
+/**
+ * 斜線兩側沒有空白、右側只有一兩個字母，是陰陽性詞尾縮寫而非並列：
+ * `Nemohl/a byste to napsat?`、`Chtěl/a bych…`。整句原樣保留，絕對不可拆。
+ */
+const INWORD_SLASH = /\S\/[a-záéíóúůýčďěňřšťž]{1,2}(?![^\s])/u;
+
 /** ④：陰性形 bílá → 三性 bílý / bílá / bílé。 */
 function adjFormsFromMasc(masc: string) {
   const stem = masc.replace(/ý$/, "");
@@ -56,6 +65,18 @@ export function classify(raw: RawWord, overrides: Overrides = {}): Classified {
   const c = raw.c.trim();
   const forced = overrides[c]?.type;
 
+  // ④ `který, -á, -é` 記法：headword 取陽性形，三性形由字尾推出。
+  const triple = ADJ_TRIPLE.exec(c);
+  if (triple && !forced) {
+    const masc = triple[1];
+    return {
+      kind: "adjective",
+      entries: [{ cz: masc, adjForms: adjFormsFromMasc(masc), useRawDeclension: true }],
+      needsReview: false,
+      reason: "形容詞三性記法 `X, -á, -é`",
+    };
+  }
+
   // ⑥ 對比卡：原樣保留，不拆。
   if (c.includes("×") || forced === "contrast") {
     const members = c.split("×").map((s) => s.trim()).filter(Boolean);
@@ -64,6 +85,16 @@ export function classify(raw: RawWord, overrides: Overrides = {}): Classified {
       entries: [{ cz: c, contrastSet: members, useRawDeclension: true }],
       needsReview: false,
       reason: "含 × 對比符號",
+    };
+  }
+
+  // 詞尾縮寫的斜線不是並列符號，整串當一個 headword。
+  if (!forced && INWORD_SLASH.test(c) && !/\s\/\s/.test(c)) {
+    return {
+      kind: "plain",
+      entries: [{ cz: c, useRawDeclension: true }],
+      needsReview: false,
+      reason: "斜線為陰陽性詞尾縮寫（Nemohl/a），不是並列",
     };
   }
 
@@ -132,7 +163,7 @@ export function classify(raw: RawWord, overrides: Overrides = {}): Classified {
   }
 
   // ④ 顏色主題／形容詞三性並列
-  if (raw.t === "colors" || (parts.length === 2 && ADJ_FEM.test(parts[0]) && ADJ_MASC.test(parts[1]))) {
+  if (raw.t === "colour" || raw.t === "colors" || (parts.length === 2 && ADJ_FEM.test(parts[0]) && ADJ_MASC.test(parts[1]))) {
     return build("adjective");
   }
 

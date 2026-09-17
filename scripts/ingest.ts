@@ -26,6 +26,8 @@ function readAuthored<T>(name: string, fallback: T): T {
 
 const report: string[] = [];
 const warn = (line: string) => report.push(`- ${line}`);
+/** 例句裡對不到任何形的字：不是錯誤，是「這句話用了資料沒有的形」。 */
+const noTargetForm: { cz: string; sentence: string }[] = [];
 
 // ── 詞性判定 ───────────────────────────────────────────────
 function derivePos(raw: RawWord, kind: string, cz: string): Pos {
@@ -33,7 +35,7 @@ function derivePos(raw: RawWord, kind: string, cz: string): Pos {
   if (raw.v) return "verb";
   if (kind === "adjective" || /[ýí]$/.test(cz) && !raw.g) return "adj";
   if (raw.g) return "noun";
-  if (/[!?]$/.test(cz) || cz.split(/\s+/).length > 1) return "phrase";
+  if (/[.!?…]$/.test(cz) || cz.split(/\s+/).length > 1) return "phrase";
   if (/^\d/.test(cz)) return "num";
   return "adv";
 }
@@ -61,11 +63,37 @@ function tokenize(sentence: string): string[] {
   return sentence.split(/[^A-Za-zÁÉÍÓÚŮÝČĎĚŇŘŠŤŽáéíóúůýčďěňřšťž]+/).filter(Boolean);
 }
 
-/** 找出例句中該字實際出現的形；找不到就退回 headword。 */
+/** 去掉反身代詞、括號註記，取得可用於比對的詞幹。 */
+function matchStem(headword: string): string {
+  const base = deaccent(
+    headword
+      .replace(/\s*\([^)]*\)/g, "")
+      .replace(/\s+(se|si)$/, "")
+      .trim(),
+  ).toLowerCase();
+  // 去掉不定式字尾，讓 opakovat 對得上 Opakujte
+  const stem = base.replace(/(ovat|out|it|et|at|t)$/, "");
+  return stem.length >= 4 ? stem.slice(0, Math.max(4, stem.length - 1)) : "";
+}
+
+/**
+ * 找出例句中該字實際出現的形。
+ * 資料只有現在式，例句卻常是命令式或過去式（`opakovat` → `Opakujte, prosím.`），
+ * 所以完整形對不到時退而用詞幹比對；再對不到就**留空**，
+ * 讓 UI 不 highlight、測驗不拿它挖空，而不是硬塞一個沒出現在句中的 headword。
+ */
 function findTargetForm(sentence: string, w: Word): { form: string; case?: 1 | 2 | 4 | 6; person?: 1 | 2 | 3 | 4 | 5 | 6 } {
   const tokens = tokenize(sentence);
   const lower = tokens.map((t) => t.toLowerCase());
-  const tryForm = (form: string) => lower.indexOf(form.toLowerCase().split(/\s+/)[0]) >= 0;
+  const flat = deaccent(sentence).toLowerCase();
+  // 多詞的形（片語、對比卡 headword）要整串比對；
+  // 只比第一個詞會讓 `nikdy × někdy × vždycky` 這種卡整串被當成句中的形。
+  const tryForm = (form: string) => {
+    const f = form.trim();
+    if (!f) return false;
+    if (/\s/.test(f)) return flat.includes(deaccent(f).toLowerCase());
+    return lower.includes(f.toLowerCase());
+  };
 
   if (w.declension) {
     const cases: [1 | 2 | 4 | 6, string][] = [
@@ -85,7 +113,13 @@ function findTargetForm(sentence: string, w: Word): { form: string; case?: 1 | 2
     if (w.verb.negation && tryForm(w.verb.negation)) return { form: w.verb.negation };
   }
   for (const form of allForms(w)) if (tryForm(form)) return { form };
-  return { form: w.cz };
+
+  const stem = matchStem(w.cz);
+  if (stem) {
+    const hit = tokens.find((t) => deaccent(t).toLowerCase().includes(stem));
+    if (hit) return { form: hit };
+  }
+  return { form: "" };
 }
 
 // ── 主流程 ─────────────────────────────────────────────────
@@ -182,10 +216,12 @@ for (const r of raw.words) {
         origin: "textbook", reviewed: true,
       });
     }
+    // 註記裡挖出來的句子沒有中文翻譯，標 reviewed:false：
+    // 資料留著（M3 補翻譯用），但 App 預設不顯示沒審過的句子。
     for (const ex of note.examples) {
       draft.examples.push({
         id: "", cz: ex.cz, zh: ex.zh, targetForm: "",
-        origin: "textbook", reviewed: true,
+        origin: "textbook", reviewed: Boolean(ex.zh.trim()),
       });
     }
 
@@ -259,9 +295,7 @@ for (const w of words) {
 for (const w of words) {
   w.examples = w.examples.map((ex, i) => {
     const found = ex.targetForm ? { form: ex.targetForm, case: ex.case, person: ex.person } : findTargetForm(ex.cz, w);
-    if (!ex.targetForm && found.form === w.cz && !new RegExp(deaccent(w.cz), "i").test(deaccent(ex.cz))) {
-      warn(`例句「${ex.cz}」找不到 ${w.cz} 的任何形，targetForm 退回 headword`);
-    }
+    if (!found.form) noTargetForm.push({ cz: w.cz, sentence: ex.cz });
     return {
       ...ex,
       id: `${w.id}_ex${i + 1}`,
@@ -352,6 +386,9 @@ const grammar: GrammarSection[] = raw.grammar.map((g) => {
     const hit = lookup(tok);
     if (hit) related.add(hit.id);
   }
+  if (!SOURCES.includes(g.source as Source)) {
+    warn(`文法第 ${g.number} 節的來源標籤 \`${g.source}\` 不在來源列舉中，暫記為 L1p1`);
+  }
   return {
     id: `g${g.number}`,
     number: g.number,
@@ -381,10 +418,15 @@ const addForm = (form: string, id: string) => {
 };
 for (const w of words) {
   for (const form of allForms(w)) {
-    for (const token of form.split(/\s+/)) addForm(token, w.id);
-    addForm(form, w.id);
+    // `myslet (na)` 要用 `myslet` 也查得到；句末標點不進索引
+    const bare = form.replace(/\s*\([^)]*\)/g, "").replace(/[.!?…,]/g, "").trim();
+    for (const variant of new Set([form, bare])) {
+      if (!variant) continue;
+      for (const token of variant.split(/\s+/)) addForm(token, w.id);
+      addForm(variant, w.id);
+    }
   }
-  for (const ex of w.examples) addForm(ex.targetForm, w.id);
+  for (const ex of w.examples) if (ex.targetForm) addForm(ex.targetForm, w.id);
 }
 
 // ── 寫檔 ───────────────────────────────────────────────────
@@ -465,6 +507,27 @@ for (const t of topics) {
     lines.push(`- **${t.zh}**：${xs.map((w) => `${w.cz}（${w.pos}）`).join("、")}`);
   }
 }
+lines.push("");
+lines.push("## 待補中文翻譯的例句", "");
+const needsZh = words.flatMap((w) =>
+  w.examples.filter((e) => !e.zh.trim()).map((e) => ({ cz: w.cz, sentence: e.cz })),
+);
+lines.push(
+  `共 ${needsZh.length} 句，從註記欄挖出來的捷克句子。已標 \`reviewed: false\`，` +
+    "App 不顯示；M3 補上中文翻譯後改 true 即可。",
+  "",
+);
+for (const t of needsZh.slice(0, 30)) lines.push(`- **${t.cz}**：${t.sentence}`);
+if (needsZh.length > 30) lines.push(`- …另外 ${needsZh.length - 30} 句`);
+lines.push("");
+lines.push("## 例句對不到任何形的字", "");
+lines.push(
+  `共 ${noTargetForm.length} 句。教材例句常用命令式、過去式或完成體（資料只有現在式），` +
+    "對不到就留空 `targetForm`：卡片不 highlight、測驗不拿它挖空（改考詞義），不會出錯。",
+  "",
+);
+for (const t of noTargetForm.slice(0, 40)) lines.push(`- **${t.cz}**：${t.sentence}`);
+if (noTargetForm.length > 40) lines.push(`- …另外 ${noTargetForm.length - 40} 句`);
 lines.push("");
 lines.push("## 缺變格資料的名詞", "");
 lines.push(

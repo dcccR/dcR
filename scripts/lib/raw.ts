@@ -95,20 +95,51 @@ function readGramatikaHtml(file: string): RawGrammar[] {
     const h3 = node.querySelector("h3");
     if (!h3) continue;
     const tag = h3.querySelector(".tag");
-    const source = tag?.text.trim() ?? "";
+    const source = normalizeSource(tag?.text ?? "") ?? (tag?.text.trim() ?? "");
     tag?.remove();
     const heading = h3.text.replace(/\s+/g, " ").trim();
     const numMatch = /^(\d+)/.exec(heading);
     const number = numMatch ? Number(numMatch[1]) : out.length + 1;
     const title = heading.replace(/^\d+\s*[·．.。・]?\s*/, "").trim();
-    // 標題常是「捷克標題 中文標題」，以第一個 CJK 字元為界切開。
-    const cjk = /[　-鿿＀-￯]/.exec(title);
-    const titleCz = cjk ? title.slice(0, cjk.index).trim() : title;
-    const titleZh = cjk ? title.slice(cjk.index).trim() : "";
+    const { titleCz, titleZh } = splitTitle(title);
     h3.remove();
     out.push({ number, titleCz, titleZh, source, bodyHtml: node.innerHTML.trim() });
   }
   return out;
+}
+
+/**
+ * 教材標題的實際格式是「Czech — 中文」，破折號是主要分界；
+ * 沒有破折號時退而以第一個漢字為界。兩者都沒有就整串當捷克標題。
+ */
+export function splitTitle(title: string): { titleCz: string; titleZh: string } {
+  const trim = (t: string) => t.replace(/^[\s\u2014\u2013\-\u00b7:\uff1a]+|[\s\u2014\u2013\-\u00b7:\uff1a]+$/g, "").trim();
+
+  const dash = /\s[\u2014\u2013]\s?|\s-\s/.exec(title);
+  if (dash) {
+    const cz = trim(title.slice(0, dash.index));
+    const zh = trim(title.slice(dash.index + dash[0].length));
+    if (cz || zh) return { titleCz: cz, titleZh: zh };
+  }
+  // 漢字與假名才算中文標題的起點（全形 ＋ ？ 等符號不算）
+  const han = /[\u4e00-\u9fff\u3040-\u30ff]/.exec(title);
+  if (han) {
+    return { titleCz: trim(title.slice(0, han.index)), titleZh: trim(title.slice(han.index)) };
+  }
+  return { titleCz: trim(title), titleZh: "" };
+}
+
+/**
+ * 文法檔的來源標籤寫成 `L1 part 1`、`L3 part 1 · part 2`，
+ * 單字檔寫成 `L1p1`。統一成後者；跨兩部分的取第一個。
+ * 對不上就回 null，由呼叫端報告，不可默默套一個預設值。
+ */
+export function normalizeSource(tag: string): string | null {
+  const t = tag.trim();
+  if (/^L\d(p\d)?$/.test(t)) return t;
+  const m = /^L(\d)\s*(?:part\s*(\d))?/i.exec(t);
+  if (!m) return null;
+  return m[2] ? `L${m[1]}p${m[2]}` : `L${m[1]}`;
 }
 
 export function loadRaw(): RawInput {

@@ -5,10 +5,10 @@ export type Gender = "m" | "mi" | "f" | "n";
 
 export type Source =
   | "L1p1" | "L1p2" | "L2p1" | "L2p2" | "L3p1" | "L3p2"
-  | "L4p1" | "L5" | "L6" | "L7p1" | "L7p2";
+  | "L4p1" | "L4p2" | "L5" | "L6" | "L7p1" | "L7p2";
 
 export const SOURCES: Source[] = [
-  "L1p1", "L1p2", "L2p1", "L2p2", "L3p1", "L3p2", "L4p1", "L5", "L6", "L7p1", "L7p2",
+  "L1p1", "L1p2", "L2p1", "L2p2", "L3p1", "L3p2", "L4p1", "L4p2", "L5", "L6", "L7p1", "L7p2",
 ];
 
 export type Pos =

@@ -128,6 +128,16 @@ function explainFor(word: Word, ex: Example): string {
 /** App 預設只顯示 reviewed: true 的句子（§4.5）。 */
 export const usableExamples = (w: Word) => w.examples.filter((e) => e.reviewed && e.zh.trim());
 
+/**
+ * 能拿來挖空的例句：必須知道該字在句中的形。
+ * 教材例句用了資料沒有的形（命令式、過去式）時 targetForm 是空的，
+ * 那種句子照樣顯示在卡片上，只是不出成挖空題。
+ */
+export const clozeExamples = (w: Word) =>
+  usableExamples(w).filter(
+    (e) => e.targetForm && e.cz.toLowerCase().includes(e.targetForm.toLowerCase()),
+  );
+
 export function buildQuestion(
   word: Word,
   unitWords: Word[],
@@ -135,7 +145,7 @@ export function buildQuestion(
   salt = "",
 ): Question {
   const rnd = seededRandom(`${word.id}|${salt}`);
-  const examples = usableExamples(word);
+  const examples = clozeExamples(word);
   const distractors = pickDistractors(word, unitWords, allWords, 2, rnd);
   const options = shuffle([word, ...distractors], rnd);
   const answerIndex = options.findIndex((o) => o.id === word.id);

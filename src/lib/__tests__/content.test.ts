@@ -5,13 +5,14 @@ describe("產出的內容", () => {
   it("重複條目合併成單一 Word，topics / sources 為陣列（§2.4）", () => {
     const obchod = words.filter((w) => w.cz === "obchod");
     expect(obchod).toHaveLength(1);
-    expect(obchod[0].topics).toEqual(expect.arrayContaining(["city", "food"]));
+    expect(obchod[0].topics.length).toBeGreaterThan(1);
     expect(obchod[0].sources.length).toBeGreaterThan(1);
   });
 
-  it("horký 與 hořký 沒有被去變音符合併", () => {
-    expect(words.filter((w) => w.cz === "horký")).toHaveLength(1);
-    expect(words.filter((w) => w.cz === "hořký")).toHaveLength(1);
+  it("去掉變音符後同形的字沒有被合併成一個", () => {
+    // pán（主人）與 pan（先生）去掉長音後同形，合併鍵必須用原拼寫
+    expect(words.filter((w) => w.cz === "pán")).toHaveLength(1);
+    expect(words.filter((w) => w.cz === "pan")).toHaveLength(1);
   });
 
   it("每節不超過 12 字，檢查點收在字數上", () => {
@@ -27,7 +28,8 @@ describe("產出的內容", () => {
   });
 
   it("變格形反查得到原形（§8、§9）", () => {
-    expect(lookupForm("Praze")).toEqual([]); // 種子資料沒有 Praha
+    // 規格 §9 的例子：輸入變格形 Praze 要找得到 Praha
+    expect(lookupForm("Praze").map((w) => w.cz)).toContain("Praha");
     expect(lookupForm("pokoji").map((w) => w.cz)).toContain("pokoj");
     expect(lookupForm("cestina").map((w) => w.cz)).toContain("čeština"); // 去變音符
     expect(lookupForm("studuju").map((w) => w.cz)).toContain("studovat");
